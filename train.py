@@ -5,6 +5,7 @@ from __future__ import absolute_import
 from __future__ import division
 import argparse
 import logging
+
 import os
 import torch
 
@@ -64,6 +65,9 @@ parser.add_argument('--repoly', type=float, default=1.5,
 
 parser.add_argument('--fp16', action='store_true', default=False,
                     help='Use Nvidia Apex AMP')
+
+# 英伟达APEX，与多GPU分布式训练相关
+# local_rank指定了输出设备，默认为GPU可用列表中的第一个GPU。这里这个是必须加的。原因后面讲
 parser.add_argument('--local_rank', default=0, type=int,
                     help='parameter used by apex library')
 
@@ -162,6 +166,26 @@ parser.add_argument('--use_isw', action='store_true', default=False,
 
 args = parser.parse_args()
 
+# Setup logger
+os.makedirs(args.exp_path, exist_ok=True)
+os.makedirs(args.tb_exp_path, exist_ok=True)
+fmt = '%(asctime)s.%(msecs)03d %(message)s'
+date_fmt = '%m-%d %H:%M:%S'
+filename = os.path.join(args.exp_path, 'log' + '_' + args.date_str +'_rank_' + str(args.local_rank) +'.log')
+print("Logging :", filename)
+logging.basicConfig(level=logging.INFO, format=fmt, datefmt=date_fmt,
+                    filename=filename, filemode='w')
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter(fmt=fmt, datefmt=date_fmt)
+console.setFormatter(formatter)
+if args.local_rank == 0:
+    logging.getLogger('').addHandler(console)
+else:
+    fh = logging.FileHandler(filename)
+    logging.getLogger('').addHandler(fh)
+
+
 # Enable CUDNN Benchmarking optimization
 #torch.backends.cudnn.benchmark = True
 random_seed = cfg.RANDOM_SEED  #304
@@ -174,6 +198,7 @@ np.random.seed(random_seed)
 random.seed(random_seed)
 
 args.world_size = 1
+
 
 # Test Mode run two epochs with a few iterations of training and val
 if args.test_mode:
@@ -201,6 +226,7 @@ for i in range(len(args.wt_layer)):
         args.use_wtloss = True
         args.use_isw = True
 
+
 def main():
     """
     Main Function
@@ -209,16 +235,20 @@ def main():
     assert_and_infer_cfg(args)
     writer = prep_experiment(args, parser)
 
+    # train_obj 其实是 train_dataset
     train_loader, val_loaders, train_obj, extra_val_loaders, covstat_val_loaders = datasets.setup_loaders(args)
 
+
+    # 为什么这里有3个不同的 cirterion
     criterion, criterion_val = loss.get_loss(args)
     criterion_aux = loss.get_loss_aux(args)
+
     net = network.get_net(args, criterion, criterion_aux)
 
     optim, scheduler = optimizer.get_optimizer(args, net)
 
     net = torch.nn.SyncBatchNorm.convert_sync_batchnorm(net)
-    net = network.warp_network_in_dataparallel(net, args.local_rank)
+    net = network.warp_network_in_dataparallel(net, args.local_rank) # 模型并行化
     epoch = 0
     i = 0
 
@@ -236,15 +266,17 @@ def main():
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):
 
-    while i < args.max_iter:
+    while i < args.max_iter: # 全局以 iteration 为单位
         # Update EPOCH CTR
-        cfg.immutable(False)
+        cfg.immutable(False) # 这里*也许*是为了分布式训练 下保持全局 i
         cfg.ITER = i
         cfg.immutable(True)
 
+        # 每个 Epoch 都会更新全局的 Iteration-Idx
         i = train(train_loader, net, optim, epoch, writer, scheduler, args.max_iter)
         train_loader.sampler.set_epoch(epoch + 1)
 
+        # 这里是启用 ISW Loss => 生成基于 K-means 生成的 mask_matrix
         if (args.dynamic and args.use_isw and epoch % (args.cov_stat_epoch + 1) == args.cov_stat_epoch) \
            or (args.dynamic is False and args.use_isw and epoch == args.cov_stat_epoch):
             net.module.reset_mask_matrix()
@@ -268,6 +300,8 @@ def main():
 
         epoch += 1
 
+    print("Training Ends!")
+    print("Source domain evaluation starts!")
     # Validation after epochs
     if len(val_loaders) == 1:
         # Run validation only one time - To save models
@@ -279,6 +313,7 @@ def main():
             evaluate_eval(args, net, optim, scheduler, None, None, [],
                         writer, epoch, "None", None, i, save_pth=True)
 
+    print("Unseen domain evaluation starts!")
     for dataset, val_loader in extra_val_loaders.items():
         print("Extra validating... This won't save pth file")
         validate(val_loader, dataset, net, criterion_val, optim, scheduler, epoch, writer, i, save_pth=False)
@@ -305,6 +340,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
         if curr_iter >= max_iter:
             break
 
+        # img, mask, img_name, mask_aux
         inputs, gts, _, aux_gts = data
 
         # Multi source and AGG case

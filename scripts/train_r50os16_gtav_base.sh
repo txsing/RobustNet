@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
+source /opt/anaconda3/bin/activate robustnet
     # Example on Cityscapes
-     python -m torch.distributed.launch --nproc_per_node=4 train.py \
+     python -m torch.distributed.launch --nproc_per_node=2 train.py \
         --dataset gtav \
+        --test_mode \
         --covstat_val_dataset gtav \
-        --val_dataset bdd100k cityscapes synthia mapillary \
+        --val_dataset cityscapes \
         --arch network.deepv3.DeepR50V3PlusD \
         --city_mode 'train' \
         --lr_schedule poly \
@@ -24,7 +26,7 @@
         --relax_denom 0.0 \
         --cov_stat_epoch 0 \
         --wt_layer 0 0 0 0 0 0 0 \
-        --date 0101 \
+        --date 1116 \
         --exp r50os16_gtav_base \
         --ckpt ./logs/ \
         --tb_path ./logs/

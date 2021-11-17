@@ -1,5 +1,5 @@
 """
-Uniform sampling of classes.
+Uniform sampling of classes. 类别均匀取样
 For all images, for all classes, generate centroids around which to sample.
 
 All images are divided into tiles.

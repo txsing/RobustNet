@@ -68,22 +68,22 @@ __C.STRICTBORDERCLASS = None
 #Attribute Dictionary for Dataset
 __C.DATASET = AttrDict()
 #Cityscapes Dir Location
-__C.DATASET.CITYSCAPES_DIR = '/data/davian/segmentation/cityscapes'
+__C.DATASET.CITYSCAPES_DIR = '/home/tx/Datasets/cityscapes'
 #SDC Augmented Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_AUG_DIR = ''
 #Mapillary Dataset Dir Location
-__C.DATASET.MAPILLARY_DIR = '/data/davian/segmentation/mapillary'
+__C.DATASET.MAPILLARY_DIR = '/home/tx/Datasets/mapillary'
 #GTAV, BDD100K Dataset Dir Location
-__C.DATASET.GTAV_DIR = '/data/davian/segmentation/gtav'
-__C.DATASET.BDD_DIR = '/data/davian/segmentation/bdd100k/bdd100k/seg'
+__C.DATASET.GTAV_DIR = '/home/tx/Datasets/gtav'
+__C.DATASET.BDD_DIR = '/home/tx/Datasets/bdd100k/100k'
 #Synthia Dataset Dir Location
-__C.DATASET.SYNTHIA_DIR = '/data/davian/segmentation/synthia'
+__C.DATASET.SYNTHIA_DIR = '/home/tx/Datasets/synthia'
 #Kitti Dataset Dir Location
 __C.DATASET.KITTI_DIR = ''
 #SDC Augmented Kitti Dataset Dir Location
 __C.DATASET.KITTI_AUG_DIR = ''
 #Camvid Dataset Dir Location
-__C.DATASET.CAMVID_DIR = '/home/nas_datasets/segmentation/SegNet-Tutorial/CamVid'
+__C.DATASET.CAMVID_DIR = '/home/tx/Datasets/SegNet-Tutorial/CamVid'
 #Number of splits to support
 __C.DATASET.CV_SPLITS = 3
 

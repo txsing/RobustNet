@@ -165,6 +165,8 @@ parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 
 args = parser.parse_args()
+args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
+args.tb_exp_path = os.path.join(args.tb_path, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
 
 # Setup logger
 os.makedirs(args.exp_path, exist_ok=True)

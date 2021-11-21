@@ -3,6 +3,8 @@ training code
 """
 from __future__ import absolute_import
 from __future__ import division
+from datetime import datetime
+
 import argparse
 import logging
 
@@ -173,6 +175,7 @@ os.makedirs(args.exp_path, exist_ok=True)
 os.makedirs(args.tb_exp_path, exist_ok=True)
 fmt = '%(asctime)s.%(msecs)03d %(message)s'
 date_fmt = '%m-%d %H:%M:%S'
+args.date_str = str(datetime.now().strftime('%Y_%m_%d_%H_%M_%S'))
 filename = os.path.join(args.exp_path, 'log' + '_' + args.date_str +'_rank_' + str(args.local_rank) +'.log')
 print("Logging :", filename)
 logging.basicConfig(level=logging.INFO, format=fmt, datefmt=date_fmt,
@@ -259,11 +262,12 @@ def main():
                             args.snapshot, args.restore_optimizer)
         if args.restore_optimizer is True:
             iter_per_epoch = len(train_loader)
-            i = iter_per_epoch * epoch
+            i = iter_per_epoch * (epoch + 1)
+            epoch = epoch + 1
         else:
             epoch = 0
 
-    print("#### iteration", i)
+    print("#### epoch:", epoch, "#### iteration:", i)
     torch.cuda.empty_cache()
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):

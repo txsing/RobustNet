@@ -1,0 +1,3749 @@
+Logging : ./logs/1122/r50os16_gtav_base/11_22_00/log_2021_11_22_00_32_44_rank_0.log
+Total world size:  3
+My Rank: 0
+Logging : ./logs/1122/r50os16_gtav_base/11_22_00/log_2021_11_22_00_32_45_rank_1.log
+Total world size:  3
+Logging : ./logs/1122/r50os16_gtav_base/11_22_00/log_2021_11_22_00_32_45_rank_2.log
+Total world size:  3
+My Rank: 1
+My Rank: 2
+11-22 00:32:45.152 Added key: store_based_barrier_key:1 to store for rank: 0
+Using pytorch sync batch norm
+11-22 00:32:45.156 train fine cities: ['train/folder']
+Using pytorch sync batch norm
+Using pytorch sync batch norm
+11-22 00:32:45.305 GTAV-train: 12388 images
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11
+###### centroids 14
+###### centroids 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11
+###### centroids 14
+###### centroids 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+11-22 00:32:45.751 Class Uniform Percentage: 0.5
+11-22 00:32:45.752 Class Uniform items per Epoch:12388
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11
+###### centroids 14
+###### centroids 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+11-22 00:32:45.754 cls 0 len 12109
+11-22 00:32:45.754 cls 1 len 11833
+11-22 00:32:45.754 cls 2 len 12301
+11-22 00:32:45.754 cls 3 len 10854
+11-22 00:32:45.754 cls 4 len 8811
+11-22 00:32:45.754 cls 5 len 11928
+11-22 00:32:45.754 cls 6 len 7891
+11-22 00:32:45.754 cls 7 len 5921
+11-22 00:32:45.754 cls 8 len 12132
+11-22 00:32:45.754 cls 9 len 11549
+11-22 00:32:45.754 cls 10 len 12131
+11-22 00:32:45.754 cls 11 len 10691
+11-22 00:32:45.754 cls 12 len 986
+11-22 00:32:45.755 cls 13 len 10501
+11-22 00:32:45.755 cls 14 len 6711
+11-22 00:32:45.755 cls 15 len 1861
+11-22 00:32:45.755 cls 16 len 493
+11-22 00:32:45.755 cls 17 len 1211
+11-22 00:32:45.755 cls 18 len 168
+11-22 00:32:45.760 val fine cities: ['valid/folder']
+standard cross entropy
+standard cross entropy
+Model : DeepLabv3+, Backbone : ResNet-50
+11-22 00:32:45.785 GTAV-val: 6382 images
+11-22 00:32:45.785 val fine cities: ['val/frankfurt', 'val/munster', 'val/lindau']
+11-22 00:32:45.787 Cityscapes-val: 500 images
+11-22 00:32:45.788 train fine cities: ['train/folder']
+11-22 00:32:45.835 GTAV-train: 12388 images
+standard cross entropy
+standard cross entropy
+standard cross entropy
+standard cross entropy
+Model : DeepLabv3+, Backbone : ResNet-50
+Model : DeepLabv3+, Backbone : ResNet-50
+########### pretrained ##############
+########### pretrained ##############
+########### pretrained ##############
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+output_stride =  16
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+output_stride =  16
+output_stride =  16
+11-22 00:32:46.869 Model params = 45.082M
+#### iteration 0
+#### iteration 0
+#### iteration 0
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+11-22 00:34:32.353 [epoch 0], [iter 50 / 1032 : 49], [loss 1.714634], [lr 0.009989], [time 0.4597]
+11-22 00:35:43.686 [epoch 0], [iter 100 / 1032 : 99], [loss 0.996097], [lr 0.009978], [time 0.3529]
+11-22 00:36:42.350 [epoch 0], [iter 150 / 1032 : 149], [loss 0.855564], [lr 0.009966], [time 0.2806]
+11-22 00:37:44.952 [epoch 0], [iter 200 / 1032 : 199], [loss 0.804112], [lr 0.009955], [time 0.3055]
+11-22 00:38:47.704 [epoch 0], [iter 250 / 1032 : 249], [loss 0.768640], [lr 0.009944], [time 0.3106]
+11-22 00:39:48.747 [epoch 0], [iter 300 / 1032 : 299], [loss 0.717490], [lr 0.009933], [time 0.2944]
+11-22 00:40:49.543 [epoch 0], [iter 350 / 1032 : 349], [loss 0.716657], [lr 0.009921], [time 0.2896]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5673)
+11-22 00:41:51.352 [epoch 0], [iter 400 / 1032 : 399], [loss 0.682404], [lr 0.009910], [time 0.2801]
+11-22 00:42:54.114 [epoch 0], [iter 450 / 1032 : 449], [loss 0.622243], [lr 0.009899], [time 0.2586]
+11-22 00:43:53.820 [epoch 0], [iter 500 / 1032 : 499], [loss 0.606925], [lr 0.009888], [time 0.2622]
+11-22 00:44:51.888 [epoch 0], [iter 550 / 1032 : 549], [loss 0.630251], [lr 0.009876], [time 0.2853]
+11-22 00:45:51.959 [epoch 0], [iter 600 / 1032 : 599], [loss 0.611936], [lr 0.009865], [time 0.2972]
+11-22 00:46:52.511 [epoch 0], [iter 650 / 1032 : 649], [loss 0.600685], [lr 0.009854], [time 0.2994]
+11-22 00:47:53.476 [epoch 0], [iter 700 / 1032 : 699], [loss 0.565196], [lr 0.009843], [time 0.3015]
+11-22 00:48:53.376 [epoch 0], [iter 750 / 1032 : 749], [loss 0.570286], [lr 0.009831], [time 0.2963]
+11-22 00:49:54.457 [epoch 0], [iter 800 / 1032 : 799], [loss 0.582596], [lr 0.009820], [time 0.3022]
+11-22 00:50:52.367 [epoch 0], [iter 850 / 1032 : 849], [loss 0.552980], [lr 0.009809], [time 0.2860]
+11-22 00:51:50.856 [epoch 0], [iter 900 / 1032 : 899], [loss 0.536914], [lr 0.009797], [time 0.2890]
+11-22 00:52:48.423 [epoch 0], [iter 950 / 1032 : 949], [loss 0.541793], [lr 0.009786], [time 0.2845]
+11-22 00:53:46.725 [epoch 0], [iter 1000 / 1032 : 999], [loss 0.522596], [lr 0.009775], [time 0.2882]
+Saving pth file...
+11-22 00:54:22.308 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_0_mean-iu_0.00000.pth
+11-22 00:54:22.310 Class Uniform Percentage: 0.5
+11-22 00:54:22.310 Class Uniform items per Epoch:12388
+11-22 00:54:22.312 cls 0 len 12109
+11-22 00:54:22.313 cls 1 len 11833
+11-22 00:54:22.313 cls 2 len 12301
+11-22 00:54:22.313 cls 3 len 10854
+11-22 00:54:22.313 cls 4 len 8811
+11-22 00:54:22.313 cls 5 len 11928
+11-22 00:54:22.313 cls 6 len 7891
+11-22 00:54:22.313 cls 7 len 5921
+11-22 00:54:22.313 cls 8 len 12132
+11-22 00:54:22.313 cls 9 len 11549
+11-22 00:54:22.313 cls 10 len 12131
+11-22 00:54:22.313 cls 11 len 10691
+11-22 00:54:22.313 cls 12 len 986
+11-22 00:54:22.313 cls 13 len 10501
+11-22 00:54:22.313 cls 14 len 6711
+11-22 00:54:22.313 cls 15 len 1861
+11-22 00:54:22.313 cls 16 len 493
+11-22 00:54:22.313 cls 17 len 1211
+11-22 00:54:22.313 cls 18 len 168
+11-22 00:55:28.770 [epoch 1], [iter 50 / 1032 : 1081], [loss 0.543514], [lr 0.009756], [time 0.2531]
+11-22 00:56:26.065 [epoch 1], [iter 100 / 1032 : 1131], [loss 0.509635], [lr 0.009745], [time 0.2705]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(1427)
+11-22 00:57:22.176 [epoch 1], [iter 150 / 1032 : 1181], [loss 0.544649], [lr 0.009734], [time 0.2733]
+11-22 00:58:20.057 [epoch 1], [iter 200 / 1032 : 1231], [loss 0.513855], [lr 0.009723], [time 0.2618]
+11-22 00:59:15.449 [epoch 1], [iter 250 / 1032 : 1281], [loss 0.520308], [lr 0.009711], [time 0.2579]
+11-22 01:00:11.919 [epoch 1], [iter 300 / 1032 : 1331], [loss 0.518393], [lr 0.009700], [time 0.2559]
+11-22 01:01:08.637 [epoch 1], [iter 350 / 1032 : 1381], [loss 0.515931], [lr 0.009689], [time 0.2600]
+11-22 01:02:05.277 [epoch 1], [iter 400 / 1032 : 1431], [loss 0.494025], [lr 0.009677], [time 0.2534]
+11-22 01:03:02.362 [epoch 1], [iter 450 / 1032 : 1481], [loss 0.450328], [lr 0.009666], [time 0.2524]
+11-22 01:03:59.707 [epoch 1], [iter 500 / 1032 : 1531], [loss 0.502882], [lr 0.009655], [time 0.2534]
+11-22 01:04:56.413 [epoch 1], [iter 550 / 1032 : 1581], [loss 0.427842], [lr 0.009644], [time 0.2537]
+11-22 01:05:53.218 [epoch 1], [iter 600 / 1032 : 1631], [loss 0.469940], [lr 0.009632], [time 0.2529]
+11-22 01:06:50.272 [epoch 1], [iter 650 / 1032 : 1681], [loss 0.478393], [lr 0.009621], [time 0.2530]
+11-22 01:07:45.052 [epoch 1], [iter 700 / 1032 : 1731], [loss 0.456737], [lr 0.009610], [time 0.2697]
+11-22 01:08:42.265 [epoch 1], [iter 750 / 1032 : 1781], [loss 0.426269], [lr 0.009598], [time 0.2749]
+11-22 01:09:39.959 [epoch 1], [iter 800 / 1032 : 1831], [loss 0.486977], [lr 0.009587], [time 0.2616]
+11-22 01:10:38.283 [epoch 1], [iter 850 / 1032 : 1881], [loss 0.453869], [lr 0.009576], [time 0.2784]
+11-22 01:11:35.026 [epoch 1], [iter 900 / 1032 : 1931], [loss 0.546352], [lr 0.009564], [time 0.2796]
+11-22 01:12:32.736 [epoch 1], [iter 950 / 1032 : 1981], [loss 0.492230], [lr 0.009553], [time 0.2839]
+11-22 01:13:27.673 [epoch 1], [iter 1000 / 1032 : 2031], [loss 0.460996], [lr 0.009542], [time 0.2548]
+Saving pth file...
+11-22 01:14:04.595 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_1_mean-iu_0.00000.pth
+11-22 01:14:04.596 Class Uniform Percentage: 0.5
+11-22 01:14:04.596 Class Uniform items per Epoch:12388
+11-22 01:14:04.600 cls 0 len 12109
+11-22 01:14:04.600 cls 1 len 11833
+11-22 01:14:04.600 cls 2 len 12301
+11-22 01:14:04.600 cls 3 len 10854
+11-22 01:14:04.600 cls 4 len 8811
+11-22 01:14:04.600 cls 5 len 11928
+11-22 01:14:04.600 cls 6 len 7891
+11-22 01:14:04.600 cls 7 len 5921
+11-22 01:14:04.600 cls 8 len 12132
+11-22 01:14:04.600 cls 9 len 11549
+11-22 01:14:04.600 cls 10 len 12131
+11-22 01:14:04.600 cls 11 len 10691
+11-22 01:14:04.600 cls 12 len 986
+11-22 01:14:04.600 cls 13 len 10501
+11-22 01:14:04.600 cls 14 len 6711
+11-22 01:14:04.601 cls 15 len 1861
+11-22 01:14:04.601 cls 16 len 493
+11-22 01:14:04.601 cls 17 len 1211
+11-22 01:14:04.601 cls 18 len 168
+11-22 01:15:14.477 [epoch 2], [iter 50 / 1032 : 2113], [loss 0.449462], [lr 0.009523], [time 0.2527]
+11-22 01:16:11.591 [epoch 2], [iter 100 / 1032 : 2163], [loss 0.438785], [lr 0.009512], [time 0.2693]
+11-22 01:17:09.207 [epoch 2], [iter 150 / 1032 : 2213], [loss 0.459814], [lr 0.009501], [time 0.2840]
+11-22 01:18:06.974 [epoch 2], [iter 200 / 1032 : 2263], [loss 0.433360], [lr 0.009489], [time 0.2848]
+11-22 01:19:06.716 [epoch 2], [iter 250 / 1032 : 2313], [loss 0.421871], [lr 0.009478], [time 0.2928]
+11-22 01:20:01.388 [epoch 2], [iter 300 / 1032 : 2363], [loss 0.496519], [lr 0.009467], [time 0.2655]
+11-22 01:21:00.849 [epoch 2], [iter 350 / 1032 : 2413], [loss 0.461933], [lr 0.009455], [time 0.2880]
+11-22 01:22:00.746 [epoch 2], [iter 400 / 1032 : 2463], [loss 0.408794], [lr 0.009444], [time 0.2844]
+11-22 01:22:58.775 [epoch 2], [iter 450 / 1032 : 2513], [loss 0.430655], [lr 0.009433], [time 0.2858]
+11-22 01:23:55.782 [epoch 2], [iter 500 / 1032 : 2563], [loss 0.442178], [lr 0.009421], [time 0.2806]
+11-22 01:24:54.262 [epoch 2], [iter 550 / 1032 : 2613], [loss 0.405609], [lr 0.009410], [time 0.2879]
+11-22 01:25:50.837 [epoch 2], [iter 600 / 1032 : 2663], [loss 0.454821], [lr 0.009399], [time 0.2783]
+11-22 01:26:49.737 [epoch 2], [iter 650 / 1032 : 2713], [loss 0.395749], [lr 0.009387], [time 0.2897]
+11-22 01:27:45.822 [epoch 2], [iter 700 / 1032 : 2763], [loss 0.470872], [lr 0.009376], [time 0.2757]
+11-22 01:28:43.516 [epoch 2], [iter 750 / 1032 : 2813], [loss 0.411601], [lr 0.009365], [time 0.2838]
+11-22 01:29:41.300 [epoch 2], [iter 800 / 1032 : 2863], [loss 0.427546], [lr 0.009353], [time 0.2844]
+11-22 01:30:40.242 [epoch 2], [iter 850 / 1032 : 2913], [loss 0.427832], [lr 0.009342], [time 0.2900]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(971)
+11-22 01:31:40.601 [epoch 2], [iter 900 / 1032 : 2963], [loss 0.397590], [lr 0.009331], [time 0.2971]
+11-22 01:32:36.000 [epoch 2], [iter 950 / 1032 : 3013], [loss 0.392532], [lr 0.009319], [time 0.2723]
+11-22 01:33:31.132 [epoch 2], [iter 1000 / 1032 : 3063], [loss 0.393089], [lr 0.009308], [time 0.2657]
+Saving pth file...
+11-22 01:34:08.236 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_2_mean-iu_0.00000.pth
+11-22 01:34:08.237 Class Uniform Percentage: 0.5
+11-22 01:34:08.237 Class Uniform items per Epoch:12388
+11-22 01:34:08.241 cls 0 len 12109
+11-22 01:34:08.241 cls 1 len 11833
+11-22 01:34:08.241 cls 2 len 12301
+11-22 01:34:08.241 cls 3 len 10854
+11-22 01:34:08.241 cls 4 len 8811
+11-22 01:34:08.241 cls 5 len 11928
+11-22 01:34:08.241 cls 6 len 7891
+11-22 01:34:08.241 cls 7 len 5921
+11-22 01:34:08.241 cls 8 len 12132
+11-22 01:34:08.241 cls 9 len 11549
+11-22 01:34:08.241 cls 10 len 12131
+11-22 01:34:08.241 cls 11 len 10691
+11-22 01:34:08.241 cls 12 len 986
+11-22 01:34:08.241 cls 13 len 10501
+11-22 01:34:08.241 cls 14 len 6711
+11-22 01:34:08.241 cls 15 len 1861
+11-22 01:34:08.241 cls 16 len 493
+11-22 01:34:08.241 cls 17 len 1211
+11-22 01:34:08.241 cls 18 len 168
+11-22 01:35:12.890 [epoch 3], [iter 50 / 1032 : 3145], [loss 0.417343], [lr 0.009290], [time 0.2762]
+11-22 01:36:06.165 [epoch 3], [iter 100 / 1032 : 3195], [loss 0.396022], [lr 0.009278], [time 0.2626]
+11-22 01:36:57.831 [epoch 3], [iter 150 / 1032 : 3245], [loss 0.411382], [lr 0.009267], [time 0.2547]
+11-22 01:37:51.490 [epoch 3], [iter 200 / 1032 : 3295], [loss 0.402632], [lr 0.009255], [time 0.2647]
+11-22 01:38:43.406 [epoch 3], [iter 250 / 1032 : 3345], [loss 0.390348], [lr 0.009244], [time 0.2555]
+11-22 01:39:35.014 [epoch 3], [iter 300 / 1032 : 3395], [loss 0.409951], [lr 0.009233], [time 0.2541]
+11-22 01:40:29.823 [epoch 3], [iter 350 / 1032 : 3445], [loss 0.378982], [lr 0.009221], [time 0.2703]
+11-22 01:41:24.310 [epoch 3], [iter 400 / 1032 : 3495], [loss 0.425825], [lr 0.009210], [time 0.2689]
+11-22 01:42:16.104 [epoch 3], [iter 450 / 1032 : 3545], [loss 0.395833], [lr 0.009199], [time 0.2549]
+11-22 01:43:10.713 [epoch 3], [iter 500 / 1032 : 3595], [loss 0.407333], [lr 0.009187], [time 0.2693]
+11-22 01:44:02.456 [epoch 3], [iter 550 / 1032 : 3645], [loss 0.422649], [lr 0.009176], [time 0.2550]
+11-22 01:44:56.055 [epoch 3], [iter 600 / 1032 : 3695], [loss 0.401469], [lr 0.009165], [time 0.2642]
+11-22 01:45:47.799 [epoch 3], [iter 650 / 1032 : 3745], [loss 0.406629], [lr 0.009153], [time 0.2550]
+11-22 01:46:40.262 [epoch 3], [iter 700 / 1032 : 3795], [loss 0.363330], [lr 0.009142], [time 0.2554]
+11-22 01:47:32.772 [epoch 3], [iter 750 / 1032 : 3845], [loss 0.354241], [lr 0.009131], [time 0.2589]
+11-22 01:48:27.181 [epoch 3], [iter 800 / 1032 : 3895], [loss 0.394273], [lr 0.009119], [time 0.2685]
+11-22 01:49:18.963 [epoch 3], [iter 850 / 1032 : 3945], [loss 0.408170], [lr 0.009108], [time 0.2549]
+11-22 01:50:11.271 [epoch 3], [iter 900 / 1032 : 3995], [loss 0.391132], [lr 0.009096], [time 0.2553]
+11-22 01:51:03.718 [epoch 3], [iter 950 / 1032 : 4045], [loss 0.454604], [lr 0.009085], [time 0.2586]
+11-22 01:51:57.345 [epoch 3], [iter 1000 / 1032 : 4095], [loss 0.397816], [lr 0.009074], [time 0.2645]
+Saving pth file...
+11-22 01:52:30.446 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_3_mean-iu_0.00000.pth
+11-22 01:52:30.447 Class Uniform Percentage: 0.5
+11-22 01:52:30.447 Class Uniform items per Epoch:12388
+11-22 01:52:30.451 cls 0 len 12109
+11-22 01:52:30.451 cls 1 len 11833
+11-22 01:52:30.451 cls 2 len 12301
+11-22 01:52:30.451 cls 3 len 10854
+11-22 01:52:30.451 cls 4 len 8811
+11-22 01:52:30.451 cls 5 len 11928
+11-22 01:52:30.451 cls 6 len 7891
+11-22 01:52:30.451 cls 7 len 5921
+11-22 01:52:30.451 cls 8 len 12132
+11-22 01:52:30.451 cls 9 len 11549
+11-22 01:52:30.451 cls 10 len 12131
+11-22 01:52:30.451 cls 11 len 10691
+11-22 01:52:30.451 cls 12 len 986
+11-22 01:52:30.451 cls 13 len 10501
+11-22 01:52:30.451 cls 14 len 6711
+11-22 01:52:30.451 cls 15 len 1861
+11-22 01:52:30.451 cls 16 len 493
+11-22 01:52:30.451 cls 17 len 1211
+11-22 01:52:30.452 cls 18 len 168
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(10746)
+11-22 01:53:33.629 [epoch 4], [iter 50 / 1032 : 4177], [loss 0.384016], [lr 0.009055], [time 0.2557]
+11-22 01:54:27.371 [epoch 4], [iter 100 / 1032 : 4227], [loss 0.400663], [lr 0.009044], [time 0.2615]
+11-22 01:55:20.878 [epoch 4], [iter 150 / 1032 : 4277], [loss 0.378962], [lr 0.009032], [time 0.2633]
+11-22 01:56:15.440 [epoch 4], [iter 200 / 1032 : 4327], [loss 0.373203], [lr 0.009021], [time 0.2684]
+11-22 01:57:08.399 [epoch 4], [iter 250 / 1032 : 4377], [loss 0.423030], [lr 0.009010], [time 0.2602]
+11-22 01:58:02.054 [epoch 4], [iter 300 / 1032 : 4427], [loss 0.372653], [lr 0.008998], [time 0.2628]
+11-22 01:58:54.306 [epoch 4], [iter 350 / 1032 : 4477], [loss 0.391826], [lr 0.008987], [time 0.2542]
+11-22 01:59:48.372 [epoch 4], [iter 400 / 1032 : 4527], [loss 0.401108], [lr 0.008975], [time 0.2654]
+11-22 02:00:41.211 [epoch 4], [iter 450 / 1032 : 4577], [loss 0.373459], [lr 0.008964], [time 0.2595]
+11-22 02:01:36.228 [epoch 4], [iter 500 / 1032 : 4627], [loss 0.361098], [lr 0.008953], [time 0.2705]
+11-22 02:02:29.631 [epoch 4], [iter 550 / 1032 : 4677], [loss 0.407997], [lr 0.008941], [time 0.2624]
+11-22 02:03:23.597 [epoch 4], [iter 600 / 1032 : 4727], [loss 0.357443], [lr 0.008930], [time 0.2651]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(2546)
+11-22 02:04:16.043 [epoch 4], [iter 650 / 1032 : 4777], [loss 0.364503], [lr 0.008918], [time 0.2574]
+11-22 02:05:12.011 [epoch 4], [iter 700 / 1032 : 4827], [loss 0.401046], [lr 0.008907], [time 0.2755]
+11-22 02:06:03.954 [epoch 4], [iter 750 / 1032 : 4877], [loss 0.370325], [lr 0.008896], [time 0.2551]
+11-22 02:06:57.303 [epoch 4], [iter 800 / 1032 : 4927], [loss 0.369109], [lr 0.008884], [time 0.2623]
+11-22 02:07:48.944 [epoch 4], [iter 850 / 1032 : 4977], [loss 0.377708], [lr 0.008873], [time 0.2536]
+11-22 02:08:43.160 [epoch 4], [iter 900 / 1032 : 5027], [loss 0.392686], [lr 0.008861], [time 0.2665]
+11-22 02:09:35.988 [epoch 4], [iter 950 / 1032 : 5077], [loss 0.361598], [lr 0.008850], [time 0.2595]
+11-22 02:10:29.829 [epoch 4], [iter 1000 / 1032 : 5127], [loss 0.385934], [lr 0.008839], [time 0.2642]
+Saving pth file...
+11-22 02:11:03.095 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_4_mean-iu_0.00000.pth
+11-22 02:11:03.096 Class Uniform Percentage: 0.5
+11-22 02:11:03.097 Class Uniform items per Epoch:12388
+11-22 02:11:03.099 cls 0 len 12109
+11-22 02:11:03.100 cls 1 len 11833
+11-22 02:11:03.100 cls 2 len 12301
+11-22 02:11:03.100 cls 3 len 10854
+11-22 02:11:03.100 cls 4 len 8811
+11-22 02:11:03.100 cls 5 len 11928
+11-22 02:11:03.100 cls 6 len 7891
+11-22 02:11:03.100 cls 7 len 5921
+11-22 02:11:03.100 cls 8 len 12132
+11-22 02:11:03.100 cls 9 len 11549
+11-22 02:11:03.100 cls 10 len 12131
+11-22 02:11:03.100 cls 11 len 10691
+11-22 02:11:03.100 cls 12 len 986
+11-22 02:11:03.100 cls 13 len 10501
+11-22 02:11:03.100 cls 14 len 6711
+11-22 02:11:03.100 cls 15 len 1861
+11-22 02:11:03.100 cls 16 len 493
+11-22 02:11:03.100 cls 17 len 1211
+11-22 02:11:03.100 cls 18 len 168
+11-22 02:12:06.375 [epoch 5], [iter 50 / 1032 : 5209], [loss 0.409076], [lr 0.008820], [time 0.2730]
+11-22 02:12:58.203 [epoch 5], [iter 100 / 1032 : 5259], [loss 0.388923], [lr 0.008809], [time 0.2545]
+11-22 02:13:52.050 [epoch 5], [iter 150 / 1032 : 5309], [loss 0.363223], [lr 0.008797], [time 0.2539]
+11-22 02:14:43.995 [epoch 5], [iter 200 / 1032 : 5359], [loss 0.391809], [lr 0.008786], [time 0.2549]
+11-22 02:15:35.828 [epoch 5], [iter 250 / 1032 : 5409], [loss 0.373134], [lr 0.008774], [time 0.2542]
+11-22 02:16:28.645 [epoch 5], [iter 300 / 1032 : 5459], [loss 0.392830], [lr 0.008763], [time 0.2596]
+11-22 02:17:23.525 [epoch 5], [iter 350 / 1032 : 5509], [loss 0.355769], [lr 0.008751], [time 0.2539]
+11-22 02:18:15.767 [epoch 5], [iter 400 / 1032 : 5559], [loss 0.413139], [lr 0.008740], [time 0.2541]
+11-22 02:19:07.639 [epoch 5], [iter 450 / 1032 : 5609], [loss 0.382588], [lr 0.008729], [time 0.2547]
+11-22 02:20:00.434 [epoch 5], [iter 500 / 1032 : 5659], [loss 0.337601], [lr 0.008717], [time 0.2546]
+11-22 02:20:52.985 [epoch 5], [iter 550 / 1032 : 5709], [loss 0.346057], [lr 0.008706], [time 0.2551]
+11-22 02:21:45.864 [epoch 5], [iter 600 / 1032 : 5759], [loss 0.363819], [lr 0.008694], [time 0.2539]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(4193)
+11-22 02:22:39.719 [epoch 5], [iter 650 / 1032 : 5809], [loss 0.380481], [lr 0.008683], [time 0.2548]
+11-22 02:23:32.071 [epoch 5], [iter 700 / 1032 : 5859], [loss 0.361572], [lr 0.008672], [time 0.2543]
+11-22 02:24:23.907 [epoch 5], [iter 750 / 1032 : 5909], [loss 0.389327], [lr 0.008660], [time 0.2541]
+11-22 02:25:15.846 [epoch 5], [iter 800 / 1032 : 5959], [loss 0.350494], [lr 0.008649], [time 0.2548]
+11-22 02:26:08.623 [epoch 5], [iter 850 / 1032 : 6009], [loss 0.374436], [lr 0.008637], [time 0.2541]
+11-22 02:27:01.959 [epoch 5], [iter 900 / 1032 : 6059], [loss 0.401325], [lr 0.008626], [time 0.2540]
+11-22 02:27:54.967 [epoch 5], [iter 950 / 1032 : 6109], [loss 0.359110], [lr 0.008614], [time 0.2541]
+11-22 02:28:46.871 [epoch 5], [iter 1000 / 1032 : 6159], [loss 0.357680], [lr 0.008603], [time 0.2547]
+Saving pth file...
+11-22 02:29:20.125 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_5_mean-iu_0.00000.pth
+11-22 02:29:20.127 Class Uniform Percentage: 0.5
+11-22 02:29:20.127 Class Uniform items per Epoch:12388
+11-22 02:29:20.129 cls 0 len 12109
+11-22 02:29:20.129 cls 1 len 11833
+11-22 02:29:20.129 cls 2 len 12301
+11-22 02:29:20.129 cls 3 len 10854
+11-22 02:29:20.130 cls 4 len 8811
+11-22 02:29:20.130 cls 5 len 11928
+11-22 02:29:20.130 cls 6 len 7891
+11-22 02:29:20.130 cls 7 len 5921
+11-22 02:29:20.130 cls 8 len 12132
+11-22 02:29:20.130 cls 9 len 11549
+11-22 02:29:20.130 cls 10 len 12131
+11-22 02:29:20.130 cls 11 len 10691
+11-22 02:29:20.130 cls 12 len 986
+11-22 02:29:20.130 cls 13 len 10501
+11-22 02:29:20.130 cls 14 len 6711
+11-22 02:29:20.130 cls 15 len 1861
+11-22 02:29:20.130 cls 16 len 493
+11-22 02:29:20.130 cls 17 len 1211
+11-22 02:29:20.130 cls 18 len 168
+11-22 02:30:21.426 [epoch 6], [iter 50 / 1032 : 6241], [loss 0.365857], [lr 0.008584], [time 0.2614]
+11-22 02:31:14.482 [epoch 6], [iter 100 / 1032 : 6291], [loss 0.351642], [lr 0.008573], [time 0.2608]
+11-22 02:32:05.955 [epoch 6], [iter 150 / 1032 : 6341], [loss 0.387335], [lr 0.008561], [time 0.2529]
+11-22 02:32:57.488 [epoch 6], [iter 200 / 1032 : 6391], [loss 0.363608], [lr 0.008550], [time 0.2533]
+11-22 02:33:49.110 [epoch 6], [iter 250 / 1032 : 6441], [loss 0.367525], [lr 0.008538], [time 0.2536]
+11-22 02:34:40.762 [epoch 6], [iter 300 / 1032 : 6491], [loss 0.343226], [lr 0.008527], [time 0.2537]
+11-22 02:35:32.282 [epoch 6], [iter 350 / 1032 : 6541], [loss 0.341706], [lr 0.008515], [time 0.2529]
+11-22 02:36:25.920 [epoch 6], [iter 400 / 1032 : 6591], [loss 0.368666], [lr 0.008504], [time 0.2636]
+11-22 02:37:17.416 [epoch 6], [iter 450 / 1032 : 6641], [loss 0.369600], [lr 0.008493], [time 0.2528]
+11-22 02:38:09.091 [epoch 6], [iter 500 / 1032 : 6691], [loss 0.367206], [lr 0.008481], [time 0.2536]
+11-22 02:39:00.774 [epoch 6], [iter 550 / 1032 : 6741], [loss 0.369245], [lr 0.008470], [time 0.2538]
+11-22 02:39:52.453 [epoch 6], [iter 600 / 1032 : 6791], [loss 0.386922], [lr 0.008458], [time 0.2540]
+11-22 02:40:44.206 [epoch 6], [iter 650 / 1032 : 6841], [loss 0.361318], [lr 0.008447], [time 0.2541]
+11-22 02:41:35.966 [epoch 6], [iter 700 / 1032 : 6891], [loss 0.358731], [lr 0.008435], [time 0.2542]
+11-22 02:42:27.579 [epoch 6], [iter 750 / 1032 : 6941], [loss 0.341025], [lr 0.008424], [time 0.2532]
+11-22 02:43:19.345 [epoch 6], [iter 800 / 1032 : 6991], [loss 0.342133], [lr 0.008412], [time 0.2541]
+11-22 02:44:10.877 [epoch 6], [iter 850 / 1032 : 7041], [loss 0.362560], [lr 0.008401], [time 0.2527]
+11-22 02:45:02.656 [epoch 6], [iter 900 / 1032 : 7091], [loss 0.340898], [lr 0.008389], [time 0.2541]
+11-22 02:45:54.266 [epoch 6], [iter 950 / 1032 : 7141], [loss 0.369459], [lr 0.008378], [time 0.2532]
+11-22 02:46:45.829 [epoch 6], [iter 1000 / 1032 : 7191], [loss 0.338004], [lr 0.008366], [time 0.2528]
+Saving pth file...
+11-22 02:47:20.688 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_6_mean-iu_0.00000.pth
+11-22 02:47:20.689 Class Uniform Percentage: 0.5
+11-22 02:47:20.690 Class Uniform items per Epoch:12388
+11-22 02:47:20.692 cls 0 len 12109
+11-22 02:47:20.692 cls 1 len 11833
+11-22 02:47:20.692 cls 2 len 12301
+11-22 02:47:20.692 cls 3 len 10854
+11-22 02:47:20.693 cls 4 len 8811
+11-22 02:47:20.693 cls 5 len 11928
+11-22 02:47:20.693 cls 6 len 7891
+11-22 02:47:20.693 cls 7 len 5921
+11-22 02:47:20.693 cls 8 len 12132
+11-22 02:47:20.693 cls 9 len 11549
+11-22 02:47:20.693 cls 10 len 12131
+11-22 02:47:20.693 cls 11 len 10691
+11-22 02:47:20.693 cls 12 len 986
+11-22 02:47:20.693 cls 13 len 10501
+11-22 02:47:20.693 cls 14 len 6711
+11-22 02:47:20.693 cls 15 len 1861
+11-22 02:47:20.693 cls 16 len 493
+11-22 02:47:20.693 cls 17 len 1211
+11-22 02:47:20.693 cls 18 len 168
+11-22 02:48:23.160 [epoch 7], [iter 50 / 1032 : 7273], [loss 0.363976], [lr 0.008348], [time 0.2528]
+11-22 02:49:17.994 [epoch 7], [iter 100 / 1032 : 7323], [loss 0.353896], [lr 0.008336], [time 0.2585]
+11-22 02:50:10.566 [epoch 7], [iter 150 / 1032 : 7373], [loss 0.323930], [lr 0.008325], [time 0.2582]
+11-22 02:51:02.410 [epoch 7], [iter 200 / 1032 : 7423], [loss 0.367162], [lr 0.008313], [time 0.2544]
+11-22 02:51:55.214 [epoch 7], [iter 250 / 1032 : 7473], [loss 0.337787], [lr 0.008302], [time 0.2594]
+11-22 02:52:46.978 [epoch 7], [iter 300 / 1032 : 7523], [loss 0.357453], [lr 0.008290], [time 0.2541]
+11-22 02:53:41.220 [epoch 7], [iter 350 / 1032 : 7573], [loss 0.329643], [lr 0.008279], [time 0.2541]
+11-22 02:54:34.313 [epoch 7], [iter 400 / 1032 : 7623], [loss 0.320226], [lr 0.008267], [time 0.2605]
+11-22 02:55:26.096 [epoch 7], [iter 450 / 1032 : 7673], [loss 0.348718], [lr 0.008256], [time 0.2523]
+11-22 02:56:19.414 [epoch 7], [iter 500 / 1032 : 7723], [loss 0.328263], [lr 0.008244], [time 0.2620]
+11-22 02:57:12.270 [epoch 7], [iter 550 / 1032 : 7773], [loss 0.351321], [lr 0.008233], [time 0.2596]
+11-22 02:58:06.481 [epoch 7], [iter 600 / 1032 : 7823], [loss 0.357762], [lr 0.008221], [time 0.2663]
+11-22 02:58:59.793 [epoch 7], [iter 650 / 1032 : 7873], [loss 0.354775], [lr 0.008210], [time 0.2616]
+11-22 02:59:51.252 [epoch 7], [iter 700 / 1032 : 7923], [loss 0.355597], [lr 0.008198], [time 0.2524]
+11-22 03:00:45.509 [epoch 7], [iter 750 / 1032 : 7973], [loss 0.347900], [lr 0.008187], [time 0.2665]
+11-22 03:01:38.153 [epoch 7], [iter 800 / 1032 : 8023], [loss 0.356288], [lr 0.008175], [time 0.2583]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(6860)
+11-22 03:02:31.533 [epoch 7], [iter 850 / 1032 : 8073], [loss 0.377138], [lr 0.008164], [time 0.2621]
+11-22 03:03:24.019 [epoch 7], [iter 900 / 1032 : 8123], [loss 0.368042], [lr 0.008152], [time 0.2574]
+11-22 03:04:15.462 [epoch 7], [iter 950 / 1032 : 8173], [loss 0.372940], [lr 0.008141], [time 0.2522]
+11-22 03:05:09.552 [epoch 7], [iter 1000 / 1032 : 8223], [loss 0.421836], [lr 0.008129], [time 0.2521]
+Saving pth file...
+11-22 03:05:43.496 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_7_mean-iu_0.00000.pth
+11-22 03:05:43.497 Class Uniform Percentage: 0.5
+11-22 03:05:43.497 Class Uniform items per Epoch:12388
+11-22 03:05:43.500 cls 0 len 12109
+11-22 03:05:43.500 cls 1 len 11833
+11-22 03:05:43.500 cls 2 len 12301
+11-22 03:05:43.500 cls 3 len 10854
+11-22 03:05:43.500 cls 4 len 8811
+11-22 03:05:43.501 cls 5 len 11928
+11-22 03:05:43.501 cls 6 len 7891
+11-22 03:05:43.501 cls 7 len 5921
+11-22 03:05:43.501 cls 8 len 12132
+11-22 03:05:43.501 cls 9 len 11549
+11-22 03:05:43.501 cls 10 len 12131
+11-22 03:05:43.501 cls 11 len 10691
+11-22 03:05:43.501 cls 12 len 986
+11-22 03:05:43.501 cls 13 len 10501
+11-22 03:05:43.501 cls 14 len 6711
+11-22 03:05:43.501 cls 15 len 1861
+11-22 03:05:43.501 cls 16 len 493
+11-22 03:05:43.501 cls 17 len 1211
+11-22 03:05:43.501 cls 18 len 168
+11-22 03:06:51.474 [epoch 8], [iter 50 / 1032 : 8305], [loss 0.389702], [lr 0.008110], [time 0.2630]
+11-22 03:07:47.911 [epoch 8], [iter 100 / 1032 : 8355], [loss 0.365069], [lr 0.008099], [time 0.2525]
+11-22 03:08:46.441 [epoch 8], [iter 150 / 1032 : 8405], [loss 0.325189], [lr 0.008087], [time 0.2583]
+11-22 03:09:41.881 [epoch 8], [iter 200 / 1032 : 8455], [loss 0.399382], [lr 0.008076], [time 0.2548]
+11-22 03:10:39.163 [epoch 8], [iter 250 / 1032 : 8505], [loss 0.361958], [lr 0.008064], [time 0.2544]
+11-22 03:11:35.936 [epoch 8], [iter 300 / 1032 : 8555], [loss 0.341451], [lr 0.008053], [time 0.2541]
+11-22 03:12:31.877 [epoch 8], [iter 350 / 1032 : 8605], [loss 0.315681], [lr 0.008041], [time 0.2540]
+11-22 03:13:27.104 [epoch 8], [iter 400 / 1032 : 8655], [loss 0.322373], [lr 0.008030], [time 0.2535]
+11-22 03:14:24.295 [epoch 8], [iter 450 / 1032 : 8705], [loss 0.335251], [lr 0.008018], [time 0.2531]
+11-22 03:15:22.142 [epoch 8], [iter 500 / 1032 : 8755], [loss 0.341291], [lr 0.008007], [time 0.2530]
+11-22 03:16:17.958 [epoch 8], [iter 550 / 1032 : 8805], [loss 0.323760], [lr 0.007995], [time 0.2537]
+11-22 03:17:15.313 [epoch 8], [iter 600 / 1032 : 8855], [loss 0.337626], [lr 0.007984], [time 0.2806]
+11-22 03:18:11.272 [epoch 8], [iter 650 / 1032 : 8905], [loss 0.338594], [lr 0.007972], [time 0.2747]
+11-22 03:19:06.881 [epoch 8], [iter 700 / 1032 : 8955], [loss 0.393760], [lr 0.007960], [time 0.2728]
+11-22 03:20:03.829 [epoch 8], [iter 750 / 1032 : 9005], [loss 0.378078], [lr 0.007949], [time 0.2524]
+11-22 03:21:00.236 [epoch 8], [iter 800 / 1032 : 9055], [loss 0.380138], [lr 0.007937], [time 0.2585]
+11-22 03:21:58.675 [epoch 8], [iter 850 / 1032 : 9105], [loss 0.368010], [lr 0.007926], [time 0.2846]
+11-22 03:22:53.875 [epoch 8], [iter 900 / 1032 : 9155], [loss 0.390636], [lr 0.007914], [time 0.2712]
+11-22 03:23:51.954 [epoch 8], [iter 950 / 1032 : 9205], [loss 0.362528], [lr 0.007903], [time 0.2548]
+11-22 03:24:46.924 [epoch 8], [iter 1000 / 1032 : 9255], [loss 0.295938], [lr 0.007891], [time 0.2538]
+Saving pth file...
+11-22 03:25:23.458 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_8_mean-iu_0.00000.pth
+11-22 03:25:23.459 Class Uniform Percentage: 0.5
+11-22 03:25:23.459 Class Uniform items per Epoch:12388
+11-22 03:25:23.462 cls 0 len 12109
+11-22 03:25:23.462 cls 1 len 11833
+11-22 03:25:23.462 cls 2 len 12301
+11-22 03:25:23.462 cls 3 len 10854
+11-22 03:25:23.462 cls 4 len 8811
+11-22 03:25:23.462 cls 5 len 11928
+11-22 03:25:23.462 cls 6 len 7891
+11-22 03:25:23.462 cls 7 len 5921
+11-22 03:25:23.462 cls 8 len 12132
+11-22 03:25:23.462 cls 9 len 11549
+11-22 03:25:23.462 cls 10 len 12131
+11-22 03:25:23.462 cls 11 len 10691
+11-22 03:25:23.462 cls 12 len 986
+11-22 03:25:23.463 cls 13 len 10501
+11-22 03:25:23.463 cls 14 len 6711
+11-22 03:25:23.463 cls 15 len 1861
+11-22 03:25:23.463 cls 16 len 493
+11-22 03:25:23.463 cls 17 len 1211
+11-22 03:25:23.463 cls 18 len 168
+11-22 03:26:27.843 [epoch 9], [iter 50 / 1032 : 9337], [loss 0.322376], [lr 0.007872], [time 0.2516]
+11-22 03:27:19.609 [epoch 9], [iter 100 / 1032 : 9387], [loss 0.346336], [lr 0.007861], [time 0.2541]
+11-22 03:28:11.470 [epoch 9], [iter 150 / 1032 : 9437], [loss 0.313920], [lr 0.007849], [time 0.2548]
+11-22 03:29:03.138 [epoch 9], [iter 200 / 1032 : 9487], [loss 0.340082], [lr 0.007838], [time 0.2535]
+11-22 03:29:56.251 [epoch 9], [iter 250 / 1032 : 9537], [loss 0.304816], [lr 0.007826], [time 0.2605]
+11-22 03:30:50.961 [epoch 9], [iter 300 / 1032 : 9587], [loss 0.300971], [lr 0.007814], [time 0.2541]
+11-22 03:31:44.679 [epoch 9], [iter 350 / 1032 : 9637], [loss 0.316194], [lr 0.007803], [time 0.2528]
+11-22 03:32:36.403 [epoch 9], [iter 400 / 1032 : 9687], [loss 0.304744], [lr 0.007791], [time 0.2537]
+11-22 03:33:28.190 [epoch 9], [iter 450 / 1032 : 9737], [loss 0.301200], [lr 0.007780], [time 0.2535]
+11-22 03:34:20.528 [epoch 9], [iter 500 / 1032 : 9787], [loss 0.287046], [lr 0.007768], [time 0.2532]
+11-22 03:35:14.272 [epoch 9], [iter 550 / 1032 : 9837], [loss 0.275383], [lr 0.007757], [time 0.2531]
+11-22 03:36:05.832 [epoch 9], [iter 600 / 1032 : 9887], [loss 0.314773], [lr 0.007745], [time 0.2525]
+11-22 03:36:57.521 [epoch 9], [iter 650 / 1032 : 9937], [loss 0.348015], [lr 0.007733], [time 0.2533]
+11-22 03:37:51.112 [epoch 9], [iter 700 / 1032 : 9987], [loss 0.302008], [lr 0.007722], [time 0.2534]
+11-22 03:38:42.905 [epoch 9], [iter 750 / 1032 : 10037], [loss 0.323450], [lr 0.007710], [time 0.2536]
+11-22 03:39:37.271 [epoch 9], [iter 800 / 1032 : 10087], [loss 0.343580], [lr 0.007699], [time 0.2520]
+11-22 03:40:31.348 [epoch 9], [iter 850 / 1032 : 10137], [loss 0.355043], [lr 0.007687], [time 0.2521]
+11-22 03:41:23.213 [epoch 9], [iter 900 / 1032 : 10187], [loss 0.340940], [lr 0.007676], [time 0.2538]
+11-22 03:42:15.064 [epoch 9], [iter 950 / 1032 : 10237], [loss 0.330614], [lr 0.007664], [time 0.2542]
+11-22 03:43:07.236 [epoch 9], [iter 1000 / 1032 : 10287], [loss 0.300242], [lr 0.007652], [time 0.2555]
+Saving pth file...
+11-22 03:43:40.474 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_9_mean-iu_0.00000.pth
+11-22 03:43:40.475 Class Uniform Percentage: 0.5
+11-22 03:43:40.475 Class Uniform items per Epoch:12388
+11-22 03:43:40.478 cls 0 len 12109
+11-22 03:43:40.478 cls 1 len 11833
+11-22 03:43:40.478 cls 2 len 12301
+11-22 03:43:40.478 cls 3 len 10854
+11-22 03:43:40.478 cls 4 len 8811
+11-22 03:43:40.478 cls 5 len 11928
+11-22 03:43:40.478 cls 6 len 7891
+11-22 03:43:40.479 cls 7 len 5921
+11-22 03:43:40.479 cls 8 len 12132
+11-22 03:43:40.479 cls 9 len 11549
+11-22 03:43:40.479 cls 10 len 12131
+11-22 03:43:40.479 cls 11 len 10691
+11-22 03:43:40.479 cls 12 len 986
+11-22 03:43:40.479 cls 13 len 10501
+11-22 03:43:40.479 cls 14 len 6711
+11-22 03:43:40.479 cls 15 len 1861
+11-22 03:43:40.479 cls 16 len 493
+11-22 03:43:40.479 cls 17 len 1211
+11-22 03:43:40.479 cls 18 len 168
+11-22 03:44:45.573 [epoch 10], [iter 50 / 1032 : 10369], [loss 0.313311], [lr 0.007633], [time 0.2535]
+11-22 03:45:38.429 [epoch 10], [iter 100 / 1032 : 10419], [loss 0.323485], [lr 0.007622], [time 0.2541]
+11-22 03:46:31.323 [epoch 10], [iter 150 / 1032 : 10469], [loss 0.341399], [lr 0.007610], [time 0.2585]
+11-22 03:47:26.346 [epoch 10], [iter 200 / 1032 : 10519], [loss 0.341007], [lr 0.007599], [time 0.2629]
+11-22 03:48:19.691 [epoch 10], [iter 250 / 1032 : 10569], [loss 0.322524], [lr 0.007587], [time 0.2523]
+11-22 03:49:11.313 [epoch 10], [iter 300 / 1032 : 10619], [loss 0.313417], [lr 0.007575], [time 0.2519]
+11-22 03:50:04.489 [epoch 10], [iter 350 / 1032 : 10669], [loss 0.295202], [lr 0.007564], [time 0.2513]
+11-22 03:50:58.535 [epoch 10], [iter 400 / 1032 : 10719], [loss 0.288971], [lr 0.007552], [time 0.2638]
+11-22 03:51:50.778 [epoch 10], [iter 450 / 1032 : 10769], [loss 0.291040], [lr 0.007541], [time 0.2566]
+11-22 03:52:42.067 [epoch 10], [iter 500 / 1032 : 10819], [loss 0.298282], [lr 0.007529], [time 0.2517]
+11-22 03:53:37.139 [epoch 10], [iter 550 / 1032 : 10869], [loss 0.298783], [lr 0.007517], [time 0.2593]
+11-22 03:54:29.577 [epoch 10], [iter 600 / 1032 : 10919], [loss 0.299888], [lr 0.007506], [time 0.2514]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(4133)
+11-22 03:55:22.569 [epoch 10], [iter 650 / 1032 : 10969], [loss 0.305787], [lr 0.007494], [time 0.2514]
+11-22 03:56:14.125 [epoch 10], [iter 700 / 1032 : 11019], [loss 0.308305], [lr 0.007483], [time 0.2531]
+11-22 03:57:07.175 [epoch 10], [iter 750 / 1032 : 11069], [loss 0.331687], [lr 0.007471], [time 0.2606]
+11-22 03:58:00.954 [epoch 10], [iter 800 / 1032 : 11119], [loss 0.307054], [lr 0.007459], [time 0.2643]
+11-22 03:58:54.721 [epoch 10], [iter 850 / 1032 : 11169], [loss 0.304706], [lr 0.007448], [time 0.2642]
+11-22 03:59:47.276 [epoch 10], [iter 900 / 1032 : 11219], [loss 0.311928], [lr 0.007436], [time 0.2581]
+11-22 04:00:40.391 [epoch 10], [iter 950 / 1032 : 11269], [loss 0.312394], [lr 0.007424], [time 0.2607]
+11-22 04:01:33.872 [epoch 10], [iter 1000 / 1032 : 11319], [loss 0.350254], [lr 0.007413], [time 0.2627]
+Saving pth file...
+11-22 04:02:07.666 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_10_mean-iu_0.00000.pth
+11-22 04:02:07.667 Class Uniform Percentage: 0.5
+11-22 04:02:07.668 Class Uniform items per Epoch:12388
+11-22 04:02:07.670 cls 0 len 12109
+11-22 04:02:07.670 cls 1 len 11833
+11-22 04:02:07.670 cls 2 len 12301
+11-22 04:02:07.670 cls 3 len 10854
+11-22 04:02:07.670 cls 4 len 8811
+11-22 04:02:07.671 cls 5 len 11928
+11-22 04:02:07.671 cls 6 len 7891
+11-22 04:02:07.671 cls 7 len 5921
+11-22 04:02:07.671 cls 8 len 12132
+11-22 04:02:07.671 cls 9 len 11549
+11-22 04:02:07.671 cls 10 len 12131
+11-22 04:02:07.671 cls 11 len 10691
+11-22 04:02:07.671 cls 12 len 986
+11-22 04:02:07.671 cls 13 len 10501
+11-22 04:02:07.671 cls 14 len 6711
+11-22 04:02:07.671 cls 15 len 1861
+11-22 04:02:07.671 cls 16 len 493
+11-22 04:02:07.671 cls 17 len 1211
+11-22 04:02:07.671 cls 18 len 168
+11-22 04:03:09.670 [epoch 11], [iter 50 / 1032 : 11401], [loss 0.380713], [lr 0.007394], [time 0.2521]
+11-22 04:04:01.230 [epoch 11], [iter 100 / 1032 : 11451], [loss 0.345684], [lr 0.007382], [time 0.2539]
+11-22 04:04:52.620 [epoch 11], [iter 150 / 1032 : 11501], [loss 0.356964], [lr 0.007370], [time 0.2532]
+11-22 04:05:43.992 [epoch 11], [iter 200 / 1032 : 11551], [loss 0.333704], [lr 0.007359], [time 0.2531]
+11-22 04:06:35.446 [epoch 11], [iter 250 / 1032 : 11601], [loss 0.279426], [lr 0.007347], [time 0.2534]
+11-22 04:07:26.774 [epoch 11], [iter 300 / 1032 : 11651], [loss 0.308596], [lr 0.007336], [time 0.2530]
+11-22 04:08:18.331 [epoch 11], [iter 350 / 1032 : 11701], [loss 0.311553], [lr 0.007324], [time 0.2537]
+11-22 04:09:09.709 [epoch 11], [iter 400 / 1032 : 11751], [loss 0.303277], [lr 0.007312], [time 0.2531]
+11-22 04:10:01.190 [epoch 11], [iter 450 / 1032 : 11801], [loss 0.311899], [lr 0.007301], [time 0.2534]
+11-22 04:10:52.708 [epoch 11], [iter 500 / 1032 : 11851], [loss 0.345440], [lr 0.007289], [time 0.2535]
+11-22 04:11:44.099 [epoch 11], [iter 550 / 1032 : 11901], [loss 0.330485], [lr 0.007277], [time 0.2531]
+11-22 04:12:35.704 [epoch 11], [iter 600 / 1032 : 11951], [loss 0.346994], [lr 0.007266], [time 0.2541]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(3048)
+11-22 04:13:27.166 [epoch 11], [iter 650 / 1032 : 12001], [loss 0.381454], [lr 0.007254], [time 0.2534]
+11-22 04:14:18.548 [epoch 11], [iter 700 / 1032 : 12051], [loss 0.318324], [lr 0.007242], [time 0.2530]
+11-22 04:15:10.110 [epoch 11], [iter 750 / 1032 : 12101], [loss 0.338178], [lr 0.007231], [time 0.2537]
+11-22 04:16:01.548 [epoch 11], [iter 800 / 1032 : 12151], [loss 0.315287], [lr 0.007219], [time 0.2534]
+11-22 04:16:53.158 [epoch 11], [iter 850 / 1032 : 12201], [loss 0.353555], [lr 0.007207], [time 0.2542]
+11-22 04:17:44.698 [epoch 11], [iter 900 / 1032 : 12251], [loss 0.335231], [lr 0.007196], [time 0.2535]
+11-22 04:18:36.188 [epoch 11], [iter 950 / 1032 : 12301], [loss 0.326428], [lr 0.007184], [time 0.2531]
+11-22 04:19:28.871 [epoch 11], [iter 1000 / 1032 : 12351], [loss 0.327642], [lr 0.007172], [time 0.2595]
+Saving pth file...
+11-22 04:20:02.140 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_11_mean-iu_0.00000.pth
+11-22 04:20:02.141 Class Uniform Percentage: 0.5
+11-22 04:20:02.141 Class Uniform items per Epoch:12388
+11-22 04:20:02.144 cls 0 len 12109
+11-22 04:20:02.144 cls 1 len 11833
+11-22 04:20:02.144 cls 2 len 12301
+11-22 04:20:02.144 cls 3 len 10854
+11-22 04:20:02.144 cls 4 len 8811
+11-22 04:20:02.144 cls 5 len 11928
+11-22 04:20:02.144 cls 6 len 7891
+11-22 04:20:02.144 cls 7 len 5921
+11-22 04:20:02.144 cls 8 len 12132
+11-22 04:20:02.144 cls 9 len 11549
+11-22 04:20:02.144 cls 10 len 12131
+11-22 04:20:02.144 cls 11 len 10691
+11-22 04:20:02.144 cls 12 len 986
+11-22 04:20:02.144 cls 13 len 10501
+11-22 04:20:02.144 cls 14 len 6711
+11-22 04:20:02.144 cls 15 len 1861
+11-22 04:20:02.144 cls 16 len 493
+11-22 04:20:02.144 cls 17 len 1211
+11-22 04:20:02.144 cls 18 len 168
+11-22 04:21:06.420 [epoch 12], [iter 50 / 1032 : 12433], [loss 0.297299], [lr 0.007153], [time 0.2764]
+11-22 04:22:00.638 [epoch 12], [iter 100 / 1032 : 12483], [loss 0.322637], [lr 0.007141], [time 0.2673]
+11-22 04:22:54.532 [epoch 12], [iter 150 / 1032 : 12533], [loss 0.337297], [lr 0.007130], [time 0.2655]
+11-22 04:23:46.380 [epoch 12], [iter 200 / 1032 : 12583], [loss 0.332380], [lr 0.007118], [time 0.2551]
+11-22 04:24:40.114 [epoch 12], [iter 250 / 1032 : 12633], [loss 0.293378], [lr 0.007106], [time 0.2647]
+11-22 04:25:34.285 [epoch 12], [iter 300 / 1032 : 12683], [loss 0.359522], [lr 0.007095], [time 0.2656]
+11-22 04:26:30.507 [epoch 12], [iter 350 / 1032 : 12733], [loss 0.345808], [lr 0.007083], [time 0.2527]
+11-22 04:27:23.581 [epoch 12], [iter 400 / 1032 : 12783], [loss 0.330012], [lr 0.007071], [time 0.2539]
+11-22 04:28:17.611 [epoch 12], [iter 450 / 1032 : 12833], [loss 0.308434], [lr 0.007060], [time 0.2535]
+11-22 04:29:09.752 [epoch 12], [iter 500 / 1032 : 12883], [loss 0.331224], [lr 0.007048], [time 0.2529]
+11-22 04:30:02.722 [epoch 12], [iter 550 / 1032 : 12933], [loss 0.338267], [lr 0.007036], [time 0.2564]
+11-22 04:30:59.824 [epoch 12], [iter 600 / 1032 : 12983], [loss 0.326933], [lr 0.007025], [time 0.2630]
+11-22 04:31:51.362 [epoch 12], [iter 650 / 1032 : 13033], [loss 0.294711], [lr 0.007013], [time 0.2536]
+11-22 04:32:47.530 [epoch 12], [iter 700 / 1032 : 13083], [loss 0.345756], [lr 0.007001], [time 0.2710]
+11-22 04:33:40.560 [epoch 12], [iter 750 / 1032 : 13133], [loss 0.330791], [lr 0.006989], [time 0.2612]
+11-22 04:34:35.542 [epoch 12], [iter 800 / 1032 : 13183], [loss 0.307360], [lr 0.006978], [time 0.2707]
+11-22 04:35:29.888 [epoch 12], [iter 850 / 1032 : 13233], [loss 0.337832], [lr 0.006966], [time 0.2678]
+11-22 04:36:22.451 [epoch 12], [iter 900 / 1032 : 13283], [loss 0.320330], [lr 0.006954], [time 0.2587]
+11-22 04:37:18.044 [epoch 12], [iter 950 / 1032 : 13333], [loss 0.316880], [lr 0.006943], [time 0.2738]
+11-22 04:38:11.772 [epoch 12], [iter 1000 / 1032 : 13383], [loss 0.336880], [lr 0.006931], [time 0.2644]
+Saving pth file...
+11-22 04:38:44.914 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_12_mean-iu_0.00000.pth
+11-22 04:38:44.915 Class Uniform Percentage: 0.5
+11-22 04:38:44.915 Class Uniform items per Epoch:12388
+11-22 04:38:44.918 cls 0 len 12109
+11-22 04:38:44.918 cls 1 len 11833
+11-22 04:38:44.918 cls 2 len 12301
+11-22 04:38:44.918 cls 3 len 10854
+11-22 04:38:44.918 cls 4 len 8811
+11-22 04:38:44.918 cls 5 len 11928
+11-22 04:38:44.918 cls 6 len 7891
+11-22 04:38:44.918 cls 7 len 5921
+11-22 04:38:44.918 cls 8 len 12132
+11-22 04:38:44.918 cls 9 len 11549
+11-22 04:38:44.918 cls 10 len 12131
+11-22 04:38:44.918 cls 11 len 10691
+11-22 04:38:44.918 cls 12 len 986
+11-22 04:38:44.918 cls 13 len 10501
+11-22 04:38:44.918 cls 14 len 6711
+11-22 04:38:44.918 cls 15 len 1861
+11-22 04:38:44.918 cls 16 len 493
+11-22 04:38:44.918 cls 17 len 1211
+11-22 04:38:44.919 cls 18 len 168
+11-22 04:39:47.022 [epoch 13], [iter 50 / 1032 : 13465], [loss 0.289740], [lr 0.006912], [time 0.2516]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(8861)
+11-22 04:40:38.511 [epoch 13], [iter 100 / 1032 : 13515], [loss 0.295984], [lr 0.006900], [time 0.2534]
+11-22 04:41:29.900 [epoch 13], [iter 150 / 1032 : 13565], [loss 0.342829], [lr 0.006888], [time 0.2530]
+11-22 04:42:21.200 [epoch 13], [iter 200 / 1032 : 13615], [loss 0.322189], [lr 0.006876], [time 0.2524]
+11-22 04:43:14.009 [epoch 13], [iter 250 / 1032 : 13665], [loss 0.334459], [lr 0.006865], [time 0.2601]
+11-22 04:44:05.907 [epoch 13], [iter 300 / 1032 : 13715], [loss 0.304139], [lr 0.006853], [time 0.2554]
+11-22 04:44:57.284 [epoch 13], [iter 350 / 1032 : 13765], [loss 0.347529], [lr 0.006841], [time 0.2525]
+11-22 04:45:48.971 [epoch 13], [iter 400 / 1032 : 13815], [loss 0.347405], [lr 0.006830], [time 0.2544]
+11-22 04:46:40.421 [epoch 13], [iter 450 / 1032 : 13865], [loss 0.308802], [lr 0.006818], [time 0.2531]
+11-22 04:47:32.517 [epoch 13], [iter 500 / 1032 : 13915], [loss 0.307749], [lr 0.006806], [time 0.2566]
+11-22 04:48:24.925 [epoch 13], [iter 550 / 1032 : 13965], [loss 0.306861], [lr 0.006794], [time 0.2579]
+11-22 04:49:16.158 [epoch 13], [iter 600 / 1032 : 14015], [loss 0.317635], [lr 0.006783], [time 0.2521]
+11-22 04:50:07.661 [epoch 13], [iter 650 / 1032 : 14065], [loss 0.343253], [lr 0.006771], [time 0.2533]
+11-22 04:50:59.074 [epoch 13], [iter 700 / 1032 : 14115], [loss 0.294959], [lr 0.006759], [time 0.2527]
+11-22 04:51:51.840 [epoch 13], [iter 750 / 1032 : 14165], [loss 0.336719], [lr 0.006747], [time 0.2598]
+11-22 04:52:43.253 [epoch 13], [iter 800 / 1032 : 14215], [loss 0.316700], [lr 0.006736], [time 0.2529]
+11-22 04:53:34.665 [epoch 13], [iter 850 / 1032 : 14265], [loss 0.303980], [lr 0.006724], [time 0.2529]
+11-22 04:54:26.100 [epoch 13], [iter 900 / 1032 : 14315], [loss 0.319890], [lr 0.006712], [time 0.2528]
+11-22 04:55:17.736 [epoch 13], [iter 950 / 1032 : 14365], [loss 0.321967], [lr 0.006700], [time 0.2539]
+11-22 04:56:09.199 [epoch 13], [iter 1000 / 1032 : 14415], [loss 0.314081], [lr 0.006689], [time 0.2529]
+Saving pth file...
+11-22 04:56:42.042 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_13_mean-iu_0.00000.pth
+11-22 04:56:42.044 Class Uniform Percentage: 0.5
+11-22 04:56:42.044 Class Uniform items per Epoch:12388
+11-22 04:56:42.048 cls 0 len 12109
+11-22 04:56:42.048 cls 1 len 11833
+11-22 04:56:42.048 cls 2 len 12301
+11-22 04:56:42.049 cls 3 len 10854
+11-22 04:56:42.049 cls 4 len 8811
+11-22 04:56:42.049 cls 5 len 11928
+11-22 04:56:42.049 cls 6 len 7891
+11-22 04:56:42.049 cls 7 len 5921
+11-22 04:56:42.049 cls 8 len 12132
+11-22 04:56:42.049 cls 9 len 11549
+11-22 04:56:42.049 cls 10 len 12131
+11-22 04:56:42.049 cls 11 len 10691
+11-22 04:56:42.049 cls 12 len 986
+11-22 04:56:42.049 cls 13 len 10501
+11-22 04:56:42.049 cls 14 len 6711
+11-22 04:56:42.049 cls 15 len 1861
+11-22 04:56:42.049 cls 16 len 493
+11-22 04:56:42.049 cls 17 len 1211
+11-22 04:56:42.049 cls 18 len 168
+11-22 04:57:43.463 [epoch 14], [iter 50 / 1032 : 14497], [loss 0.295499], [lr 0.006669], [time 0.2523]
+11-22 04:58:34.755 [epoch 14], [iter 100 / 1032 : 14547], [loss 0.300895], [lr 0.006657], [time 0.2526]
+11-22 04:59:26.080 [epoch 14], [iter 150 / 1032 : 14597], [loss 0.332779], [lr 0.006646], [time 0.2527]
+11-22 05:00:18.138 [epoch 14], [iter 200 / 1032 : 14647], [loss 0.303022], [lr 0.006634], [time 0.2565]
+11-22 05:01:09.488 [epoch 14], [iter 250 / 1032 : 14697], [loss 0.345757], [lr 0.006622], [time 0.2529]
+11-22 05:02:00.675 [epoch 14], [iter 300 / 1032 : 14747], [loss 0.314446], [lr 0.006610], [time 0.2520]
+11-22 05:02:53.027 [epoch 14], [iter 350 / 1032 : 14797], [loss 0.311977], [lr 0.006599], [time 0.2581]
+11-22 05:03:44.364 [epoch 14], [iter 400 / 1032 : 14847], [loss 0.303426], [lr 0.006587], [time 0.2526]
+11-22 05:04:35.761 [epoch 14], [iter 450 / 1032 : 14897], [loss 0.281415], [lr 0.006575], [time 0.2530]
+11-22 05:05:27.078 [epoch 14], [iter 500 / 1032 : 14947], [loss 0.309148], [lr 0.006563], [time 0.2526]
+11-22 05:06:18.305 [epoch 14], [iter 550 / 1032 : 14997], [loss 0.325038], [lr 0.006551], [time 0.2522]
+11-22 05:07:09.686 [epoch 14], [iter 600 / 1032 : 15047], [loss 0.316172], [lr 0.006540], [time 0.2529]
+11-22 05:08:01.156 [epoch 14], [iter 650 / 1032 : 15097], [loss 0.282943], [lr 0.006528], [time 0.2534]
+11-22 05:08:53.551 [epoch 14], [iter 700 / 1032 : 15147], [loss 0.290550], [lr 0.006516], [time 0.2583]
+11-22 05:09:44.876 [epoch 14], [iter 750 / 1032 : 15197], [loss 0.301573], [lr 0.006504], [time 0.2526]
+11-22 05:10:36.414 [epoch 14], [iter 800 / 1032 : 15247], [loss 0.316262], [lr 0.006492], [time 0.2539]
+11-22 05:11:27.708 [epoch 14], [iter 850 / 1032 : 15297], [loss 0.293137], [lr 0.006481], [time 0.2524]
+11-22 05:12:20.348 [epoch 14], [iter 900 / 1032 : 15347], [loss 0.289544], [lr 0.006469], [time 0.2594]
+11-22 05:13:11.682 [epoch 14], [iter 950 / 1032 : 15397], [loss 0.341792], [lr 0.006457], [time 0.2527]
+11-22 05:14:03.106 [epoch 14], [iter 1000 / 1032 : 15447], [loss 0.312258], [lr 0.006445], [time 0.2533]
+Saving pth file...
+11-22 05:14:36.079 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_14_mean-iu_0.00000.pth
+11-22 05:14:36.079 Class Uniform Percentage: 0.5
+11-22 05:14:36.079 Class Uniform items per Epoch:12388
+11-22 05:14:36.082 cls 0 len 12109
+11-22 05:14:36.082 cls 1 len 11833
+11-22 05:14:36.082 cls 2 len 12301
+11-22 05:14:36.082 cls 3 len 10854
+11-22 05:14:36.082 cls 4 len 8811
+11-22 05:14:36.082 cls 5 len 11928
+11-22 05:14:36.082 cls 6 len 7891
+11-22 05:14:36.082 cls 7 len 5921
+11-22 05:14:36.082 cls 8 len 12132
+11-22 05:14:36.082 cls 9 len 11549
+11-22 05:14:36.082 cls 10 len 12131
+11-22 05:14:36.082 cls 11 len 10691
+11-22 05:14:36.082 cls 12 len 986
+11-22 05:14:36.082 cls 13 len 10501
+11-22 05:14:36.082 cls 14 len 6711
+11-22 05:14:36.082 cls 15 len 1861
+11-22 05:14:36.082 cls 16 len 493
+11-22 05:14:36.082 cls 17 len 1211
+11-22 05:14:36.082 cls 18 len 168
+11-22 05:15:39.154 [epoch 15], [iter 50 / 1032 : 15529], [loss 0.296139], [lr 0.006426], [time 0.2672]
+11-22 05:16:34.367 [epoch 15], [iter 100 / 1032 : 15579], [loss 0.332393], [lr 0.006414], [time 0.2726]
+11-22 05:17:27.141 [epoch 15], [iter 150 / 1032 : 15629], [loss 0.292419], [lr 0.006402], [time 0.2604]
+11-22 05:18:20.702 [epoch 15], [iter 200 / 1032 : 15679], [loss 0.307685], [lr 0.006390], [time 0.2645]
+11-22 05:19:14.807 [epoch 15], [iter 250 / 1032 : 15729], [loss 0.334726], [lr 0.006379], [time 0.2669]
+11-22 05:20:09.059 [epoch 15], [iter 300 / 1032 : 15779], [loss 0.299757], [lr 0.006367], [time 0.2677]
+11-22 05:21:00.772 [epoch 15], [iter 350 / 1032 : 15829], [loss 0.318432], [lr 0.006355], [time 0.2548]
+11-22 05:21:56.012 [epoch 15], [iter 400 / 1032 : 15879], [loss 0.313080], [lr 0.006343], [time 0.2727]
+11-22 05:22:50.715 [epoch 15], [iter 450 / 1032 : 15929], [loss 0.295839], [lr 0.006331], [time 0.2701]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(398)
+11-22 05:23:43.160 [epoch 15], [iter 500 / 1032 : 15979], [loss 0.319503], [lr 0.006319], [time 0.2585]
+11-22 05:24:38.019 [epoch 15], [iter 550 / 1032 : 16029], [loss 0.329273], [lr 0.006308], [time 0.2707]
+11-22 05:25:31.361 [epoch 15], [iter 600 / 1032 : 16079], [loss 0.297438], [lr 0.006296], [time 0.2633]
+11-22 05:26:23.466 [epoch 15], [iter 650 / 1032 : 16129], [loss 0.297789], [lr 0.006284], [time 0.2569]
+11-22 05:27:20.925 [epoch 15], [iter 700 / 1032 : 16179], [loss 0.315291], [lr 0.006272], [time 0.2839]
+11-22 05:28:16.235 [epoch 15], [iter 750 / 1032 : 16229], [loss 0.332708], [lr 0.006260], [time 0.2727]
+11-22 05:29:07.757 [epoch 15], [iter 800 / 1032 : 16279], [loss 0.299971], [lr 0.006248], [time 0.2538]
+11-22 05:29:59.554 [epoch 15], [iter 850 / 1032 : 16329], [loss 0.306651], [lr 0.006237], [time 0.2535]
+11-22 05:30:56.324 [epoch 15], [iter 900 / 1032 : 16379], [loss 0.284179], [lr 0.006225], [time 0.2658]
+11-22 05:31:50.716 [epoch 15], [iter 950 / 1032 : 16429], [loss 0.297345], [lr 0.006213], [time 0.2681]
+11-22 05:32:44.459 [epoch 15], [iter 1000 / 1032 : 16479], [loss 0.288213], [lr 0.006201], [time 0.2648]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(6329)
+Saving pth file...
+11-22 05:33:19.521 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_15_mean-iu_0.00000.pth
+11-22 05:33:19.522 Class Uniform Percentage: 0.5
+11-22 05:33:19.522 Class Uniform items per Epoch:12388
+11-22 05:33:19.526 cls 0 len 12109
+11-22 05:33:19.526 cls 1 len 11833
+11-22 05:33:19.526 cls 2 len 12301
+11-22 05:33:19.526 cls 3 len 10854
+11-22 05:33:19.526 cls 4 len 8811
+11-22 05:33:19.526 cls 5 len 11928
+11-22 05:33:19.526 cls 6 len 7891
+11-22 05:33:19.526 cls 7 len 5921
+11-22 05:33:19.526 cls 8 len 12132
+11-22 05:33:19.526 cls 9 len 11549
+11-22 05:33:19.526 cls 10 len 12131
+11-22 05:33:19.526 cls 11 len 10691
+11-22 05:33:19.526 cls 12 len 986
+11-22 05:33:19.527 cls 13 len 10501
+11-22 05:33:19.527 cls 14 len 6711
+11-22 05:33:19.527 cls 15 len 1861
+11-22 05:33:19.527 cls 16 len 493
+11-22 05:33:19.527 cls 17 len 1211
+11-22 05:33:19.527 cls 18 len 168
+11-22 05:34:23.317 [epoch 16], [iter 50 / 1032 : 16561], [loss 0.288501], [lr 0.006181], [time 0.2543]
+11-22 05:35:17.380 [epoch 16], [iter 100 / 1032 : 16611], [loss 0.294583], [lr 0.006170], [time 0.2533]
+11-22 05:36:13.638 [epoch 16], [iter 150 / 1032 : 16661], [loss 0.288492], [lr 0.006158], [time 0.2531]
+11-22 05:37:06.928 [epoch 16], [iter 200 / 1032 : 16711], [loss 0.336164], [lr 0.006146], [time 0.2538]
+11-22 05:38:03.169 [epoch 16], [iter 250 / 1032 : 16761], [loss 0.353628], [lr 0.006134], [time 0.2528]
+11-22 05:38:54.622 [epoch 16], [iter 300 / 1032 : 16811], [loss 0.302200], [lr 0.006122], [time 0.2539]
+11-22 05:39:50.189 [epoch 16], [iter 350 / 1032 : 16861], [loss 0.279274], [lr 0.006110], [time 0.2537]
+11-22 05:40:42.815 [epoch 16], [iter 400 / 1032 : 16911], [loss 0.282094], [lr 0.006098], [time 0.2563]
+11-22 05:41:37.161 [epoch 16], [iter 450 / 1032 : 16961], [loss 0.276218], [lr 0.006086], [time 0.2686]
+11-22 05:42:31.479 [epoch 16], [iter 500 / 1032 : 17011], [loss 0.277602], [lr 0.006075], [time 0.2682]
+11-22 05:43:25.341 [epoch 16], [iter 550 / 1032 : 17061], [loss 0.296192], [lr 0.006063], [time 0.2661]
+11-22 05:44:21.180 [epoch 16], [iter 600 / 1032 : 17111], [loss 0.305612], [lr 0.006051], [time 0.2758]
+11-22 05:45:13.154 [epoch 16], [iter 650 / 1032 : 17161], [loss 0.308199], [lr 0.006039], [time 0.2564]
+11-22 05:46:07.317 [epoch 16], [iter 700 / 1032 : 17211], [loss 0.315343], [lr 0.006027], [time 0.2675]
+11-22 05:47:03.458 [epoch 16], [iter 750 / 1032 : 17261], [loss 0.303280], [lr 0.006015], [time 0.2774]
+11-22 05:47:55.592 [epoch 16], [iter 800 / 1032 : 17311], [loss 0.294699], [lr 0.006003], [time 0.2572]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(775)
+11-22 05:48:49.243 [epoch 16], [iter 850 / 1032 : 17361], [loss 0.281368], [lr 0.005991], [time 0.2581]
+11-22 05:49:43.499 [epoch 16], [iter 900 / 1032 : 17411], [loss 0.292526], [lr 0.005979], [time 0.2678]
+11-22 05:50:35.828 [epoch 16], [iter 950 / 1032 : 17461], [loss 0.288199], [lr 0.005967], [time 0.2581]
+11-22 05:51:31.437 [epoch 16], [iter 1000 / 1032 : 17511], [loss 0.305853], [lr 0.005956], [time 0.2605]
+Saving pth file...
+11-22 05:52:07.190 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_16_mean-iu_0.00000.pth
+11-22 05:52:07.191 Class Uniform Percentage: 0.5
+11-22 05:52:07.191 Class Uniform items per Epoch:12388
+11-22 05:52:07.194 cls 0 len 12109
+11-22 05:52:07.194 cls 1 len 11833
+11-22 05:52:07.194 cls 2 len 12301
+11-22 05:52:07.194 cls 3 len 10854
+11-22 05:52:07.194 cls 4 len 8811
+11-22 05:52:07.194 cls 5 len 11928
+11-22 05:52:07.194 cls 6 len 7891
+11-22 05:52:07.194 cls 7 len 5921
+11-22 05:52:07.194 cls 8 len 12132
+11-22 05:52:07.194 cls 9 len 11549
+11-22 05:52:07.194 cls 10 len 12131
+11-22 05:52:07.194 cls 11 len 10691
+11-22 05:52:07.194 cls 12 len 986
+11-22 05:52:07.194 cls 13 len 10501
+11-22 05:52:07.194 cls 14 len 6711
+11-22 05:52:07.194 cls 15 len 1861
+11-22 05:52:07.194 cls 16 len 493
+11-22 05:52:07.194 cls 17 len 1211
+11-22 05:52:07.194 cls 18 len 168
+11-22 05:53:13.595 [epoch 17], [iter 50 / 1032 : 17593], [loss 0.311393], [lr 0.005936], [time 0.2938]
+11-22 05:54:12.166 [epoch 17], [iter 100 / 1032 : 17643], [loss 0.299533], [lr 0.005924], [time 0.2726]
+11-22 05:55:12.402 [epoch 17], [iter 150 / 1032 : 17693], [loss 0.303829], [lr 0.005912], [time 0.2950]
+11-22 05:56:10.344 [epoch 17], [iter 200 / 1032 : 17743], [loss 0.300750], [lr 0.005900], [time 0.2865]
+11-22 05:57:05.531 [epoch 17], [iter 250 / 1032 : 17793], [loss 0.341964], [lr 0.005888], [time 0.2727]
+11-22 05:58:02.587 [epoch 17], [iter 300 / 1032 : 17843], [loss 0.299822], [lr 0.005876], [time 0.2819]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(4498)
+11-22 05:58:56.451 [epoch 17], [iter 350 / 1032 : 17893], [loss 0.274749], [lr 0.005864], [time 0.2659]
+11-22 05:59:54.489 [epoch 17], [iter 400 / 1032 : 17943], [loss 0.289204], [lr 0.005852], [time 0.2870]
+11-22 06:00:50.902 [epoch 17], [iter 450 / 1032 : 17993], [loss 0.279180], [lr 0.005841], [time 0.2786]
+11-22 06:01:47.698 [epoch 17], [iter 500 / 1032 : 18043], [loss 0.304779], [lr 0.005829], [time 0.2806]
+11-22 06:02:44.546 [epoch 17], [iter 550 / 1032 : 18093], [loss 0.291740], [lr 0.005817], [time 0.2808]
+11-22 06:03:39.867 [epoch 17], [iter 600 / 1032 : 18143], [loss 0.270018], [lr 0.005805], [time 0.2733]
+11-22 06:04:37.071 [epoch 17], [iter 650 / 1032 : 18193], [loss 0.293277], [lr 0.005793], [time 0.2828]
+11-22 06:05:30.330 [epoch 17], [iter 700 / 1032 : 18243], [loss 0.275626], [lr 0.005781], [time 0.2628]
+11-22 06:06:29.039 [epoch 17], [iter 750 / 1032 : 18293], [loss 0.314039], [lr 0.005769], [time 0.2902]
+11-22 06:07:24.178 [epoch 17], [iter 800 / 1032 : 18343], [loss 0.309089], [lr 0.005757], [time 0.2723]
+11-22 06:08:19.477 [epoch 17], [iter 850 / 1032 : 18393], [loss 0.312063], [lr 0.005745], [time 0.2731]
+11-22 06:09:16.952 [epoch 17], [iter 900 / 1032 : 18443], [loss 0.286856], [lr 0.005733], [time 0.2842]
+11-22 06:10:14.178 [epoch 17], [iter 950 / 1032 : 18493], [loss 0.276739], [lr 0.005721], [time 0.2827]
+11-22 06:11:09.560 [epoch 17], [iter 1000 / 1032 : 18543], [loss 0.307408], [lr 0.005709], [time 0.2735]
+Saving pth file...
+11-22 06:11:42.903 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_17_mean-iu_0.00000.pth
+11-22 06:11:42.904 Class Uniform Percentage: 0.5
+11-22 06:11:42.904 Class Uniform items per Epoch:12388
+11-22 06:11:42.907 cls 0 len 12109
+11-22 06:11:42.907 cls 1 len 11833
+11-22 06:11:42.907 cls 2 len 12301
+11-22 06:11:42.907 cls 3 len 10854
+11-22 06:11:42.907 cls 4 len 8811
+11-22 06:11:42.907 cls 5 len 11928
+11-22 06:11:42.907 cls 6 len 7891
+11-22 06:11:42.908 cls 7 len 5921
+11-22 06:11:42.908 cls 8 len 12132
+11-22 06:11:42.908 cls 9 len 11549
+11-22 06:11:42.908 cls 10 len 12131
+11-22 06:11:42.908 cls 11 len 10691
+11-22 06:11:42.908 cls 12 len 986
+11-22 06:11:42.908 cls 13 len 10501
+11-22 06:11:42.908 cls 14 len 6711
+11-22 06:11:42.908 cls 15 len 1861
+11-22 06:11:42.908 cls 16 len 493
+11-22 06:11:42.908 cls 17 len 1211
+11-22 06:11:42.908 cls 18 len 168
+11-22 06:12:46.533 [epoch 18], [iter 50 / 1032 : 18625], [loss 0.273102], [lr 0.005689], [time 0.2546]
+11-22 06:13:38.034 [epoch 18], [iter 100 / 1032 : 18675], [loss 0.302352], [lr 0.005677], [time 0.2534]
+11-22 06:14:29.600 [epoch 18], [iter 150 / 1032 : 18725], [loss 0.290772], [lr 0.005665], [time 0.2536]
+11-22 06:15:21.039 [epoch 18], [iter 200 / 1032 : 18775], [loss 0.323844], [lr 0.005653], [time 0.2530]
+11-22 06:16:12.505 [epoch 18], [iter 250 / 1032 : 18825], [loss 0.329890], [lr 0.005641], [time 0.2533]
+11-22 06:17:05.949 [epoch 18], [iter 300 / 1032 : 18875], [loss 0.273319], [lr 0.005629], [time 0.2629]
+11-22 06:17:57.510 [epoch 18], [iter 350 / 1032 : 18925], [loss 0.281920], [lr 0.005617], [time 0.2536]
+11-22 06:18:49.060 [epoch 18], [iter 400 / 1032 : 18975], [loss 0.291250], [lr 0.005605], [time 0.2533]
+11-22 06:19:40.624 [epoch 18], [iter 450 / 1032 : 19025], [loss 0.310740], [lr 0.005593], [time 0.2535]
+11-22 06:20:32.219 [epoch 18], [iter 500 / 1032 : 19075], [loss 0.296339], [lr 0.005581], [time 0.2536]
+11-22 06:21:23.784 [epoch 18], [iter 550 / 1032 : 19125], [loss 0.285992], [lr 0.005569], [time 0.2536]
+11-22 06:22:15.407 [epoch 18], [iter 600 / 1032 : 19175], [loss 0.261738], [lr 0.005557], [time 0.2539]
+11-22 06:23:07.537 [epoch 18], [iter 650 / 1032 : 19225], [loss 0.284840], [lr 0.005545], [time 0.2540]
+11-22 06:23:59.647 [epoch 18], [iter 700 / 1032 : 19275], [loss 0.304856], [lr 0.005533], [time 0.2539]
+11-22 06:24:51.761 [epoch 18], [iter 750 / 1032 : 19325], [loss 0.334605], [lr 0.005521], [time 0.2532]
+11-22 06:25:43.339 [epoch 18], [iter 800 / 1032 : 19375], [loss 0.308984], [lr 0.005509], [time 0.2536]
+11-22 06:26:35.095 [epoch 18], [iter 850 / 1032 : 19425], [loss 0.266322], [lr 0.005497], [time 0.2546]
+11-22 06:27:26.621 [epoch 18], [iter 900 / 1032 : 19475], [loss 0.271937], [lr 0.005485], [time 0.2531]
+11-22 06:28:18.282 [epoch 18], [iter 950 / 1032 : 19525], [loss 0.290461], [lr 0.005473], [time 0.2539]
+11-22 06:29:09.898 [epoch 18], [iter 1000 / 1032 : 19575], [loss 0.267134], [lr 0.005461], [time 0.2537]
+Saving pth file...
+11-22 06:29:42.994 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_18_mean-iu_0.00000.pth
+11-22 06:29:42.995 Class Uniform Percentage: 0.5
+11-22 06:29:42.995 Class Uniform items per Epoch:12388
+11-22 06:29:42.998 cls 0 len 12109
+11-22 06:29:42.998 cls 1 len 11833
+11-22 06:29:42.998 cls 2 len 12301
+11-22 06:29:42.998 cls 3 len 10854
+11-22 06:29:42.998 cls 4 len 8811
+11-22 06:29:42.998 cls 5 len 11928
+11-22 06:29:42.998 cls 6 len 7891
+11-22 06:29:42.998 cls 7 len 5921
+11-22 06:29:42.998 cls 8 len 12132
+11-22 06:29:42.998 cls 9 len 11549
+11-22 06:29:42.998 cls 10 len 12131
+11-22 06:29:42.998 cls 11 len 10691
+11-22 06:29:42.998 cls 12 len 986
+11-22 06:29:42.999 cls 13 len 10501
+11-22 06:29:42.999 cls 14 len 6711
+11-22 06:29:42.999 cls 15 len 1861
+11-22 06:29:42.999 cls 16 len 493
+11-22 06:29:42.999 cls 17 len 1211
+11-22 06:29:42.999 cls 18 len 168
+11-22 06:30:46.455 [epoch 19], [iter 50 / 1032 : 19657], [loss 0.313961], [lr 0.005442], [time 0.2595]
+11-22 06:31:38.941 [epoch 19], [iter 100 / 1032 : 19707], [loss 0.340950], [lr 0.005429], [time 0.2551]
+11-22 06:32:31.408 [epoch 19], [iter 150 / 1032 : 19757], [loss 0.279809], [lr 0.005417], [time 0.2519]
+11-22 06:33:27.291 [epoch 19], [iter 200 / 1032 : 19807], [loss 0.254199], [lr 0.005405], [time 0.2559]
+11-22 06:34:18.652 [epoch 19], [iter 250 / 1032 : 19857], [loss 0.276633], [lr 0.005393], [time 0.2528]
+11-22 06:35:13.541 [epoch 19], [iter 300 / 1032 : 19907], [loss 0.292105], [lr 0.005381], [time 0.2704]
+11-22 06:36:05.633 [epoch 19], [iter 350 / 1032 : 19957], [loss 0.293428], [lr 0.005369], [time 0.2563]
+11-22 06:36:59.208 [epoch 19], [iter 400 / 1032 : 20007], [loss 0.281100], [lr 0.005357], [time 0.2638]
+11-22 06:37:53.324 [epoch 19], [iter 450 / 1032 : 20057], [loss 0.299667], [lr 0.005345], [time 0.2667]
+11-22 06:38:45.921 [epoch 19], [iter 500 / 1032 : 20107], [loss 0.258879], [lr 0.005333], [time 0.2589]
+11-22 06:39:38.328 [epoch 19], [iter 550 / 1032 : 20157], [loss 0.274166], [lr 0.005321], [time 0.2579]
+11-22 06:40:30.729 [epoch 19], [iter 600 / 1032 : 20207], [loss 0.277131], [lr 0.005309], [time 0.2577]
+11-22 06:41:24.256 [epoch 19], [iter 650 / 1032 : 20257], [loss 0.276732], [lr 0.005297], [time 0.2633]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(9235)
+11-22 06:42:18.548 [epoch 19], [iter 700 / 1032 : 20307], [loss 0.298552], [lr 0.005285], [time 0.2673]
+11-22 06:43:10.987 [epoch 19], [iter 750 / 1032 : 20357], [loss 0.291334], [lr 0.005273], [time 0.2581]
+11-22 06:44:03.092 [epoch 19], [iter 800 / 1032 : 20407], [loss 0.284150], [lr 0.005261], [time 0.2528]
+11-22 06:44:56.242 [epoch 19], [iter 850 / 1032 : 20457], [loss 0.309818], [lr 0.005249], [time 0.2614]
+11-22 06:45:51.506 [epoch 19], [iter 900 / 1032 : 20507], [loss 0.295403], [lr 0.005236], [time 0.2518]
+11-22 06:46:44.126 [epoch 19], [iter 950 / 1032 : 20557], [loss 0.323815], [lr 0.005224], [time 0.2522]
+11-22 06:47:37.929 [epoch 19], [iter 1000 / 1032 : 20607], [loss 0.282825], [lr 0.005212], [time 0.2516]
+Saving pth file...
+11-22 06:48:11.149 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_19_mean-iu_0.00000.pth
+11-22 06:48:11.150 Class Uniform Percentage: 0.5
+11-22 06:48:11.150 Class Uniform items per Epoch:12388
+11-22 06:48:11.152 cls 0 len 12109
+11-22 06:48:11.153 cls 1 len 11833
+11-22 06:48:11.153 cls 2 len 12301
+11-22 06:48:11.153 cls 3 len 10854
+11-22 06:48:11.153 cls 4 len 8811
+11-22 06:48:11.153 cls 5 len 11928
+11-22 06:48:11.153 cls 6 len 7891
+11-22 06:48:11.153 cls 7 len 5921
+11-22 06:48:11.153 cls 8 len 12132
+11-22 06:48:11.153 cls 9 len 11549
+11-22 06:48:11.153 cls 10 len 12131
+11-22 06:48:11.153 cls 11 len 10691
+11-22 06:48:11.153 cls 12 len 986
+11-22 06:48:11.153 cls 13 len 10501
+11-22 06:48:11.153 cls 14 len 6711
+11-22 06:48:11.153 cls 15 len 1861
+11-22 06:48:11.153 cls 16 len 493
+11-22 06:48:11.153 cls 17 len 1211
+11-22 06:48:11.153 cls 18 len 168
+11-22 06:49:12.477 [epoch 20], [iter 50 / 1032 : 20689], [loss 0.280089], [lr 0.005192], [time 0.2595]
+11-22 06:50:05.563 [epoch 20], [iter 100 / 1032 : 20739], [loss 0.288930], [lr 0.005180], [time 0.2604]
+11-22 06:50:58.573 [epoch 20], [iter 150 / 1032 : 20789], [loss 0.271722], [lr 0.005168], [time 0.2602]
+11-22 06:51:50.313 [epoch 20], [iter 200 / 1032 : 20839], [loss 0.278843], [lr 0.005156], [time 0.2537]
+11-22 06:52:42.091 [epoch 20], [iter 250 / 1032 : 20889], [loss 0.285641], [lr 0.005144], [time 0.2539]
+11-22 06:53:33.830 [epoch 20], [iter 300 / 1032 : 20939], [loss 0.294223], [lr 0.005132], [time 0.2538]
+11-22 06:54:25.518 [epoch 20], [iter 350 / 1032 : 20989], [loss 0.293568], [lr 0.005120], [time 0.2536]
+11-22 06:55:17.368 [epoch 20], [iter 400 / 1032 : 21039], [loss 0.320251], [lr 0.005108], [time 0.2542]
+11-22 06:56:09.028 [epoch 20], [iter 450 / 1032 : 21089], [loss 0.276470], [lr 0.005096], [time 0.2532]
+11-22 06:57:00.683 [epoch 20], [iter 500 / 1032 : 21139], [loss 0.285874], [lr 0.005083], [time 0.2531]
+11-22 06:57:52.599 [epoch 20], [iter 550 / 1032 : 21189], [loss 0.284340], [lr 0.005071], [time 0.2545]
+11-22 06:58:44.479 [epoch 20], [iter 600 / 1032 : 21239], [loss 0.253524], [lr 0.005059], [time 0.2543]
+11-22 06:59:36.322 [epoch 20], [iter 650 / 1032 : 21289], [loss 0.270702], [lr 0.005047], [time 0.2540]
+11-22 07:00:30.088 [epoch 20], [iter 700 / 1032 : 21339], [loss 0.285150], [lr 0.005035], [time 0.2640]
+11-22 07:01:21.974 [epoch 20], [iter 750 / 1032 : 21389], [loss 0.281168], [lr 0.005023], [time 0.2545]
+11-22 07:02:13.679 [epoch 20], [iter 800 / 1032 : 21439], [loss 0.259758], [lr 0.005011], [time 0.2534]
+11-22 07:03:05.317 [epoch 20], [iter 850 / 1032 : 21489], [loss 0.272472], [lr 0.004998], [time 0.2530]
+11-22 07:03:57.941 [epoch 20], [iter 900 / 1032 : 21539], [loss 0.290323], [lr 0.004986], [time 0.2534]
+11-22 07:04:49.691 [epoch 20], [iter 950 / 1032 : 21589], [loss 0.270464], [lr 0.004974], [time 0.2537]
+11-22 07:05:41.390 [epoch 20], [iter 1000 / 1032 : 21639], [loss 0.263649], [lr 0.004962], [time 0.2532]
+Saving pth file...
+11-22 07:06:14.623 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_20_mean-iu_0.00000.pth
+11-22 07:06:14.624 Class Uniform Percentage: 0.5
+11-22 07:06:14.625 Class Uniform items per Epoch:12388
+11-22 07:06:14.627 cls 0 len 12109
+11-22 07:06:14.627 cls 1 len 11833
+11-22 07:06:14.628 cls 2 len 12301
+11-22 07:06:14.628 cls 3 len 10854
+11-22 07:06:14.628 cls 4 len 8811
+11-22 07:06:14.628 cls 5 len 11928
+11-22 07:06:14.628 cls 6 len 7891
+11-22 07:06:14.628 cls 7 len 5921
+11-22 07:06:14.628 cls 8 len 12132
+11-22 07:06:14.628 cls 9 len 11549
+11-22 07:06:14.628 cls 10 len 12131
+11-22 07:06:14.628 cls 11 len 10691
+11-22 07:06:14.628 cls 12 len 986
+11-22 07:06:14.628 cls 13 len 10501
+11-22 07:06:14.628 cls 14 len 6711
+11-22 07:06:14.628 cls 15 len 1861
+11-22 07:06:14.628 cls 16 len 493
+11-22 07:06:14.628 cls 17 len 1211
+11-22 07:06:14.628 cls 18 len 168
+11-22 07:07:17.777 [epoch 21], [iter 50 / 1032 : 21721], [loss 0.253029], [lr 0.004942], [time 0.2523]
+11-22 07:08:09.324 [epoch 21], [iter 100 / 1032 : 21771], [loss 0.250305], [lr 0.004930], [time 0.2528]
+11-22 07:09:01.570 [epoch 21], [iter 150 / 1032 : 21821], [loss 0.266699], [lr 0.004918], [time 0.2532]
+11-22 07:09:54.281 [epoch 21], [iter 200 / 1032 : 21871], [loss 0.284137], [lr 0.004905], [time 0.2527]
+11-22 07:10:45.954 [epoch 21], [iter 250 / 1032 : 21921], [loss 0.306620], [lr 0.004893], [time 0.2535]
+11-22 07:11:37.589 [epoch 21], [iter 300 / 1032 : 21971], [loss 0.284853], [lr 0.004881], [time 0.2535]
+11-22 07:12:29.389 [epoch 21], [iter 350 / 1032 : 22021], [loss 0.279307], [lr 0.004869], [time 0.2538]
+11-22 07:13:21.115 [epoch 21], [iter 400 / 1032 : 22071], [loss 0.276459], [lr 0.004857], [time 0.2536]
+11-22 07:14:14.543 [epoch 21], [iter 450 / 1032 : 22121], [loss 0.262646], [lr 0.004845], [time 0.2621]
+11-22 07:15:06.221 [epoch 21], [iter 500 / 1032 : 22171], [loss 0.280504], [lr 0.004832], [time 0.2529]
+11-22 07:15:57.918 [epoch 21], [iter 550 / 1032 : 22221], [loss 0.252646], [lr 0.004820], [time 0.2534]
+11-22 07:16:49.759 [epoch 21], [iter 600 / 1032 : 22271], [loss 0.270066], [lr 0.004808], [time 0.2538]
+11-22 07:17:41.511 [epoch 21], [iter 650 / 1032 : 22321], [loss 0.267988], [lr 0.004796], [time 0.2536]
+11-22 07:18:33.842 [epoch 21], [iter 700 / 1032 : 22371], [loss 0.270575], [lr 0.004784], [time 0.2563]
+11-22 07:19:26.229 [epoch 21], [iter 750 / 1032 : 22421], [loss 0.279011], [lr 0.004771], [time 0.2564]
+11-22 07:20:18.092 [epoch 21], [iter 800 / 1032 : 22471], [loss 0.270007], [lr 0.004759], [time 0.2541]
+11-22 07:21:10.052 [epoch 21], [iter 850 / 1032 : 22521], [loss 0.272982], [lr 0.004747], [time 0.2544]
+11-22 07:22:01.904 [epoch 21], [iter 900 / 1032 : 22571], [loss 0.258699], [lr 0.004735], [time 0.2538]
+11-22 07:22:53.751 [epoch 21], [iter 950 / 1032 : 22621], [loss 0.257287], [lr 0.004722], [time 0.2537]
+11-22 07:23:45.418 [epoch 21], [iter 1000 / 1032 : 22671], [loss 0.270171], [lr 0.004710], [time 0.2532]
+Saving pth file...
+11-22 07:24:18.525 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_21_mean-iu_0.00000.pth
+11-22 07:24:18.526 Class Uniform Percentage: 0.5
+11-22 07:24:18.526 Class Uniform items per Epoch:12388
+11-22 07:24:18.529 cls 0 len 12109
+11-22 07:24:18.529 cls 1 len 11833
+11-22 07:24:18.529 cls 2 len 12301
+11-22 07:24:18.529 cls 3 len 10854
+11-22 07:24:18.529 cls 4 len 8811
+11-22 07:24:18.529 cls 5 len 11928
+11-22 07:24:18.529 cls 6 len 7891
+11-22 07:24:18.529 cls 7 len 5921
+11-22 07:24:18.530 cls 8 len 12132
+11-22 07:24:18.530 cls 9 len 11549
+11-22 07:24:18.530 cls 10 len 12131
+11-22 07:24:18.530 cls 11 len 10691
+11-22 07:24:18.530 cls 12 len 986
+11-22 07:24:18.530 cls 13 len 10501
+11-22 07:24:18.530 cls 14 len 6711
+11-22 07:24:18.530 cls 15 len 1861
+11-22 07:24:18.530 cls 16 len 493
+11-22 07:24:18.530 cls 17 len 1211
+11-22 07:24:18.530 cls 18 len 168
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5221)
+11-22 07:25:21.491 [epoch 22], [iter 50 / 1032 : 22753], [loss 0.263129], [lr 0.004690], [time 0.2619]
+11-22 07:26:14.280 [epoch 22], [iter 100 / 1032 : 22803], [loss 0.274452], [lr 0.004678], [time 0.2594]
+11-22 07:27:06.926 [epoch 22], [iter 150 / 1032 : 22853], [loss 0.255822], [lr 0.004666], [time 0.2532]
+11-22 07:28:00.777 [epoch 22], [iter 200 / 1032 : 22903], [loss 0.257021], [lr 0.004653], [time 0.2516]
+11-22 07:28:53.462 [epoch 22], [iter 250 / 1032 : 22953], [loss 0.276837], [lr 0.004641], [time 0.2511]
+11-22 07:29:48.511 [epoch 22], [iter 300 / 1032 : 23003], [loss 0.272663], [lr 0.004629], [time 0.2513]
+11-22 07:30:40.203 [epoch 22], [iter 350 / 1032 : 23053], [loss 0.267216], [lr 0.004617], [time 0.2517]
+11-22 07:31:33.858 [epoch 22], [iter 400 / 1032 : 23103], [loss 0.253104], [lr 0.004604], [time 0.2516]
+11-22 07:32:28.665 [epoch 22], [iter 450 / 1032 : 23153], [loss 0.262290], [lr 0.004592], [time 0.2507]
+11-22 07:33:20.056 [epoch 22], [iter 500 / 1032 : 23203], [loss 0.249202], [lr 0.004580], [time 0.2522]
+11-22 07:34:12.993 [epoch 22], [iter 550 / 1032 : 23253], [loss 0.270120], [lr 0.004568], [time 0.2518]
+11-22 07:35:06.456 [epoch 22], [iter 600 / 1032 : 23303], [loss 0.254621], [lr 0.004555], [time 0.2516]
+11-22 07:35:59.624 [epoch 22], [iter 650 / 1032 : 23353], [loss 0.269650], [lr 0.004543], [time 0.2520]
+11-22 07:36:53.549 [epoch 22], [iter 700 / 1032 : 23403], [loss 0.275021], [lr 0.004531], [time 0.2515]
+11-22 07:37:44.787 [epoch 22], [iter 750 / 1032 : 23453], [loss 0.303650], [lr 0.004518], [time 0.2515]
+11-22 07:38:37.869 [epoch 22], [iter 800 / 1032 : 23503], [loss 0.256854], [lr 0.004506], [time 0.2517]
+11-22 07:39:30.171 [epoch 22], [iter 850 / 1032 : 23553], [loss 0.254540], [lr 0.004494], [time 0.2566]
+11-22 07:40:21.705 [epoch 22], [iter 900 / 1032 : 23603], [loss 0.264227], [lr 0.004482], [time 0.2525]
+11-22 07:41:17.342 [epoch 22], [iter 950 / 1032 : 23653], [loss 0.266207], [lr 0.004469], [time 0.2735]
+11-22 07:42:09.940 [epoch 22], [iter 1000 / 1032 : 23703], [loss 0.261075], [lr 0.004457], [time 0.2581]
+Saving pth file...
+11-22 07:42:42.862 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_22_mean-iu_0.00000.pth
+11-22 07:42:42.863 Class Uniform Percentage: 0.5
+11-22 07:42:42.863 Class Uniform items per Epoch:12388
+11-22 07:42:42.866 cls 0 len 12109
+11-22 07:42:42.866 cls 1 len 11833
+11-22 07:42:42.866 cls 2 len 12301
+11-22 07:42:42.866 cls 3 len 10854
+11-22 07:42:42.866 cls 4 len 8811
+11-22 07:42:42.866 cls 5 len 11928
+11-22 07:42:42.866 cls 6 len 7891
+11-22 07:42:42.866 cls 7 len 5921
+11-22 07:42:42.866 cls 8 len 12132
+11-22 07:42:42.866 cls 9 len 11549
+11-22 07:42:42.866 cls 10 len 12131
+11-22 07:42:42.867 cls 11 len 10691
+11-22 07:42:42.867 cls 12 len 986
+11-22 07:42:42.867 cls 13 len 10501
+11-22 07:42:42.867 cls 14 len 6711
+11-22 07:42:42.867 cls 15 len 1861
+11-22 07:42:42.867 cls 16 len 493
+11-22 07:42:42.867 cls 17 len 1211
+11-22 07:42:42.867 cls 18 len 168
+11-22 07:43:46.102 [epoch 23], [iter 50 / 1032 : 23785], [loss 0.279237], [lr 0.004437], [time 0.2736]
+11-22 07:44:40.835 [epoch 23], [iter 100 / 1032 : 23835], [loss 0.290652], [lr 0.004424], [time 0.2694]
+11-22 07:45:33.087 [epoch 23], [iter 150 / 1032 : 23885], [loss 0.259957], [lr 0.004412], [time 0.2568]
+11-22 07:46:24.470 [epoch 23], [iter 200 / 1032 : 23935], [loss 0.283856], [lr 0.004400], [time 0.2524]
+11-22 07:47:16.681 [epoch 23], [iter 250 / 1032 : 23985], [loss 0.282759], [lr 0.004388], [time 0.2538]
+11-22 07:48:11.256 [epoch 23], [iter 300 / 1032 : 24035], [loss 0.286855], [lr 0.004375], [time 0.2579]
+11-22 07:49:03.853 [epoch 23], [iter 350 / 1032 : 24085], [loss 0.289448], [lr 0.004363], [time 0.2542]
+11-22 07:49:56.721 [epoch 23], [iter 400 / 1032 : 24135], [loss 0.333069], [lr 0.004351], [time 0.2547]
+11-22 07:50:48.788 [epoch 23], [iter 450 / 1032 : 24185], [loss 0.302103], [lr 0.004338], [time 0.2520]
+11-22 07:51:42.479 [epoch 23], [iter 500 / 1032 : 24235], [loss 0.273877], [lr 0.004326], [time 0.2513]
+11-22 07:52:36.173 [epoch 23], [iter 550 / 1032 : 24285], [loss 0.289669], [lr 0.004313], [time 0.2605]
+11-22 07:53:29.590 [epoch 23], [iter 600 / 1032 : 24335], [loss 0.292312], [lr 0.004301], [time 0.2516]
+11-22 07:54:21.964 [epoch 23], [iter 650 / 1032 : 24385], [loss 0.259232], [lr 0.004289], [time 0.2517]
+11-22 07:55:14.593 [epoch 23], [iter 700 / 1032 : 24435], [loss 0.276771], [lr 0.004276], [time 0.2518]
+11-22 07:56:09.629 [epoch 23], [iter 750 / 1032 : 24485], [loss 0.261475], [lr 0.004264], [time 0.2702]
+11-22 07:57:02.493 [epoch 23], [iter 800 / 1032 : 24535], [loss 0.258881], [lr 0.004252], [time 0.2594]
+11-22 07:57:53.814 [epoch 23], [iter 850 / 1032 : 24585], [loss 0.239806], [lr 0.004239], [time 0.2516]
+11-22 07:58:46.386 [epoch 23], [iter 900 / 1032 : 24635], [loss 0.305347], [lr 0.004227], [time 0.2542]
+11-22 07:59:40.661 [epoch 23], [iter 950 / 1032 : 24685], [loss 0.290061], [lr 0.004215], [time 0.2666]
+11-22 08:00:33.195 [epoch 23], [iter 1000 / 1032 : 24735], [loss 0.247787], [lr 0.004202], [time 0.2578]
+Saving pth file...
+11-22 08:01:06.090 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_23_mean-iu_0.00000.pth
+11-22 08:01:06.091 Class Uniform Percentage: 0.5
+11-22 08:01:06.092 Class Uniform items per Epoch:12388
+11-22 08:01:06.094 cls 0 len 12109
+11-22 08:01:06.094 cls 1 len 11833
+11-22 08:01:06.095 cls 2 len 12301
+11-22 08:01:06.095 cls 3 len 10854
+11-22 08:01:06.095 cls 4 len 8811
+11-22 08:01:06.095 cls 5 len 11928
+11-22 08:01:06.095 cls 6 len 7891
+11-22 08:01:06.095 cls 7 len 5921
+11-22 08:01:06.095 cls 8 len 12132
+11-22 08:01:06.095 cls 9 len 11549
+11-22 08:01:06.095 cls 10 len 12131
+11-22 08:01:06.095 cls 11 len 10691
+11-22 08:01:06.095 cls 12 len 986
+11-22 08:01:06.095 cls 13 len 10501
+11-22 08:01:06.095 cls 14 len 6711
+11-22 08:01:06.095 cls 15 len 1861
+11-22 08:01:06.095 cls 16 len 493
+11-22 08:01:06.095 cls 17 len 1211
+11-22 08:01:06.095 cls 18 len 168
+11-22 08:02:14.381 [epoch 24], [iter 50 / 1032 : 24817], [loss 0.269750], [lr 0.004182], [time 0.3042]
+11-22 08:03:11.058 [epoch 24], [iter 100 / 1032 : 24867], [loss 0.294360], [lr 0.004169], [time 0.2804]
+11-22 08:04:09.183 [epoch 24], [iter 150 / 1032 : 24917], [loss 0.315300], [lr 0.004157], [time 0.2877]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(3104)
+11-22 08:05:06.613 [epoch 24], [iter 200 / 1032 : 24967], [loss 0.293353], [lr 0.004145], [time 0.2842]
+11-22 08:06:04.877 [epoch 24], [iter 250 / 1032 : 25017], [loss 0.274062], [lr 0.004132], [time 0.2884]
+11-22 08:07:02.892 [epoch 24], [iter 300 / 1032 : 25067], [loss 0.255950], [lr 0.004120], [time 0.2871]
+11-22 08:08:03.351 [epoch 24], [iter 350 / 1032 : 25117], [loss 0.271165], [lr 0.004107], [time 0.2993]
+11-22 08:09:01.699 [epoch 24], [iter 400 / 1032 : 25167], [loss 0.261879], [lr 0.004095], [time 0.2888]
+11-22 08:09:57.574 [epoch 24], [iter 450 / 1032 : 25217], [loss 0.236187], [lr 0.004083], [time 0.2763]
+11-22 08:10:58.361 [epoch 24], [iter 500 / 1032 : 25267], [loss 0.261059], [lr 0.004070], [time 0.3009]
+11-22 08:11:56.408 [epoch 24], [iter 550 / 1032 : 25317], [loss 0.261099], [lr 0.004058], [time 0.2873]
+11-22 08:12:52.765 [epoch 24], [iter 600 / 1032 : 25367], [loss 0.275736], [lr 0.004045], [time 0.2788]
+11-22 08:13:50.091 [epoch 24], [iter 650 / 1032 : 25417], [loss 0.232714], [lr 0.004033], [time 0.2836]
+11-22 08:14:48.399 [epoch 24], [iter 700 / 1032 : 25467], [loss 0.258170], [lr 0.004020], [time 0.2885]
+11-22 08:15:44.481 [epoch 24], [iter 750 / 1032 : 25517], [loss 0.259689], [lr 0.004008], [time 0.2772]
+11-22 08:16:44.509 [epoch 24], [iter 800 / 1032 : 25567], [loss 0.254222], [lr 0.003995], [time 0.2971]
+11-22 08:17:43.873 [epoch 24], [iter 850 / 1032 : 25617], [loss 0.239880], [lr 0.003983], [time 0.2939]
+11-22 08:18:40.559 [epoch 24], [iter 900 / 1032 : 25667], [loss 0.238191], [lr 0.003971], [time 0.2803]
+11-22 08:19:41.652 [epoch 24], [iter 950 / 1032 : 25717], [loss 0.256242], [lr 0.003958], [time 0.3025]
+11-22 08:20:36.817 [epoch 24], [iter 1000 / 1032 : 25767], [loss 0.240581], [lr 0.003946], [time 0.2728]
+Saving pth file...
+11-22 08:21:14.206 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_24_mean-iu_0.00000.pth
+11-22 08:21:14.207 Class Uniform Percentage: 0.5
+11-22 08:21:14.207 Class Uniform items per Epoch:12388
+11-22 08:21:14.211 cls 0 len 12109
+11-22 08:21:14.211 cls 1 len 11833
+11-22 08:21:14.211 cls 2 len 12301
+11-22 08:21:14.211 cls 3 len 10854
+11-22 08:21:14.211 cls 4 len 8811
+11-22 08:21:14.211 cls 5 len 11928
+11-22 08:21:14.211 cls 6 len 7891
+11-22 08:21:14.211 cls 7 len 5921
+11-22 08:21:14.211 cls 8 len 12132
+11-22 08:21:14.211 cls 9 len 11549
+11-22 08:21:14.211 cls 10 len 12131
+11-22 08:21:14.211 cls 11 len 10691
+11-22 08:21:14.211 cls 12 len 986
+11-22 08:21:14.211 cls 13 len 10501
+11-22 08:21:14.211 cls 14 len 6711
+11-22 08:21:14.211 cls 15 len 1861
+11-22 08:21:14.211 cls 16 len 493
+11-22 08:21:14.211 cls 17 len 1211
+11-22 08:21:14.212 cls 18 len 168
+11-22 08:22:16.466 [epoch 25], [iter 50 / 1032 : 25849], [loss 0.246979], [lr 0.003925], [time 0.2666]
+11-22 08:23:09.070 [epoch 25], [iter 100 / 1032 : 25899], [loss 0.274312], [lr 0.003913], [time 0.2591]
+11-22 08:24:02.008 [epoch 25], [iter 150 / 1032 : 25949], [loss 0.253913], [lr 0.003900], [time 0.2607]
+11-22 08:24:55.175 [epoch 25], [iter 200 / 1032 : 25999], [loss 0.262660], [lr 0.003888], [time 0.2616]
+11-22 08:25:46.938 [epoch 25], [iter 250 / 1032 : 26049], [loss 0.267964], [lr 0.003875], [time 0.2550]
+11-22 08:26:39.299 [epoch 25], [iter 300 / 1032 : 26099], [loss 0.281353], [lr 0.003863], [time 0.2580]
+11-22 08:27:32.130 [epoch 25], [iter 350 / 1032 : 26149], [loss 0.309106], [lr 0.003850], [time 0.2603]
+11-22 08:28:24.460 [epoch 25], [iter 400 / 1032 : 26199], [loss 0.295283], [lr 0.003838], [time 0.2574]
+11-22 08:29:16.287 [epoch 25], [iter 450 / 1032 : 26249], [loss 0.295283], [lr 0.003825], [time 0.2550]
+11-22 08:30:08.041 [epoch 25], [iter 500 / 1032 : 26299], [loss 0.270736], [lr 0.003813], [time 0.2537]
+11-22 08:31:01.321 [epoch 25], [iter 550 / 1032 : 26349], [loss 0.291011], [lr 0.003800], [time 0.2535]
+11-22 08:31:54.378 [epoch 25], [iter 600 / 1032 : 26399], [loss 0.242230], [lr 0.003788], [time 0.2614]
+11-22 08:32:47.925 [epoch 25], [iter 650 / 1032 : 26449], [loss 0.258923], [lr 0.003775], [time 0.2637]
+11-22 08:33:41.456 [epoch 25], [iter 700 / 1032 : 26499], [loss 0.268323], [lr 0.003762], [time 0.2639]
+11-22 08:34:33.261 [epoch 25], [iter 750 / 1032 : 26549], [loss 0.253694], [lr 0.003750], [time 0.2546]
+11-22 08:35:26.304 [epoch 25], [iter 800 / 1032 : 26599], [loss 0.248503], [lr 0.003737], [time 0.2612]
+11-22 08:36:18.004 [epoch 25], [iter 850 / 1032 : 26649], [loss 0.261103], [lr 0.003725], [time 0.2542]
+11-22 08:37:09.637 [epoch 25], [iter 900 / 1032 : 26699], [loss 0.262561], [lr 0.003712], [time 0.2537]
+11-22 08:38:04.258 [epoch 25], [iter 950 / 1032 : 26749], [loss 0.259713], [lr 0.003700], [time 0.2689]
+11-22 08:38:55.900 [epoch 25], [iter 1000 / 1032 : 26799], [loss 0.249390], [lr 0.003687], [time 0.2537]
+Saving pth file...
+11-22 08:39:29.185 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_25_mean-iu_0.00000.pth
+11-22 08:39:29.186 Class Uniform Percentage: 0.5
+11-22 08:39:29.186 Class Uniform items per Epoch:12388
+11-22 08:39:29.189 cls 0 len 12109
+11-22 08:39:29.189 cls 1 len 11833
+11-22 08:39:29.189 cls 2 len 12301
+11-22 08:39:29.189 cls 3 len 10854
+11-22 08:39:29.190 cls 4 len 8811
+11-22 08:39:29.190 cls 5 len 11928
+11-22 08:39:29.190 cls 6 len 7891
+11-22 08:39:29.190 cls 7 len 5921
+11-22 08:39:29.190 cls 8 len 12132
+11-22 08:39:29.190 cls 9 len 11549
+11-22 08:39:29.190 cls 10 len 12131
+11-22 08:39:29.190 cls 11 len 10691
+11-22 08:39:29.190 cls 12 len 986
+11-22 08:39:29.190 cls 13 len 10501
+11-22 08:39:29.190 cls 14 len 6711
+11-22 08:39:29.190 cls 15 len 1861
+11-22 08:39:29.190 cls 16 len 493
+11-22 08:39:29.190 cls 17 len 1211
+11-22 08:39:29.190 cls 18 len 168
+11-22 08:40:30.577 [epoch 26], [iter 50 / 1032 : 26881], [loss 0.252287], [lr 0.003667], [time 0.2520]
+11-22 08:41:25.407 [epoch 26], [iter 100 / 1032 : 26931], [loss 0.251930], [lr 0.003654], [time 0.2512]
+11-22 08:42:18.346 [epoch 26], [iter 150 / 1032 : 26981], [loss 0.245039], [lr 0.003641], [time 0.2518]
+11-22 08:43:10.203 [epoch 26], [iter 200 / 1032 : 27031], [loss 0.238237], [lr 0.003629], [time 0.2525]
+11-22 08:44:04.206 [epoch 26], [iter 250 / 1032 : 27081], [loss 0.236822], [lr 0.003616], [time 0.2518]
+11-22 08:44:55.535 [epoch 26], [iter 300 / 1032 : 27131], [loss 0.244336], [lr 0.003604], [time 0.2521]
+11-22 08:45:47.106 [epoch 26], [iter 350 / 1032 : 27181], [loss 0.260165], [lr 0.003591], [time 0.2524]
+11-22 08:46:40.825 [epoch 26], [iter 400 / 1032 : 27231], [loss 0.272999], [lr 0.003578], [time 0.2520]
+11-22 08:47:34.846 [epoch 26], [iter 450 / 1032 : 27281], [loss 0.247853], [lr 0.003566], [time 0.2512]
+11-22 08:48:27.331 [epoch 26], [iter 500 / 1032 : 27331], [loss 0.244332], [lr 0.003553], [time 0.2521]
+11-22 08:49:20.306 [epoch 26], [iter 550 / 1032 : 27381], [loss 0.259873], [lr 0.003541], [time 0.2518]
+11-22 08:50:11.916 [epoch 26], [iter 600 / 1032 : 27431], [loss 0.266367], [lr 0.003528], [time 0.2533]
+11-22 08:51:06.486 [epoch 26], [iter 650 / 1032 : 27481], [loss 0.240164], [lr 0.003515], [time 0.2683]
+11-22 08:52:00.218 [epoch 26], [iter 700 / 1032 : 27531], [loss 0.246568], [lr 0.003503], [time 0.2641]
+11-22 08:52:53.671 [epoch 26], [iter 750 / 1032 : 27581], [loss 0.264958], [lr 0.003490], [time 0.2625]
+11-22 08:53:46.644 [epoch 26], [iter 800 / 1032 : 27631], [loss 0.259737], [lr 0.003477], [time 0.2600]
+11-22 08:54:38.054 [epoch 26], [iter 850 / 1032 : 27681], [loss 0.247804], [lr 0.003465], [time 0.2522]
+11-22 08:55:29.394 [epoch 26], [iter 900 / 1032 : 27731], [loss 0.246478], [lr 0.003452], [time 0.2518]
+11-22 08:56:22.114 [epoch 26], [iter 950 / 1032 : 27781], [loss 0.238579], [lr 0.003439], [time 0.2590]
+11-22 08:57:16.312 [epoch 26], [iter 1000 / 1032 : 27831], [loss 0.252124], [lr 0.003427], [time 0.2659]
+Saving pth file...
+11-22 08:57:49.326 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_26_mean-iu_0.00000.pth
+11-22 08:57:49.327 Class Uniform Percentage: 0.5
+11-22 08:57:49.327 Class Uniform items per Epoch:12388
+11-22 08:57:49.329 cls 0 len 12109
+11-22 08:57:49.330 cls 1 len 11833
+11-22 08:57:49.330 cls 2 len 12301
+11-22 08:57:49.330 cls 3 len 10854
+11-22 08:57:49.330 cls 4 len 8811
+11-22 08:57:49.330 cls 5 len 11928
+11-22 08:57:49.330 cls 6 len 7891
+11-22 08:57:49.330 cls 7 len 5921
+11-22 08:57:49.330 cls 8 len 12132
+11-22 08:57:49.330 cls 9 len 11549
+11-22 08:57:49.330 cls 10 len 12131
+11-22 08:57:49.330 cls 11 len 10691
+11-22 08:57:49.330 cls 12 len 986
+11-22 08:57:49.330 cls 13 len 10501
+11-22 08:57:49.330 cls 14 len 6711
+11-22 08:57:49.330 cls 15 len 1861
+11-22 08:57:49.330 cls 16 len 493
+11-22 08:57:49.330 cls 17 len 1211
+11-22 08:57:49.330 cls 18 len 168
+11-22 08:58:52.451 [epoch 27], [iter 50 / 1032 : 27913], [loss 0.267597], [lr 0.003406], [time 0.2737]
+11-22 08:59:46.183 [epoch 27], [iter 100 / 1032 : 27963], [loss 0.248385], [lr 0.003393], [time 0.2644]
+11-22 09:00:41.129 [epoch 27], [iter 150 / 1032 : 28013], [loss 0.253776], [lr 0.003381], [time 0.2705]
+11-22 09:01:34.328 [epoch 27], [iter 200 / 1032 : 28063], [loss 0.246751], [lr 0.003368], [time 0.2614]
+11-22 09:02:26.637 [epoch 27], [iter 250 / 1032 : 28113], [loss 0.259840], [lr 0.003355], [time 0.2572]
+11-22 09:03:21.475 [epoch 27], [iter 300 / 1032 : 28163], [loss 0.237765], [lr 0.003342], [time 0.2697]
+11-22 09:04:14.285 [epoch 27], [iter 350 / 1032 : 28213], [loss 0.232658], [lr 0.003330], [time 0.2596]
+11-22 09:05:05.596 [epoch 27], [iter 400 / 1032 : 28263], [loss 0.238210], [lr 0.003317], [time 0.2520]
+11-22 09:05:58.858 [epoch 27], [iter 450 / 1032 : 28313], [loss 0.232043], [lr 0.003304], [time 0.2619]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(3959)
+11-22 09:06:50.272 [epoch 27], [iter 500 / 1032 : 28363], [loss 0.249347], [lr 0.003292], [time 0.2525]
+11-22 09:07:43.726 [epoch 27], [iter 550 / 1032 : 28413], [loss 0.256075], [lr 0.003279], [time 0.2626]
+11-22 09:08:38.861 [epoch 27], [iter 600 / 1032 : 28463], [loss 0.240760], [lr 0.003266], [time 0.2714]
+11-22 09:09:31.446 [epoch 27], [iter 650 / 1032 : 28513], [loss 0.247053], [lr 0.003253], [time 0.2585]
+11-22 09:10:23.776 [epoch 27], [iter 700 / 1032 : 28563], [loss 0.232244], [lr 0.003241], [time 0.2573]
+11-22 09:11:15.132 [epoch 27], [iter 750 / 1032 : 28613], [loss 0.223084], [lr 0.003228], [time 0.2521]
+11-22 09:12:07.738 [epoch 27], [iter 800 / 1032 : 28663], [loss 0.222576], [lr 0.003215], [time 0.2583]
+11-22 09:13:02.737 [epoch 27], [iter 850 / 1032 : 28713], [loss 0.227965], [lr 0.003202], [time 0.2705]
+11-22 09:13:55.994 [epoch 27], [iter 900 / 1032 : 28763], [loss 0.265474], [lr 0.003190], [time 0.2552]
+11-22 09:14:49.118 [epoch 27], [iter 950 / 1032 : 28813], [loss 0.257733], [lr 0.003177], [time 0.2518]
+11-22 09:15:41.357 [epoch 27], [iter 1000 / 1032 : 28863], [loss 0.262879], [lr 0.003164], [time 0.2565]
+Saving pth file...
+11-22 09:16:16.049 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_27_mean-iu_0.00000.pth
+11-22 09:16:16.051 Class Uniform Percentage: 0.5
+11-22 09:16:16.051 Class Uniform items per Epoch:12388
+11-22 09:16:16.055 cls 0 len 12109
+11-22 09:16:16.055 cls 1 len 11833
+11-22 09:16:16.055 cls 2 len 12301
+11-22 09:16:16.055 cls 3 len 10854
+11-22 09:16:16.055 cls 4 len 8811
+11-22 09:16:16.055 cls 5 len 11928
+11-22 09:16:16.055 cls 6 len 7891
+11-22 09:16:16.055 cls 7 len 5921
+11-22 09:16:16.055 cls 8 len 12132
+11-22 09:16:16.055 cls 9 len 11549
+11-22 09:16:16.055 cls 10 len 12131
+11-22 09:16:16.055 cls 11 len 10691
+11-22 09:16:16.055 cls 12 len 986
+11-22 09:16:16.055 cls 13 len 10501
+11-22 09:16:16.055 cls 14 len 6711
+11-22 09:16:16.055 cls 15 len 1861
+11-22 09:16:16.055 cls 16 len 493
+11-22 09:16:16.055 cls 17 len 1211
+11-22 09:16:16.055 cls 18 len 168
+11-22 09:17:18.936 [epoch 28], [iter 50 / 1032 : 28945], [loss 0.225141], [lr 0.003143], [time 0.2677]
+11-22 09:18:12.229 [epoch 28], [iter 100 / 1032 : 28995], [loss 0.229122], [lr 0.003130], [time 0.2617]
+11-22 09:19:03.902 [epoch 28], [iter 150 / 1032 : 29045], [loss 0.241206], [lr 0.003117], [time 0.2539]
+11-22 09:19:55.842 [epoch 28], [iter 200 / 1032 : 29095], [loss 0.229358], [lr 0.003105], [time 0.2550]
+11-22 09:20:50.033 [epoch 28], [iter 250 / 1032 : 29145], [loss 0.248396], [lr 0.003092], [time 0.2527]
+11-22 09:21:41.691 [epoch 28], [iter 300 / 1032 : 29195], [loss 0.263912], [lr 0.003079], [time 0.2537]
+11-22 09:22:33.496 [epoch 28], [iter 350 / 1032 : 29245], [loss 0.242803], [lr 0.003066], [time 0.2540]
+11-22 09:23:25.124 [epoch 28], [iter 400 / 1032 : 29295], [loss 0.228078], [lr 0.003053], [time 0.2533]
+11-22 09:24:19.947 [epoch 28], [iter 450 / 1032 : 29345], [loss 0.233274], [lr 0.003040], [time 0.2539]
+11-22 09:25:11.610 [epoch 28], [iter 500 / 1032 : 29395], [loss 0.244353], [lr 0.003028], [time 0.2534]
+11-22 09:26:03.877 [epoch 28], [iter 550 / 1032 : 29445], [loss 0.248093], [lr 0.003015], [time 0.2543]
+11-22 09:26:56.743 [epoch 28], [iter 600 / 1032 : 29495], [loss 0.225241], [lr 0.003002], [time 0.2597]
+11-22 09:27:51.409 [epoch 28], [iter 650 / 1032 : 29545], [loss 0.291135], [lr 0.002989], [time 0.2683]
+11-22 09:28:43.103 [epoch 28], [iter 700 / 1032 : 29595], [loss 0.286481], [lr 0.002976], [time 0.2534]
+11-22 09:29:37.483 [epoch 28], [iter 750 / 1032 : 29645], [loss 0.261316], [lr 0.002963], [time 0.2536]
+11-22 09:30:30.848 [epoch 28], [iter 800 / 1032 : 29695], [loss 0.271728], [lr 0.002950], [time 0.2530]
+11-22 09:31:22.468 [epoch 28], [iter 850 / 1032 : 29745], [loss 0.246107], [lr 0.002938], [time 0.2530]
+11-22 09:32:17.707 [epoch 28], [iter 900 / 1032 : 29795], [loss 0.238202], [lr 0.002925], [time 0.2526]
+11-22 09:33:10.480 [epoch 28], [iter 950 / 1032 : 29845], [loss 0.225094], [lr 0.002912], [time 0.2537]
+11-22 09:34:02.520 [epoch 28], [iter 1000 / 1032 : 29895], [loss 0.234434], [lr 0.002899], [time 0.2533]
+Saving pth file...
+11-22 09:34:35.691 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_28_mean-iu_0.00000.pth
+11-22 09:34:35.692 Class Uniform Percentage: 0.5
+11-22 09:34:35.692 Class Uniform items per Epoch:12388
+11-22 09:34:35.695 cls 0 len 12109
+11-22 09:34:35.695 cls 1 len 11833
+11-22 09:34:35.695 cls 2 len 12301
+11-22 09:34:35.695 cls 3 len 10854
+11-22 09:34:35.695 cls 4 len 8811
+11-22 09:34:35.696 cls 5 len 11928
+11-22 09:34:35.696 cls 6 len 7891
+11-22 09:34:35.696 cls 7 len 5921
+11-22 09:34:35.696 cls 8 len 12132
+11-22 09:34:35.696 cls 9 len 11549
+11-22 09:34:35.696 cls 10 len 12131
+11-22 09:34:35.696 cls 11 len 10691
+11-22 09:34:35.696 cls 12 len 986
+11-22 09:34:35.696 cls 13 len 10501
+11-22 09:34:35.696 cls 14 len 6711
+11-22 09:34:35.696 cls 15 len 1861
+11-22 09:34:35.696 cls 16 len 493
+11-22 09:34:35.696 cls 17 len 1211
+11-22 09:34:35.696 cls 18 len 168
+11-22 09:35:40.576 [epoch 29], [iter 50 / 1032 : 29977], [loss 0.256383], [lr 0.002878], [time 0.2703]
+11-22 09:36:39.153 [epoch 29], [iter 100 / 1032 : 30027], [loss 0.251922], [lr 0.002865], [time 0.2501]
+11-22 09:37:35.203 [epoch 29], [iter 150 / 1032 : 30077], [loss 0.244124], [lr 0.002852], [time 0.2517]
+11-22 09:38:30.877 [epoch 29], [iter 200 / 1032 : 30127], [loss 0.238472], [lr 0.002839], [time 0.2509]
+11-22 09:39:27.563 [epoch 29], [iter 250 / 1032 : 30177], [loss 0.247066], [lr 0.002826], [time 0.2511]
+11-22 09:40:22.039 [epoch 29], [iter 300 / 1032 : 30227], [loss 0.238422], [lr 0.002813], [time 0.2504]
+11-22 09:41:18.586 [epoch 29], [iter 350 / 1032 : 30277], [loss 0.240530], [lr 0.002800], [time 0.2510]
+11-22 09:42:14.302 [epoch 29], [iter 400 / 1032 : 30327], [loss 0.248228], [lr 0.002787], [time 0.2516]
+11-22 09:43:09.774 [epoch 29], [iter 450 / 1032 : 30377], [loss 0.232267], [lr 0.002774], [time 0.2511]
+11-22 09:44:06.071 [epoch 29], [iter 500 / 1032 : 30427], [loss 0.236087], [lr 0.002761], [time 0.2514]
+11-22 09:45:02.444 [epoch 29], [iter 550 / 1032 : 30477], [loss 0.215767], [lr 0.002748], [time 0.2518]
+11-22 09:45:57.056 [epoch 29], [iter 600 / 1032 : 30527], [loss 0.227331], [lr 0.002735], [time 0.2510]
+11-22 09:46:54.409 [epoch 29], [iter 650 / 1032 : 30577], [loss 0.221483], [lr 0.002722], [time 0.2515]
+11-22 09:47:52.326 [epoch 29], [iter 700 / 1032 : 30627], [loss 0.231789], [lr 0.002709], [time 0.2515]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(1356)
+11-22 09:48:47.034 [epoch 29], [iter 750 / 1032 : 30677], [loss 0.215552], [lr 0.002696], [time 0.2507]
+11-22 09:49:43.432 [epoch 29], [iter 800 / 1032 : 30727], [loss 0.236468], [lr 0.002683], [time 0.2510]
+11-22 09:50:38.258 [epoch 29], [iter 850 / 1032 : 30777], [loss 0.227544], [lr 0.002670], [time 0.2508]
+11-22 09:51:32.831 [epoch 29], [iter 900 / 1032 : 30827], [loss 0.242523], [lr 0.002657], [time 0.2604]
+11-22 09:52:30.002 [epoch 29], [iter 950 / 1032 : 30877], [loss 0.235365], [lr 0.002644], [time 0.2509]
+11-22 09:53:28.029 [epoch 29], [iter 1000 / 1032 : 30927], [loss 0.241046], [lr 0.002631], [time 0.2512]
+Saving pth file...
+11-22 09:54:02.758 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_29_mean-iu_0.00000.pth
+11-22 09:54:02.759 Class Uniform Percentage: 0.5
+11-22 09:54:02.760 Class Uniform items per Epoch:12388
+11-22 09:54:02.762 cls 0 len 12109
+11-22 09:54:02.762 cls 1 len 11833
+11-22 09:54:02.762 cls 2 len 12301
+11-22 09:54:02.763 cls 3 len 10854
+11-22 09:54:02.763 cls 4 len 8811
+11-22 09:54:02.763 cls 5 len 11928
+11-22 09:54:02.763 cls 6 len 7891
+11-22 09:54:02.763 cls 7 len 5921
+11-22 09:54:02.763 cls 8 len 12132
+11-22 09:54:02.763 cls 9 len 11549
+11-22 09:54:02.763 cls 10 len 12131
+11-22 09:54:02.763 cls 11 len 10691
+11-22 09:54:02.763 cls 12 len 986
+11-22 09:54:02.763 cls 13 len 10501
+11-22 09:54:02.763 cls 14 len 6711
+11-22 09:54:02.763 cls 15 len 1861
+11-22 09:54:02.763 cls 16 len 493
+11-22 09:54:02.763 cls 17 len 1211
+11-22 09:54:02.763 cls 18 len 168
+11-22 09:55:08.301 [epoch 30], [iter 50 / 1032 : 31009], [loss 0.231224], [lr 0.002610], [time 0.2623]
+11-22 09:56:03.807 [epoch 30], [iter 100 / 1032 : 31059], [loss 0.256308], [lr 0.002597], [time 0.2703]
+11-22 09:57:00.171 [epoch 30], [iter 150 / 1032 : 31109], [loss 0.249554], [lr 0.002583], [time 0.2704]
+11-22 09:57:57.092 [epoch 30], [iter 200 / 1032 : 31159], [loss 0.223003], [lr 0.002570], [time 0.2799]
+11-22 09:58:49.303 [epoch 30], [iter 250 / 1032 : 31209], [loss 0.230209], [lr 0.002557], [time 0.2564]
+11-22 09:59:46.838 [epoch 30], [iter 300 / 1032 : 31259], [loss 0.244104], [lr 0.002544], [time 0.2578]
+11-22 10:00:40.712 [epoch 30], [iter 350 / 1032 : 31309], [loss 0.217040], [lr 0.002531], [time 0.2505]
+11-22 10:01:38.978 [epoch 30], [iter 400 / 1032 : 31359], [loss 0.232473], [lr 0.002518], [time 0.2739]
+11-22 10:02:34.507 [epoch 30], [iter 450 / 1032 : 31409], [loss 0.215512], [lr 0.002505], [time 0.2730]
+11-22 10:03:29.960 [epoch 30], [iter 500 / 1032 : 31459], [loss 0.239045], [lr 0.002492], [time 0.2723]
+11-22 10:04:26.203 [epoch 30], [iter 550 / 1032 : 31509], [loss 0.246904], [lr 0.002479], [time 0.2550]
+11-22 10:05:20.097 [epoch 30], [iter 600 / 1032 : 31559], [loss 0.212112], [lr 0.002465], [time 0.2573]
+11-22 10:06:18.736 [epoch 30], [iter 650 / 1032 : 31609], [loss 0.224066], [lr 0.002452], [time 0.2883]
+11-22 10:07:14.241 [epoch 30], [iter 700 / 1032 : 31659], [loss 0.219555], [lr 0.002439], [time 0.2728]
+11-22 10:08:10.953 [epoch 30], [iter 750 / 1032 : 31709], [loss 0.223010], [lr 0.002426], [time 0.2786]
+11-22 10:09:09.040 [epoch 30], [iter 800 / 1032 : 31759], [loss 0.222438], [lr 0.002413], [time 0.2630]
+11-22 10:10:06.224 [epoch 30], [iter 850 / 1032 : 31809], [loss 0.230877], [lr 0.002400], [time 0.2509]
+11-22 10:11:02.401 [epoch 30], [iter 900 / 1032 : 31859], [loss 0.232389], [lr 0.002386], [time 0.2517]
+11-22 10:11:58.432 [epoch 30], [iter 950 / 1032 : 31909], [loss 0.234640], [lr 0.002373], [time 0.2516]
+11-22 10:12:54.202 [epoch 30], [iter 1000 / 1032 : 31959], [loss 0.235274], [lr 0.002360], [time 0.2509]
+Saving pth file...
+11-22 10:13:28.046 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_30_mean-iu_0.00000.pth
+11-22 10:13:28.047 Class Uniform Percentage: 0.5
+11-22 10:13:28.047 Class Uniform items per Epoch:12388
+11-22 10:13:28.050 cls 0 len 12109
+11-22 10:13:28.050 cls 1 len 11833
+11-22 10:13:28.050 cls 2 len 12301
+11-22 10:13:28.050 cls 3 len 10854
+11-22 10:13:28.050 cls 4 len 8811
+11-22 10:13:28.050 cls 5 len 11928
+11-22 10:13:28.050 cls 6 len 7891
+11-22 10:13:28.050 cls 7 len 5921
+11-22 10:13:28.050 cls 8 len 12132
+11-22 10:13:28.050 cls 9 len 11549
+11-22 10:13:28.050 cls 10 len 12131
+11-22 10:13:28.050 cls 11 len 10691
+11-22 10:13:28.050 cls 12 len 986
+11-22 10:13:28.050 cls 13 len 10501
+11-22 10:13:28.050 cls 14 len 6711
+11-22 10:13:28.050 cls 15 len 1861
+11-22 10:13:28.050 cls 16 len 493
+11-22 10:13:28.050 cls 17 len 1211
+11-22 10:13:28.051 cls 18 len 168
+11-22 10:14:31.664 [epoch 31], [iter 50 / 1032 : 32041], [loss 0.250213], [lr 0.002338], [time 0.2530]
+11-22 10:15:24.701 [epoch 31], [iter 100 / 1032 : 32091], [loss 0.226502], [lr 0.002325], [time 0.2535]
+11-22 10:16:20.540 [epoch 31], [iter 150 / 1032 : 32141], [loss 0.216226], [lr 0.002312], [time 0.2520]
+11-22 10:17:13.132 [epoch 31], [iter 200 / 1032 : 32191], [loss 0.255198], [lr 0.002299], [time 0.2531]
+11-22 10:18:05.069 [epoch 31], [iter 250 / 1032 : 32241], [loss 0.222448], [lr 0.002285], [time 0.2546]
+11-22 10:18:59.181 [epoch 31], [iter 300 / 1032 : 32291], [loss 0.214290], [lr 0.002272], [time 0.2538]
+11-22 10:19:53.306 [epoch 31], [iter 350 / 1032 : 32341], [loss 0.239266], [lr 0.002259], [time 0.2520]
+11-22 10:20:47.997 [epoch 31], [iter 400 / 1032 : 32391], [loss 0.211774], [lr 0.002246], [time 0.2533]
+11-22 10:21:40.231 [epoch 31], [iter 450 / 1032 : 32441], [loss 0.233421], [lr 0.002232], [time 0.2532]
+11-22 10:22:33.147 [epoch 31], [iter 500 / 1032 : 32491], [loss 0.227608], [lr 0.002219], [time 0.2586]
+11-22 10:23:25.868 [epoch 31], [iter 550 / 1032 : 32541], [loss 0.211962], [lr 0.002206], [time 0.2585]
+11-22 10:24:20.225 [epoch 31], [iter 600 / 1032 : 32591], [loss 0.223674], [lr 0.002192], [time 0.2666]
+11-22 10:25:12.627 [epoch 31], [iter 650 / 1032 : 32641], [loss 0.222804], [lr 0.002179], [time 0.2570]
+11-22 10:26:08.432 [epoch 31], [iter 700 / 1032 : 32691], [loss 0.207549], [lr 0.002166], [time 0.2741]
+11-22 10:27:00.132 [epoch 31], [iter 750 / 1032 : 32741], [loss 0.222263], [lr 0.002152], [time 0.2532]
+11-22 10:27:51.956 [epoch 31], [iter 800 / 1032 : 32791], [loss 0.214132], [lr 0.002139], [time 0.2537]
+11-22 10:28:45.563 [epoch 31], [iter 850 / 1032 : 32841], [loss 0.212112], [lr 0.002126], [time 0.2545]
+11-22 10:29:40.681 [epoch 31], [iter 900 / 1032 : 32891], [loss 0.209613], [lr 0.002112], [time 0.2707]
+11-22 10:30:34.063 [epoch 31], [iter 950 / 1032 : 32941], [loss 0.240094], [lr 0.002099], [time 0.2615]
+11-22 10:31:25.895 [epoch 31], [iter 1000 / 1032 : 32991], [loss 0.210545], [lr 0.002086], [time 0.2537]
+Saving pth file...
+11-22 10:31:59.221 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_31_mean-iu_0.00000.pth
+11-22 10:31:59.223 Class Uniform Percentage: 0.5
+11-22 10:31:59.223 Class Uniform items per Epoch:12388
+11-22 10:31:59.225 cls 0 len 12109
+11-22 10:31:59.226 cls 1 len 11833
+11-22 10:31:59.226 cls 2 len 12301
+11-22 10:31:59.226 cls 3 len 10854
+11-22 10:31:59.226 cls 4 len 8811
+11-22 10:31:59.226 cls 5 len 11928
+11-22 10:31:59.226 cls 6 len 7891
+11-22 10:31:59.226 cls 7 len 5921
+11-22 10:31:59.226 cls 8 len 12132
+11-22 10:31:59.226 cls 9 len 11549
+11-22 10:31:59.226 cls 10 len 12131
+11-22 10:31:59.226 cls 11 len 10691
+11-22 10:31:59.226 cls 12 len 986
+11-22 10:31:59.226 cls 13 len 10501
+11-22 10:31:59.226 cls 14 len 6711
+11-22 10:31:59.226 cls 15 len 1861
+11-22 10:31:59.226 cls 16 len 493
+11-22 10:31:59.226 cls 17 len 1211
+11-22 10:31:59.226 cls 18 len 168
+11-22 10:33:01.401 [epoch 32], [iter 50 / 1032 : 33073], [loss 0.218559], [lr 0.002064], [time 0.2521]
+11-22 10:33:52.841 [epoch 32], [iter 100 / 1032 : 33123], [loss 0.226954], [lr 0.002050], [time 0.2525]
+11-22 10:34:44.723 [epoch 32], [iter 150 / 1032 : 33173], [loss 0.231315], [lr 0.002037], [time 0.2529]
+11-22 10:35:37.847 [epoch 32], [iter 200 / 1032 : 33223], [loss 0.205265], [lr 0.002023], [time 0.2523]
+11-22 10:36:30.443 [epoch 32], [iter 250 / 1032 : 33273], [loss 0.217571], [lr 0.002010], [time 0.2524]
+11-22 10:37:24.038 [epoch 32], [iter 300 / 1032 : 33323], [loss 0.220027], [lr 0.001996], [time 0.2525]
+11-22 10:38:15.833 [epoch 32], [iter 350 / 1032 : 33373], [loss 0.200764], [lr 0.001983], [time 0.2536]
+11-22 10:39:07.383 [epoch 32], [iter 400 / 1032 : 33423], [loss 0.233809], [lr 0.001970], [time 0.2528]
+11-22 10:39:59.698 [epoch 32], [iter 450 / 1032 : 33473], [loss 0.211346], [lr 0.001956], [time 0.2532]
+11-22 10:40:52.276 [epoch 32], [iter 500 / 1032 : 33523], [loss 0.243272], [lr 0.001943], [time 0.2522]
+11-22 10:41:44.254 [epoch 32], [iter 550 / 1032 : 33573], [loss 0.216112], [lr 0.001929], [time 0.2528]
+11-22 10:42:38.313 [epoch 32], [iter 600 / 1032 : 33623], [loss 0.221869], [lr 0.001916], [time 0.2521]
+11-22 10:43:30.045 [epoch 32], [iter 650 / 1032 : 33673], [loss 0.226424], [lr 0.001902], [time 0.2541]
+11-22 10:44:23.722 [epoch 32], [iter 700 / 1032 : 33723], [loss 0.224457], [lr 0.001889], [time 0.2638]
+11-22 10:45:17.526 [epoch 32], [iter 750 / 1032 : 33773], [loss 0.217008], [lr 0.001875], [time 0.2641]
+11-22 10:46:10.207 [epoch 32], [iter 800 / 1032 : 33823], [loss 0.198402], [lr 0.001861], [time 0.2586]
+11-22 10:47:01.827 [epoch 32], [iter 850 / 1032 : 33873], [loss 0.221478], [lr 0.001848], [time 0.2528]
+11-22 10:47:53.520 [epoch 32], [iter 900 / 1032 : 33923], [loss 0.212763], [lr 0.001834], [time 0.2532]
+11-22 10:48:45.155 [epoch 32], [iter 950 / 1032 : 33973], [loss 0.206188], [lr 0.001821], [time 0.2531]
+11-22 10:49:37.885 [epoch 32], [iter 1000 / 1032 : 34023], [loss 0.203269], [lr 0.001807], [time 0.2586]
+Saving pth file...
+11-22 10:50:11.853 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_32_mean-iu_0.00000.pth
+11-22 10:50:11.854 Class Uniform Percentage: 0.5
+11-22 10:50:11.854 Class Uniform items per Epoch:12388
+11-22 10:50:11.857 cls 0 len 12109
+11-22 10:50:11.857 cls 1 len 11833
+11-22 10:50:11.857 cls 2 len 12301
+11-22 10:50:11.857 cls 3 len 10854
+11-22 10:50:11.857 cls 4 len 8811
+11-22 10:50:11.857 cls 5 len 11928
+11-22 10:50:11.857 cls 6 len 7891
+11-22 10:50:11.857 cls 7 len 5921
+11-22 10:50:11.857 cls 8 len 12132
+11-22 10:50:11.857 cls 9 len 11549
+11-22 10:50:11.858 cls 10 len 12131
+11-22 10:50:11.858 cls 11 len 10691
+11-22 10:50:11.858 cls 12 len 986
+11-22 10:50:11.858 cls 13 len 10501
+11-22 10:50:11.858 cls 14 len 6711
+11-22 10:50:11.858 cls 15 len 1861
+11-22 10:50:11.858 cls 16 len 493
+11-22 10:50:11.858 cls 17 len 1211
+11-22 10:50:11.858 cls 18 len 168
+11-22 10:51:17.618 [epoch 33], [iter 50 / 1032 : 34105], [loss 0.226030], [lr 0.001785], [time 0.2893]
+11-22 10:52:12.213 [epoch 33], [iter 100 / 1032 : 34155], [loss 0.205953], [lr 0.001771], [time 0.2685]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(10784)
+11-22 10:53:06.819 [epoch 33], [iter 150 / 1032 : 34205], [loss 0.213853], [lr 0.001757], [time 0.2685]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(9902)
+11-22 10:53:59.693 [epoch 33], [iter 200 / 1032 : 34255], [loss 0.232728], [lr 0.001744], [time 0.2595]
+11-22 10:54:56.416 [epoch 33], [iter 250 / 1032 : 34305], [loss 0.206309], [lr 0.001730], [time 0.2786]
+11-22 10:55:50.503 [epoch 33], [iter 300 / 1032 : 34355], [loss 0.209828], [lr 0.001716], [time 0.2652]
+11-22 10:56:47.840 [epoch 33], [iter 350 / 1032 : 34405], [loss 0.211974], [lr 0.001703], [time 0.2821]
+11-22 10:57:41.306 [epoch 33], [iter 400 / 1032 : 34455], [loss 0.209349], [lr 0.001689], [time 0.2623]
+11-22 10:58:34.090 [epoch 33], [iter 450 / 1032 : 34505], [loss 0.213039], [lr 0.001675], [time 0.2588]
+11-22 10:59:27.333 [epoch 33], [iter 500 / 1032 : 34555], [loss 0.206786], [lr 0.001662], [time 0.2612]
+11-22 11:00:23.377 [epoch 33], [iter 550 / 1032 : 34605], [loss 0.218700], [lr 0.001648], [time 0.2754]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5506)
+11-22 11:01:18.189 [epoch 33], [iter 600 / 1032 : 34655], [loss 0.213128], [lr 0.001634], [time 0.2690]
+11-22 11:02:13.796 [epoch 33], [iter 650 / 1032 : 34705], [loss 0.213739], [lr 0.001620], [time 0.2732]
+11-22 11:03:07.431 [epoch 33], [iter 700 / 1032 : 34755], [loss 0.206617], [lr 0.001607], [time 0.2635]
+11-22 11:04:00.393 [epoch 33], [iter 750 / 1032 : 34805], [loss 0.195126], [lr 0.001593], [time 0.2599]
+11-22 11:04:54.519 [epoch 33], [iter 800 / 1032 : 34855], [loss 0.202087], [lr 0.001579], [time 0.2639]
+11-22 11:05:48.368 [epoch 33], [iter 850 / 1032 : 34905], [loss 0.218531], [lr 0.001565], [time 0.2647]
+11-22 11:06:45.029 [epoch 33], [iter 900 / 1032 : 34955], [loss 0.220289], [lr 0.001551], [time 0.2786]
+11-22 11:07:41.127 [epoch 33], [iter 950 / 1032 : 35005], [loss 0.210827], [lr 0.001538], [time 0.2756]
+11-22 11:08:34.144 [epoch 33], [iter 1000 / 1032 : 35055], [loss 0.204129], [lr 0.001524], [time 0.2601]
+Saving pth file...
+11-22 11:09:09.272 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_33_mean-iu_0.00000.pth
+11-22 11:09:09.273 Class Uniform Percentage: 0.5
+11-22 11:09:09.273 Class Uniform items per Epoch:12388
+11-22 11:09:09.276 cls 0 len 12109
+11-22 11:09:09.276 cls 1 len 11833
+11-22 11:09:09.276 cls 2 len 12301
+11-22 11:09:09.277 cls 3 len 10854
+11-22 11:09:09.277 cls 4 len 8811
+11-22 11:09:09.277 cls 5 len 11928
+11-22 11:09:09.277 cls 6 len 7891
+11-22 11:09:09.277 cls 7 len 5921
+11-22 11:09:09.277 cls 8 len 12132
+11-22 11:09:09.277 cls 9 len 11549
+11-22 11:09:09.277 cls 10 len 12131
+11-22 11:09:09.277 cls 11 len 10691
+11-22 11:09:09.277 cls 12 len 986
+11-22 11:09:09.277 cls 13 len 10501
+11-22 11:09:09.277 cls 14 len 6711
+11-22 11:09:09.277 cls 15 len 1861
+11-22 11:09:09.277 cls 16 len 493
+11-22 11:09:09.277 cls 17 len 1211
+11-22 11:09:09.277 cls 18 len 168
+11-22 11:10:12.421 [epoch 34], [iter 50 / 1032 : 35137], [loss 0.210131], [lr 0.001501], [time 0.2524]
+11-22 11:11:07.202 [epoch 34], [iter 100 / 1032 : 35187], [loss 0.206526], [lr 0.001487], [time 0.2687]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(2519)
+11-22 11:11:59.926 [epoch 34], [iter 150 / 1032 : 35237], [loss 0.214864], [lr 0.001473], [time 0.2588]
+11-22 11:12:51.803 [epoch 34], [iter 200 / 1032 : 35287], [loss 0.226155], [lr 0.001459], [time 0.2545]
+11-22 11:13:44.003 [epoch 34], [iter 250 / 1032 : 35337], [loss 0.221363], [lr 0.001445], [time 0.2549]
+11-22 11:14:37.207 [epoch 34], [iter 300 / 1032 : 35387], [loss 0.216705], [lr 0.001431], [time 0.2528]
+11-22 11:15:31.920 [epoch 34], [iter 350 / 1032 : 35437], [loss 0.212058], [lr 0.001417], [time 0.2573]
+11-22 11:16:26.286 [epoch 34], [iter 400 / 1032 : 35487], [loss 0.197329], [lr 0.001403], [time 0.2547]
+11-22 11:17:18.017 [epoch 34], [iter 450 / 1032 : 35537], [loss 0.198766], [lr 0.001389], [time 0.2535]
+11-22 11:18:11.268 [epoch 34], [iter 500 / 1032 : 35587], [loss 0.196692], [lr 0.001375], [time 0.2536]
+11-22 11:19:05.544 [epoch 34], [iter 550 / 1032 : 35637], [loss 0.224276], [lr 0.001361], [time 0.2528]
+11-22 11:20:00.735 [epoch 34], [iter 600 / 1032 : 35687], [loss 0.206543], [lr 0.001347], [time 0.2526]
+11-22 11:20:52.934 [epoch 34], [iter 650 / 1032 : 35737], [loss 0.218410], [lr 0.001333], [time 0.2534]
+11-22 11:21:45.359 [epoch 34], [iter 700 / 1032 : 35787], [loss 0.219567], [lr 0.001319], [time 0.2539]
+11-22 11:22:41.029 [epoch 34], [iter 750 / 1032 : 35837], [loss 0.202609], [lr 0.001305], [time 0.2543]
+11-22 11:23:34.041 [epoch 34], [iter 800 / 1032 : 35887], [loss 0.206112], [lr 0.001291], [time 0.2533]
+11-22 11:24:26.474 [epoch 34], [iter 850 / 1032 : 35937], [loss 0.214460], [lr 0.001277], [time 0.2539]
+11-22 11:25:18.329 [epoch 34], [iter 900 / 1032 : 35987], [loss 0.220082], [lr 0.001263], [time 0.2535]
+11-22 11:26:13.056 [epoch 34], [iter 950 / 1032 : 36037], [loss 0.224391], [lr 0.001248], [time 0.2565]
+11-22 11:27:08.403 [epoch 34], [iter 1000 / 1032 : 36087], [loss 0.199886], [lr 0.001234], [time 0.2675]
+Saving pth file...
+11-22 11:27:41.510 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_34_mean-iu_0.00000.pth
+11-22 11:27:41.511 Class Uniform Percentage: 0.5
+11-22 11:27:41.511 Class Uniform items per Epoch:12388
+11-22 11:27:41.514 cls 0 len 12109
+11-22 11:27:41.514 cls 1 len 11833
+11-22 11:27:41.514 cls 2 len 12301
+11-22 11:27:41.514 cls 3 len 10854
+11-22 11:27:41.514 cls 4 len 8811
+11-22 11:27:41.514 cls 5 len 11928
+11-22 11:27:41.514 cls 6 len 7891
+11-22 11:27:41.514 cls 7 len 5921
+11-22 11:27:41.514 cls 8 len 12132
+11-22 11:27:41.514 cls 9 len 11549
+11-22 11:27:41.514 cls 10 len 12131
+11-22 11:27:41.514 cls 11 len 10691
+11-22 11:27:41.514 cls 12 len 986
+11-22 11:27:41.514 cls 13 len 10501
+11-22 11:27:41.514 cls 14 len 6711
+11-22 11:27:41.514 cls 15 len 1861
+11-22 11:27:41.514 cls 16 len 493
+11-22 11:27:41.514 cls 17 len 1211
+11-22 11:27:41.514 cls 18 len 168
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5926)
+11-22 11:28:44.440 [epoch 35], [iter 50 / 1032 : 36169], [loss 0.186171], [lr 0.001211], [time 0.2685]
+11-22 11:29:38.460 [epoch 35], [iter 100 / 1032 : 36219], [loss 0.211088], [lr 0.001197], [time 0.2655]
+11-22 11:30:34.231 [epoch 35], [iter 150 / 1032 : 36269], [loss 0.199209], [lr 0.001182], [time 0.2740]
+11-22 11:31:27.689 [epoch 35], [iter 200 / 1032 : 36319], [loss 0.191227], [lr 0.001168], [time 0.2626]
+11-22 11:32:23.983 [epoch 35], [iter 250 / 1032 : 36369], [loss 0.205792], [lr 0.001154], [time 0.2768]
+11-22 11:33:17.600 [epoch 35], [iter 300 / 1032 : 36419], [loss 0.205688], [lr 0.001140], [time 0.2634]
+11-22 11:34:11.735 [epoch 35], [iter 350 / 1032 : 36469], [loss 0.207208], [lr 0.001125], [time 0.2659]
+11-22 11:35:07.857 [epoch 35], [iter 400 / 1032 : 36519], [loss 0.209484], [lr 0.001111], [time 0.2757]
+11-22 11:35:59.707 [epoch 35], [iter 450 / 1032 : 36569], [loss 0.202942], [lr 0.001097], [time 0.2544]
+11-22 11:36:52.921 [epoch 35], [iter 500 / 1032 : 36619], [loss 0.216180], [lr 0.001082], [time 0.2613]
+11-22 11:37:49.817 [epoch 35], [iter 550 / 1032 : 36669], [loss 0.198087], [lr 0.001068], [time 0.2797]
+11-22 11:38:44.383 [epoch 35], [iter 600 / 1032 : 36719], [loss 0.200878], [lr 0.001053], [time 0.2679]
+11-22 11:39:39.351 [epoch 35], [iter 650 / 1032 : 36769], [loss 0.216486], [lr 0.001039], [time 0.2700]
+11-22 11:40:34.128 [epoch 35], [iter 700 / 1032 : 36819], [loss 0.209654], [lr 0.001024], [time 0.2689]
+11-22 11:41:27.941 [epoch 35], [iter 750 / 1032 : 36869], [loss 0.196292], [lr 0.001010], [time 0.2639]
+11-22 11:42:22.456 [epoch 35], [iter 800 / 1032 : 36919], [loss 0.210380], [lr 0.000995], [time 0.2673]
+11-22 11:43:18.013 [epoch 35], [iter 850 / 1032 : 36969], [loss 0.199157], [lr 0.000981], [time 0.2725]
+11-22 11:44:13.484 [epoch 35], [iter 900 / 1032 : 37019], [loss 0.218257], [lr 0.000966], [time 0.2721]
+11-22 11:45:06.053 [epoch 35], [iter 950 / 1032 : 37069], [loss 0.213276], [lr 0.000952], [time 0.2578]
+11-22 11:46:00.893 [epoch 35], [iter 1000 / 1032 : 37119], [loss 0.199419], [lr 0.000937], [time 0.2692]
+Saving pth file...
+11-22 11:46:37.146 Saved file to ./logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_35_mean-iu_0.00000.pth
+11-22 11:46:37.147 Class Uniform Percentage: 0.5
+11-22 11:46:37.147 Class Uniform items per Epoch:12388
+11-22 11:46:37.150 cls 0 len 12109
+11-22 11:46:37.150 cls 1 len 11833
+11-22 11:46:37.150 cls 2 len 12301
+11-22 11:46:37.150 cls 3 len 10854
+11-22 11:46:37.150 cls 4 len 8811
+11-22 11:46:37.150 cls 5 len 11928
+11-22 11:46:37.150 cls 6 len 7891
+11-22 11:46:37.150 cls 7 len 5921
+11-22 11:46:37.150 cls 8 len 12132
+11-22 11:46:37.150 cls 9 len 11549
+11-22 11:46:37.150 cls 10 len 12131
+11-22 11:46:37.150 cls 11 len 10691
+11-22 11:46:37.150 cls 12 len 986
+11-22 11:46:37.150 cls 13 len 10501
+11-22 11:46:37.150 cls 14 len 6711
+11-22 11:46:37.150 cls 15 len 1861
+11-22 11:46:37.150 cls 16 len 493
+11-22 11:46:37.150 cls 17 len 1211
+11-22 11:46:37.150 cls 18 len 168
+11-22 11:47:36.753 [epoch 36], [iter 50 / 1032 : 37201], [loss 0.198054], [lr 0.000913], [time 0.2555]
+11-22 11:48:33.067 [epoch 36], [iter 100 / 1032 : 37251], [loss 0.198818], [lr 0.000898], [time 0.2685]
+11-22 11:49:25.043 [epoch 36], [iter 150 / 1032 : 37301], [loss 0.190630], [lr 0.000884], [time 0.2550]
+11-22 11:50:17.919 [epoch 36], [iter 200 / 1032 : 37351], [loss 0.209762], [lr 0.000869], [time 0.2596]
+11-22 11:51:12.091 [epoch 36], [iter 250 / 1032 : 37401], [loss 0.195705], [lr 0.000854], [time 0.2659]
+11-22 11:52:04.670 [epoch 36], [iter 300 / 1032 : 37451], [loss 0.196445], [lr 0.000839], [time 0.2579]
+11-22 11:52:57.821 [epoch 36], [iter 350 / 1032 : 37501], [loss 0.201376], [lr 0.000824], [time 0.2608]
+11-22 11:53:49.409 [epoch 36], [iter 400 / 1032 : 37551], [loss 0.195852], [lr 0.000810], [time 0.2528]
+11-22 11:54:41.759 [epoch 36], [iter 450 / 1032 : 37601], [loss 0.210812], [lr 0.000795], [time 0.2524]
+11-22 11:55:34.202 [epoch 36], [iter 500 / 1032 : 37651], [loss 0.197477], [lr 0.000780], [time 0.2528]
+11-22 11:56:27.623 [epoch 36], [iter 550 / 1032 : 37701], [loss 0.213641], [lr 0.000765], [time 0.2523]
+11-22 11:57:19.295 [epoch 36], [iter 600 / 1032 : 37751], [loss 0.212232], [lr 0.000750], [time 0.2533]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(8807)
+Logging : ./logs/1122/r50os16_gtav_base/11_22_16/log_2021_11_22_16_26_35_rank_2.log
+Logging : ./logs/1122/r50os16_gtav_base/11_22_16/log_2021_11_22_16_26_35_rank_0.log
+Logging : ./logs/1122/r50os16_gtav_base/11_22_16/log_2021_11_22_16_26_35_rank_1.log
+Total world size:  3
+Total world size:  3
+Total world size:  3
+My Rank: 2
+My Rank:My Rank:  10
+
+11-22 16:26:37.310 Added key: store_based_barrier_key:1 to store for rank: 0
+Using pytorch sync batch norm
+Using pytorch sync batch norm
+Using pytorch sync batch norm
+11-22 16:26:37.390 train fine cities: ['train/folder']
+11-22 16:26:37.677 GTAV-train: 12388 images
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11
+###### centroids 14
+###### centroids 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11###### centroids
+ ###### centroids0 
+14###### centroids
+ ###### centroids2 
+1###### centroids
+ ###### centroids3 
+6###### centroids
+ ###### centroids4 
+7###### centroids
+ ###### centroids5 
+13###### centroids
+ ###### centroids8 
+17###### centroids
+ ###### centroids9 
+15###### centroids
+ ###### centroids10 
+12###### centroids
+ ###### centroids11 
+18###### centroids
+ ###### centroids14 
+16###### centroids
+ 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+11-22 16:26:38.319 Class Uniform Percentage: 0.5
+11-22 16:26:38.319 Class Uniform items per Epoch:12388
+11-22 16:26:38.321 cls 0 len 12109
+11-22 16:26:38.322 cls 1 len 11833
+11-22 16:26:38.322 cls 2 len 12301
+11-22 16:26:38.322 cls 3 len 10854
+11-22 16:26:38.322 cls 4 len 8811
+11-22 16:26:38.322 cls 5 len 11928
+11-22 16:26:38.322 cls 6 len 7891
+11-22 16:26:38.322 cls 7 len 5921
+11-22 16:26:38.322 cls 8 len 12132
+11-22 16:26:38.322 cls 9 len 11549
+11-22 16:26:38.322 cls 10 len 12131
+11-22 16:26:38.322 cls 11 len 10691
+11-22 16:26:38.322 cls 12 len 986
+11-22 16:26:38.322 cls 13 len 10501
+11-22 16:26:38.322 cls 14 len 6711
+11-22 16:26:38.322 cls 15 len 1861
+11-22 16:26:38.322 cls 16 len 493
+11-22 16:26:38.322 cls 17 len 1211
+11-22 16:26:38.322 cls 18 len 168
+11-22 16:26:38.327 val fine cities: ['valid/folder']
+11-22 16:26:38.404 GTAV-val: 6382 images
+11-22 16:26:38.483 val fine cities: ['val/frankfurt', 'val/munster', 'val/lindau']
+11-22 16:26:38.532 Cityscapes-val: 500 images
+11-22 16:26:38.533 train fine cities: ['train/folder']
+11-22 16:26:38.587 GTAV-train: 12388 images
+standard cross entropy
+standard cross entropy
+standard cross entropy
+standard cross entropy
+standard cross entropy
+standard cross entropy
+Model : DeepLabv3+, Backbone : ResNet-50
+Model : DeepLabv3+, Backbone : ResNet-50Model : DeepLabv3+, Backbone : ResNet-50
+
+########### pretrained ##############
+########### pretrained ##############
+########### pretrained ##############
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+output_stride =  16
+output_stride =  16
+output_stride =  16
+11-22 16:26:40.700 Model params = 45.082M
+11-22 16:26:53.490 Loading weights from model logs/1122/r50os16_gtav_base/11_22_00/last_None_epoch_35_mean-iu_0.00000.pth
+11-22 16:26:56.475 Checkpoint Load Compelete
+#### epoch: 36 #### iteration: 37152
+#### epoch: 36 #### iteration: 37152
+#### epoch: 36 #### iteration: 37152
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+11-22 16:28:09.244 [epoch 36], [iter 50 / 1032 : 37201], [loss 0.206091], [lr 0.000913], [time 0.3150]
+11-22 16:29:10.829 [epoch 36], [iter 100 / 1032 : 37251], [loss 0.210818], [lr 0.000898], [time 0.3051]
+11-22 16:30:11.558 [epoch 36], [iter 150 / 1032 : 37301], [loss 0.189637], [lr 0.000884], [time 0.3008]
+11-22 16:31:12.119 [epoch 36], [iter 200 / 1032 : 37351], [loss 0.198130], [lr 0.000869], [time 0.3000]
+11-22 16:32:10.710 [epoch 36], [iter 250 / 1032 : 37401], [loss 0.205475], [lr 0.000854], [time 0.2902]
+11-22 16:33:14.177 [epoch 36], [iter 300 / 1032 : 37451], [loss 0.195230], [lr 0.000839], [time 0.3145]
+11-22 16:34:16.493 [epoch 36], [iter 350 / 1032 : 37501], [loss 0.201766], [lr 0.000824], [time 0.3087]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5673)
+11-22 16:35:15.555 [epoch 36], [iter 400 / 1032 : 37551], [loss 0.216385], [lr 0.000810], [time 0.2925]
+11-22 16:36:13.276 [epoch 36], [iter 450 / 1032 : 37601], [loss 0.200778], [lr 0.000795], [time 0.2857]
+11-22 16:37:10.593 [epoch 36], [iter 500 / 1032 : 37651], [loss 0.208238], [lr 0.000780], [time 0.2837]
+11-22 16:38:07.503 [epoch 36], [iter 550 / 1032 : 37701], [loss 0.196271], [lr 0.000765], [time 0.2818]
+11-22 16:39:01.847 [epoch 36], [iter 600 / 1032 : 37751], [loss 0.197682], [lr 0.000750], [time 0.2689]
+11-22 16:39:55.564 [epoch 36], [iter 650 / 1032 : 37801], [loss 0.204317], [lr 0.000735], [time 0.2656]
+11-22 16:40:51.925 [epoch 36], [iter 700 / 1032 : 37851], [loss 0.195298], [lr 0.000720], [time 0.2791]
+11-22 16:41:47.950 [epoch 36], [iter 750 / 1032 : 37901], [loss 0.199753], [lr 0.000705], [time 0.2774]
+11-22 16:42:44.543 [epoch 36], [iter 800 / 1032 : 37951], [loss 0.209180], [lr 0.000689], [time 0.2801]
+11-22 16:43:39.214 [epoch 36], [iter 850 / 1032 : 38001], [loss 0.195027], [lr 0.000674], [time 0.2703]
+11-22 16:44:34.294 [epoch 36], [iter 900 / 1032 : 38051], [loss 0.215801], [lr 0.000659], [time 0.2725]
+11-22 16:45:32.558 [epoch 36], [iter 950 / 1032 : 38101], [loss 0.215989], [lr 0.000644], [time 0.2884]
+11-22 16:46:53.804 [epoch 36], [iter 1000 / 1032 : 38151], [loss 0.196353], [lr 0.000629], [time 0.4024]
+Saving pth file...
+11-22 16:47:43.395 Saved file to ./logs/1122/r50os16_gtav_base/11_22_16/last_None_epoch_36_mean-iu_0.00000.pth
+11-22 16:47:43.396 Class Uniform Percentage: 0.5
+11-22 16:47:43.396 Class Uniform items per Epoch:12388
+11-22 16:47:43.401 cls 0 len 12109
+11-22 16:47:43.401 cls 1 len 11833
+11-22 16:47:43.401 cls 2 len 12301
+11-22 16:47:43.401 cls 3 len 10854
+11-22 16:47:43.401 cls 4 len 8811
+11-22 16:47:43.401 cls 5 len 11928
+11-22 16:47:43.401 cls 6 len 7891
+11-22 16:47:43.401 cls 7 len 5921
+11-22 16:47:43.401 cls 8 len 12132
+11-22 16:47:43.401 cls 9 len 11549
+11-22 16:47:43.401 cls 10 len 12131
+11-22 16:47:43.401 cls 11 len 10691
+11-22 16:47:43.402 cls 12 len 986
+11-22 16:47:43.402 cls 13 len 10501
+11-22 16:47:43.402 cls 14 len 6711
+11-22 16:47:43.402 cls 15 len 1861
+11-22 16:47:43.402 cls 16 len 493
+11-22 16:47:43.402 cls 17 len 1211
+11-22 16:47:43.402 cls 18 len 168
+11-22 16:49:17.656 [epoch 37], [iter 50 / 1032 : 38233], [loss 0.188487], [lr 0.000603], [time 0.2844]
+11-22 16:50:41.672 [epoch 37], [iter 100 / 1032 : 38283], [loss 0.191005], [lr 0.000588], [time 0.2812]
+11-22 16:52:06.519 [epoch 37], [iter 150 / 1032 : 38333], [loss 0.202989], [lr 0.000573], [time 0.2770]
+11-22 16:53:28.697 [epoch 37], [iter 200 / 1032 : 38383], [loss 0.200715], [lr 0.000557], [time 0.2836]
+11-22 16:54:55.484 [epoch 37], [iter 250 / 1032 : 38433], [loss 0.202307], [lr 0.000542], [time 0.3840]
+11-22 16:56:19.907 [epoch 37], [iter 300 / 1032 : 38483], [loss 0.198883], [lr 0.000526], [time 0.4080]
+11-22 16:57:43.536 [epoch 37], [iter 350 / 1032 : 38533], [loss 0.204971], [lr 0.000510], [time 0.4135]
+11-22 16:59:13.111 [epoch 37], [iter 400 / 1032 : 38583], [loss 0.203479], [lr 0.000495], [time 0.4433]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(1427)
+11-22 17:00:36.167 [epoch 37], [iter 450 / 1032 : 38633], [loss 0.195813], [lr 0.000479], [time 0.4107]
+11-22 17:02:01.966 [epoch 37], [iter 500 / 1032 : 38683], [loss 0.192812], [lr 0.000463], [time 0.4242]
+11-22 17:03:23.724 [epoch 37], [iter 550 / 1032 : 38733], [loss 0.203162], [lr 0.000447], [time 0.4038]
+11-22 17:04:50.832 [epoch 37], [iter 600 / 1032 : 38783], [loss 0.195539], [lr 0.000431], [time 0.4308]
+11-22 17:06:15.949 [epoch 37], [iter 650 / 1032 : 38833], [loss 0.199307], [lr 0.000415], [time 0.4208]
+11-22 17:07:38.657 [epoch 37], [iter 700 / 1032 : 38883], [loss 0.185516], [lr 0.000399], [time 0.4082]
+11-22 17:09:02.140 [epoch 37], [iter 750 / 1032 : 38933], [loss 0.194781], [lr 0.000383], [time 0.4125]
+11-22 17:10:28.599 [epoch 37], [iter 800 / 1032 : 38983], [loss 0.200017], [lr 0.000367], [time 0.4273]
+11-22 17:11:54.433 [epoch 37], [iter 850 / 1032 : 39033], [loss 0.186795], [lr 0.000351], [time 0.4236]
+11-22 17:13:17.502 [epoch 37], [iter 900 / 1032 : 39083], [loss 0.190964], [lr 0.000334], [time 0.4103]
+11-22 17:14:42.685 [epoch 37], [iter 950 / 1032 : 39133], [loss 0.189948], [lr 0.000318], [time 0.4209]
+11-22 17:16:11.850 [epoch 37], [iter 1000 / 1032 : 39183], [loss 0.193671], [lr 0.000301], [time 0.4407]
+Saving pth file...
+11-22 17:16:59.618 Saved file to ./logs/1122/r50os16_gtav_base/11_22_16/last_None_epoch_37_mean-iu_0.00000.pth
+11-22 17:16:59.619 Class Uniform Percentage: 0.5
+11-22 17:16:59.620 Class Uniform items per Epoch:12388
+11-22 17:16:59.622 cls 0 len 12109
+11-22 17:16:59.622 cls 1 len 11833
+11-22 17:16:59.622 cls 2 len 12301
+11-22 17:16:59.623 cls 3 len 10854
+11-22 17:16:59.623 cls 4 len 8811
+11-22 17:16:59.623 cls 5 len 11928
+11-22 17:16:59.623 cls 6 len 7891
+11-22 17:16:59.623 cls 7 len 5921
+11-22 17:16:59.623 cls 8 len 12132
+11-22 17:16:59.623 cls 9 len 11549
+11-22 17:16:59.623 cls 10 len 12131
+11-22 17:16:59.623 cls 11 len 10691
+11-22 17:16:59.623 cls 12 len 986
+11-22 17:16:59.623 cls 13 len 10501
+11-22 17:16:59.623 cls 14 len 6711
+11-22 17:16:59.623 cls 15 len 1861
+11-22 17:16:59.623 cls 16 len 493
+11-22 17:16:59.623 cls 17 len 1211
+11-22 17:16:59.623 cls 18 len 168
+11-22 17:18:34.383 [epoch 38], [iter 50 / 1032 : 39265], [loss 0.190049], [lr 0.000274], [time 0.2931]
+11-22 17:19:58.854 [epoch 38], [iter 100 / 1032 : 39315], [loss 0.185906], [lr 0.000257], [time 0.2843]
+11-22 17:21:25.261 [epoch 38], [iter 150 / 1032 : 39365], [loss 0.196561], [lr 0.000240], [time 0.2822]
+11-22 17:22:48.546 [epoch 38], [iter 200 / 1032 : 39415], [loss 0.197550], [lr 0.000223], [time 0.2750]
+11-22 17:24:14.962 [epoch 38], [iter 250 / 1032 : 39465], [loss 0.182860], [lr 0.000206], [time 0.2790]
+11-22 17:25:36.438 [epoch 38], [iter 300 / 1032 : 39515], [loss 0.190513], [lr 0.000189], [time 0.2830]
+11-22 17:26:58.138 [epoch 38], [iter 350 / 1032 : 39565], [loss 0.197442], [lr 0.000171], [time 0.2820]
+11-22 17:28:22.170 [epoch 38], [iter 400 / 1032 : 39615], [loss 0.196314], [lr 0.000153], [time 0.3022]
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(971)
+11-22 17:29:48.709 [epoch 38], [iter 450 / 1032 : 39665], [loss 0.180269], [lr 0.000135], [time 0.3966]
+11-22 17:31:14.183 [epoch 38], [iter 500 / 1032 : 39715], [loss 0.194201], [lr 0.000117], [time 0.4218]
+11-22 17:32:41.201 [epoch 38], [iter 550 / 1032 : 39765], [loss 0.191244], [lr 0.000098], [time 0.4297]
+11-22 17:34:03.959 [epoch 38], [iter 600 / 1032 : 39815], [loss 0.182946], [lr 0.000079], [time 0.4082]
+11-22 17:35:29.667 [epoch 38], [iter 650 / 1032 : 39865], [loss 0.198410], [lr 0.000060], [time 0.4234]
+11-22 17:36:52.069 [epoch 38], [iter 700 / 1032 : 39915], [loss 0.187200], [lr 0.000039], [time 0.4062]
+11-22 17:38:20.245 [epoch 38], [iter 750 / 1032 : 39965], [loss 0.188762], [lr 0.000018], [time 0.4351]
+Training Ends!
+Source domain evaluation starts!
+Saving pth file...
+Training Ends!
+Source domain evaluation starts!
+11-22 17:39:26.136 Saved file to ./logs/1122/r50os16_gtav_base/11_22_16/last_None_epoch_38_mean-iu_0.00000.pth
+11-22 17:39:26.137 Class Uniform Percentage: 0.5
+11-22 17:39:26.137 Class Uniform items per Epoch:12388
+11-22 17:39:26.141 cls 0 len 12109
+11-22 17:39:26.141 cls 1 len 11833
+11-22 17:39:26.141 cls 2 len 12301
+11-22 17:39:26.141 cls 3 len 10854
+11-22 17:39:26.141 cls 4 len 8811
+11-22 17:39:26.142 cls 5 len 11928
+11-22 17:39:26.142 cls 6 len 7891
+11-22 17:39:26.142 cls 7 len 5921
+11-22 17:39:26.142 cls 8 len 12132
+11-22 17:39:26.142 cls 9 len 11549
+11-22 17:39:26.142 cls 10 len 12131
+11-22 17:39:26.142 cls 11 len 10691
+11-22 17:39:26.142 cls 12 len 986
+11-22 17:39:26.142 cls 13 len 10501
+11-22 17:39:26.142 cls 14 len 6711
+11-22 17:39:26.142 cls 15 len 1861
+11-22 17:39:26.142 cls 16 len 493
+11-22 17:39:26.142 cls 17 len 1211
+11-22 17:39:26.142 cls 18 len 168
+Training Ends!
+Source domain evaluation starts!
+11-22 17:39:30.651 validating: 1 / 2127
+11-22 17:39:44.087 validating: 21 / 2127
+11-22 17:39:56.439 validating: 41 / 2127
+11-22 17:40:09.238 validating: 61 / 2127
+11-22 17:40:22.098 validating: 81 / 2127
+11-22 17:40:36.400 validating: 101 / 2127
+11-22 17:40:51.036 validating: 121 / 2127
+11-22 17:41:04.308 validating: 141 / 2127
+11-22 17:41:16.881 validating: 161 / 2127
+11-22 17:41:30.925 validating: 181 / 2127
+11-22 17:41:45.639 validating: 201 / 2127
+11-22 17:41:58.519 validating: 221 / 2127
+11-22 17:42:11.954 validating: 241 / 2127
+11-22 17:42:25.399 validating: 261 / 2127
+11-22 17:42:38.337 validating: 281 / 2127
+11-22 17:42:52.337 validating: 301 / 2127
+11-22 17:43:05.879 validating: 321 / 2127
+11-22 17:43:18.555 validating: 341 / 2127
+11-22 17:43:31.341 validating: 361 / 2127
+11-22 17:43:43.384 validating: 381 / 2127
+11-22 17:43:55.559 validating: 401 / 2127
+11-22 17:44:09.374 validating: 421 / 2127
+11-22 17:44:21.500 validating: 441 / 2127
+11-22 17:44:33.798 validating: 461 / 2127
+11-22 17:44:47.245 validating: 481 / 2127
+11-22 17:45:00.819 validating: 501 / 2127
+11-22 17:45:15.033 validating: 521 / 2127
+11-22 17:45:29.695 validating: 541 / 2127
+11-22 17:45:42.687 validating: 561 / 2127
+11-22 17:45:56.474 validating: 581 / 2127
+11-22 17:46:09.315 validating: 601 / 2127
+11-22 17:46:22.974 validating: 621 / 2127
+11-22 17:46:37.090 validating: 641 / 2127
+11-22 17:46:49.650 validating: 661 / 2127
+11-22 17:47:03.110 validating: 681 / 2127
+11-22 17:47:16.359 validating: 701 / 2127
+11-22 17:47:28.302 validating: 721 / 2127
+11-22 17:47:42.985 validating: 741 / 2127
+11-22 17:47:57.282 validating: 761 / 2127
+11-22 17:48:10.746 validating: 781 / 2127
+11-22 17:48:25.258 validating: 801 / 2127
+11-22 17:48:39.262 validating: 821 / 2127
+11-22 17:48:52.852 validating: 841 / 2127
+11-22 17:49:06.580 validating: 861 / 2127
+11-22 17:49:19.888 validating: 881 / 2127
+11-22 17:49:32.031 validating: 901 / 2127
+11-22 17:49:47.572 validating: 921 / 2127
+11-22 17:50:01.029 validating: 941 / 2127
+11-22 17:50:14.367 validating: 961 / 2127
+11-22 17:50:27.042 validating: 981 / 2127
+11-22 17:50:41.090 validating: 1001 / 2127
+11-22 17:50:55.013 validating: 1021 / 2127
+11-22 17:51:07.510 validating: 1041 / 2127
+11-22 17:51:21.058 validating: 1061 / 2127
+11-22 17:51:32.865 validating: 1081 / 2127
+11-22 17:51:46.717 validating: 1101 / 2127
+11-22 17:51:59.608 validating: 1121 / 2127
+11-22 17:52:12.028 validating: 1141 / 2127
+11-22 17:52:24.219 validating: 1161 / 2127
+11-22 17:52:38.807 validating: 1181 / 2127
+11-22 17:52:51.695 validating: 1201 / 2127
+11-22 17:53:04.563 validating: 1221 / 2127
+11-22 17:53:18.312 validating: 1241 / 2127
+11-22 17:53:31.560 validating: 1261 / 2127
+11-22 17:53:43.665 validating: 1281 / 2127
+11-22 17:53:56.142 validating: 1301 / 2127
+11-22 17:54:08.181 validating: 1321 / 2127
+11-22 17:54:20.496 validating: 1341 / 2127
+11-22 17:54:33.512 validating: 1361 / 2127
+11-22 17:54:46.726 validating: 1381 / 2127
+11-22 17:54:59.600 validating: 1401 / 2127
+11-22 17:55:12.183 validating: 1421 / 2127
+11-22 17:55:25.527 validating: 1441 / 2127
+11-22 17:55:37.979 validating: 1461 / 2127
+11-22 17:55:51.141 validating: 1481 / 2127
+11-22 17:56:04.255 validating: 1501 / 2127
+11-22 17:56:18.057 validating: 1521 / 2127
+11-22 17:56:31.131 validating: 1541 / 2127
+11-22 17:56:43.968 validating: 1561 / 2127
+11-22 17:56:57.511 validating: 1581 / 2127
+11-22 17:57:09.802 validating: 1601 / 2127
+11-22 17:57:21.863 validating: 1621 / 2127
+11-22 17:57:34.871 validating: 1641 / 2127
+11-22 17:57:47.802 validating: 1661 / 2127
+11-22 17:58:00.815 validating: 1681 / 2127
+11-22 17:58:14.127 validating: 1701 / 2127
+11-22 17:58:27.059 validating: 1721 / 2127
+11-22 17:58:39.676 validating: 1741 / 2127
+11-22 17:58:52.230 validating: 1761 / 2127
+11-22 17:59:04.502 validating: 1781 / 2127
+11-22 17:59:18.065 validating: 1801 / 2127
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  5445
+Error!! (1914, 1046) (697, 1276) 20803
+Dropping  5441
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20804
+Dropping  5442
+Error!! (1914, 1046) (697, 1276) 20804
+Dropping  5442
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!!Error!!  (1914, 1046) (697, 1276) (1914, 1046)20810 
+Dropping (697, 1276)  544820810
+
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20805
+Dropping  5443
+Error!! (1914, 1046) (697, 1276) 20805
+Dropping  5443
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20806
+Dropping  5444
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20806
+Dropping  5444
+Error!! (1914, 1046) (697, 1276) 20806
+Dropping  5444
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  5445
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  5445
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  5445
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20805
+Dropping  5443
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20806
+Dropping  5444
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2081220812
+
+Dropping Dropping   54505450
+
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  5445
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  5446
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  5447
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  5448
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  5449
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046)Error!! (697, 1276)  20817(1914, 1046)
+ (697, 1276)Dropping   208175455
+
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2081820818
+
+Dropping Dropping   54565456
+
+Error!!Error!! Error!! Error!!(1914, 1046) (1914, 1046)   (1914, 1046)(1914, 1046)(697, 1276)(697, 1276)    (697, 1276)(697, 1276)2081820818  
+
+2081820818Dropping 
+Dropping 
+ Dropping  5456Dropping  5456
+ 5456
+5456
+
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5450
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  5451
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2082020820
+
+Dropping Dropping   54585458
+
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2082020820
+
+Dropping Dropping   54585458
+
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!!Error!!  (1914, 1046)Error!!(1914, 1046)   (697, 1276)(1914, 1046)(697, 1276)   20822(697, 1276)20822
+ 
+20822Dropping Dropping 
+  5460Dropping 5460Error!!
+ 
+ 5460
+(1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2082320823
+
+Dropping Dropping   54615461
+
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! Error!!(1914, 1046)  (1914, 1046)(697, 1276)  (697, 1276)20823 
+20823
+Dropping Dropping   54615461
+
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20823Error!!
+ Dropping  (1914, 1046)5461 
+(697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  5452
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2082520825
+
+Dropping Dropping   54635463
+
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! Error!!(1914, 1046)  (1914, 1046)(697, 1276)  (697, 1276)20826 
+20826Dropping 
+ Dropping 5464 
+5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  Error!!5464
+ (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  20828Error!!20828
+ 
+Dropping (1914, 1046) Dropping  5466 (697, 1276)Error!!
+5466  
+20828(1914, 1046)
+ Dropping (697, 1276)  546620828
+
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!!Error!! Error!! (1914, 1046)Error!!   (1914, 1046)(1914, 1046)(1914, 1046)(697, 1276)    (697, 1276)(697, 1276)(697, 1276)20830   
+208302083020830Dropping 
+
+
+ Dropping Dropping Dropping 5468   
+546854685468
+
+
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2083120831
+
+Dropping Dropping   54695469
+
+Error!! (1914, 1046) (697, 1276) Error!!20831 
+(1914, 1046)Dropping   (697, 1276)5469 
+20831
+Dropping  5469
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2083120831
+
+Dropping Dropping   54695469
+
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2083120831
+
+Dropping Dropping   54695469
+
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)Error!!(697, 1276)   2083220832(1914, 1046)
+
+ Dropping Dropping (697, 1276)   5470547020832
+
+
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276) Error!! 20832 20832
+(1914, 1046)
+Dropping  Dropping  (697, 1276) 5470 5470
+20832
+
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2085920859
+
+Dropping Dropping   54745474
+
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276)Error!!  20860(1914, 1046)
+ Dropping (697, 1276)  547520860
+
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!!Error!!  (1914, 1046)(1914, 1046)  (697, 1276)(697, 1276)  2086020860
+
+Dropping Dropping   54755475
+
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  5453
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  5454
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  5455
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  5456
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  5457
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  5458
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5459
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  5460
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  5461
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  5462
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  5463
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  5464
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046)Error!!  (697, 1276) (1914, 1046)20832 
+(697, 1276)Dropping   208345470
+
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+11-22 17:59:43.909 validating: 1821 / 2127
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  5465
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  5466
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  5467
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  5468
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  5469
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  5470
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  5471
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  5472
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  5473
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  5474
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  5475
+11-22 17:59:57.660 validating: 1841 / 2127
+11-22 18:00:10.921 validating: 1861 / 2127
+11-22 18:00:24.633 validating: 1881 / 2127
+11-22 18:00:37.143 validating: 1901 / 2127
+11-22 18:00:50.372 validating: 1921 / 2127
+11-22 18:01:03.884 validating: 1941 / 2127
+11-22 18:01:16.741 validating: 1961 / 2127
+11-22 18:01:29.913 validating: 1981 / 2127
+11-22 18:01:41.938 validating: 2001 / 2127
+11-22 18:01:54.887 validating: 2021 / 2127
+11-22 18:02:08.650 validating: 2041 / 2127
+11-22 18:02:21.069 validating: 2061 / 2127
+11-22 18:02:33.848 validating: 2081 / 2127
+11-22 18:02:49.251 validating: 2101 / 2127
+11-22 18:03:02.578 validating: 2121 / 2127
+11-22 18:03:07.407 Dataset name: gtav
+11-22 18:03:07.407 IoU:
+11-22 18:03:07.407 label_id      label    iU    Precision Recall TP     FP    FN
+11-22 18:03:07.407  0                0    95.4    1.0       1.0   31.8     0.0     0.0
+11-22 18:03:07.407  1                1    85.0    0.9       0.9   10.2     0.1     0.1
+11-22 18:03:07.408  2                2    90.8    1.0       1.0   20.6     0.1     0.1
+11-22 18:03:07.408  3                3    56.4    0.7       0.7    1.3     0.4     0.4
+11-22 18:03:07.408  4                4    38.2    0.5       0.6    0.2     1.0     0.6
+11-22 18:03:07.408  5                5    69.6    0.8       0.9    1.0     0.3     0.2
+11-22 18:03:07.408  6                6    69.1    0.8       0.9    0.1     0.3     0.2
+11-22 18:03:07.408  7                7    66.0    0.8       0.8    0.0     0.3     0.2
+11-22 18:03:07.408  8                8    87.4    0.9       0.9    9.3     0.1     0.1
+11-22 18:03:07.408  9                9    76.3    0.9       0.9    2.2     0.2     0.1
+11-22 18:03:07.408 10               10    97.0    1.0       1.0   14.0     0.0     0.0
+11-22 18:03:07.408 11               11    77.2    0.8       0.9    0.4     0.2     0.1
+11-22 18:03:07.409 12               12    67.2    0.7       0.9    0.0     0.3     0.1
+11-22 18:03:07.409 13               13    91.7    1.0       1.0    2.5     0.0     0.0
+11-22 18:03:07.409 14               14    91.5    1.0       1.0    1.2     0.1     0.0
+11-22 18:03:07.409 15               15    94.9    1.0       1.0    0.2     0.0     0.0
+Unseen domain evaluation starts!
+Extra validating... This won't save pth file
+Unseen domain evaluation starts!
+Extra validating... This won't save pth file
+/home/tx/Workspace/RobustNet/utils/misc.py:278: RuntimeWarning: divide by zero encountered in float_scalars
+  iu_false_positive[idx] / iu_true_positive[idx])
+/home/tx/Workspace/RobustNet/utils/misc.py:279: RuntimeWarning: divide by zero encountered in float_scalars
+  fn = '{:5.1f}'.format(iu_false_negative[idx] / iu_true_positive[idx])
+11-22 18:03:07.599 16               16     0.0    0.0       0.0    0.0     inf     inf
+11-22 18:03:07.599 17               17    75.4    0.8       0.9    0.0     0.2     0.1
+11-22 18:03:07.599 18               18    65.2    0.8       0.8    0.0     0.2     0.3
+11-22 18:03:07.600 mean 0.7337554693222046
+11-22 18:03:08.576 -----------------------------------------------------------------------------------------------------------
+11-22 18:03:08.576 [epoch 39], [dataset name gtav], [val loss 0.15731], [acc 0.94909], [acc_cls 0.80532], [mean_iu 0.73376], [fwavacc 0.90629]
+11-22 18:03:08.576 best record: [dataset name gtav], [val loss 0.15731], [acc 0.94909], [acc_cls 0.80532], [mean_iu 0.73376], [fwavacc 0.90629], [epoch 39], 
+11-22 18:03:08.576 -----------------------------------------------------------------------------------------------------------
+Unseen domain evaluation starts!
+Extra validating... This won't save pth file
+11-22 18:03:11.019 validating: 1 / 166
+11-22 18:03:16.177 validating: 21 / 166
+11-22 18:03:22.733 validating: 41 / 166
+11-22 18:03:29.285 validating: 61 / 166
+11-22 18:03:35.394 validating: 81 / 166
+11-22 18:03:41.019 validating: 101 / 166
+11-22 18:03:46.531 validating: 121 / 166
+11-22 18:03:51.459 validating: 141 / 166
+11-22 18:03:57.620 validating: 161 / 166
+11-22 18:03:59.851 Dataset name: cityscapes
+11-22 18:03:59.851 IoU:
+11-22 18:03:59.851 label_id      label    iU    Precision Recall TP     FP    FN
+11-22 18:03:59.851  0                0    52.1    0.5       0.9   20.2     0.9     0.1
+11-22 18:03:59.851  1                1    24.3    0.5       0.3    2.8     0.9     2.2
+11-22 18:03:59.851  2                2    57.3    0.9       0.6   20.7     0.1     0.7
+11-22 18:03:59.851  3                3    16.3    0.3       0.3    0.2     2.4     2.8
+11-22 18:03:59.851  4                4    17.6    0.4       0.2    0.3     1.7     3.0
+11-22 18:03:59.852  5                5    23.0    0.2       0.8    0.4     3.1     0.2
+11-22 18:03:59.852  6                6    27.5    0.3       0.9    0.1     2.5     0.1
+11-22 18:03:59.852  7                7    11.0    0.1       0.9    0.1     8.0     0.1
+11-22 18:03:59.852  8                8    81.6    0.9       0.9   16.1     0.1     0.2
+11-22 18:03:59.852  9                9    20.8    0.6       0.2    0.5     0.7     3.1
+11-22 18:03:59.852 10               10    43.9    0.5       0.9    1.6     1.2     0.1
+11-22 18:03:59.852 11               11    59.5    0.7       0.8    0.9     0.4     0.2
+11-22 18:03:59.852 12               12    12.3    0.1       0.7    0.0     6.7     0.5
+11-22 18:03:59.852 13               13    72.8    0.9       0.8    5.7     0.1     0.2
+11-22 18:03:59.852 14               14    11.7    0.5       0.1    0.2     0.9     6.7
+11-22 18:03:59.853 15               15    10.7    0.1       0.9    0.0     8.2     0.1
+11-22 18:03:59.853 16               16     6.1    0.1       0.9    0.0    15.3     0.1
+11-22 18:03:59.853 17               17    10.4    0.1       0.6    0.0     7.9     0.7
+11-22 18:03:59.853 18               18     6.2    0.1       0.9    0.0    15.1     0.1
+11-22 18:03:59.853 mean 0.2973296642303467
+11-22 18:03:59.853 -----------------------------------------------------------------------------------------------------------
+11-22 18:03:59.853 [epoch 39], [dataset name cityscapes], [val loss 1.00873], [acc 0.69871], [acc_cls 0.41499], [mean_iu 0.29733], [fwavacc 0.55670]
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************

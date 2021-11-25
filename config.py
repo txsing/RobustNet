@@ -38,10 +38,12 @@ from __future__ import unicode_literals
 
 
 import torch
+import os
 
 
 from utils.attr_dict import AttrDict
 
+USER_ROOT = os.path.expanduser('~')
 
 __C = AttrDict()
 cfg = __C
@@ -68,22 +70,22 @@ __C.STRICTBORDERCLASS = None
 #Attribute Dictionary for Dataset
 __C.DATASET = AttrDict()
 #Cityscapes Dir Location
-__C.DATASET.CITYSCAPES_DIR = '/home/tx/Datasets/cityscapes'
+__C.DATASET.CITYSCAPES_DIR = USER_ROOT+'/Datasets/cityscapes'
 #SDC Augmented Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_AUG_DIR = ''
 #Mapillary Dataset Dir Location
-__C.DATASET.MAPILLARY_DIR = '/home/tx/Datasets/mapillary'
+__C.DATASET.MAPILLARY_DIR = USER_ROOT+'/Datasets/mapillary'
 #GTAV, BDD100K Dataset Dir Location
-__C.DATASET.GTAV_DIR = '/home/tx/Datasets/gtav'
-__C.DATASET.BDD_DIR = '/home/tx/Datasets/bdd100k/100k'
+__C.DATASET.GTAV_DIR = USER_ROOT+'/Datasets/gtav'
+__C.DATASET.BDD_DIR = USER_ROOT+'/Datasets/bdd100k/100k'
 #Synthia Dataset Dir Location
-__C.DATASET.SYNTHIA_DIR = '/home/tx/Datasets/synthia'
+__C.DATASET.SYNTHIA_DIR = USER_ROOT+'/Datasets/synthia'
 #Kitti Dataset Dir Location
 __C.DATASET.KITTI_DIR = ''
 #SDC Augmented Kitti Dataset Dir Location
 __C.DATASET.KITTI_AUG_DIR = ''
 #Camvid Dataset Dir Location
-__C.DATASET.CAMVID_DIR = '/home/tx/Datasets/SegNet-Tutorial/CamVid'
+__C.DATASET.CAMVID_DIR = USER_ROOT+'/Datasets/SegNet-Tutorial/CamVid'
 #Number of splits to support
 __C.DATASET.CV_SPLITS = 3
 

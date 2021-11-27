@@ -4,6 +4,7 @@ training code
 from __future__ import absolute_import
 from __future__ import division
 from datetime import datetime
+from utils import cov_utils
 
 import argparse
 import logging
@@ -166,8 +167,16 @@ parser.add_argument('--use_wtloss', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
+parser.add_argument('--activate_threshold', type=float, default=0.01,
+                    help='activation threshold')
+parser.add_argument('--cov_weight', type=float, default=0.01,
+                    help='coverage loss weight')
+parser.add_argument("--layers", help="layers", nargs='+')
 
 args = parser.parse_args()
+print("Collected layers: ", args.layers)
+if args.layers[0] == 'ALL': # ['layer0', 'layer1', 'layer2', 'layer3', 'layer4', 'aspp']
+    args.layers = None # All layers collected
 os.environ['CUDA_VISIBLE_DEVICES']=args.devices
 
 args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
@@ -210,6 +219,7 @@ args.world_size = 1
 
 # Test Mode run two epochs with a few iterations of training and val
 if args.test_mode:
+    print("Enter test mode !")
     args.max_epoch = 2
 
 if 'WORLD_SIZE' in os.environ:
@@ -217,8 +227,8 @@ if 'WORLD_SIZE' in os.environ:
     args.world_size = int(os.environ['WORLD_SIZE'])
     print("Total world size: ", int(os.environ['WORLD_SIZE']))
 
-torch.cuda.set_device(args.local_rank)
 print('My Rank:', args.local_rank)
+torch.cuda.set_device(args.local_rank)
 # Initialize distributed communication
 args.dist_url = args.dist_url + str(8000 + (int(time.time()%1000))//10)
 
@@ -275,14 +285,16 @@ def main():
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):
 
-    while i < args.max_iter: # 全局以 iteration 为单位
+    layer_neuron_activated_dict = {}
+    while (i < args.max_iter) or (args.test_mode and epoch < args.max_epoch) : # 全局以 iteration 为单位
         # Update EPOCH CTR
         cfg.immutable(False) # 这里*也许*是为了分布式训练 下保持全局 i
         cfg.ITER = i
         cfg.immutable(True)
 
         # 每个 Epoch 都会更新全局的 Iteration-Idx
-        i = train(train_loader, net, optim, epoch, writer, scheduler, args.max_iter)
+        i, layer_neuron_activated_dict = train(train_loader, net, optim, epoch, writer, scheduler, 
+                                               args.max_iter, layer_neuron_activated_dict)
         train_loader.sampler.set_epoch(epoch + 1)
 
         # 这里是启用 ISW Loss => 生成基于 K-means 生成的 mask_matrix
@@ -328,7 +340,7 @@ def main():
         validate(val_loader, dataset, net, criterion_val, optim, scheduler, epoch, writer, i, save_pth=False)
 
 
-def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
+def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, layer_neuron_activated_dict={}):
     """
     Runs the training loop per epoch
     train_loader: Data loader for train
@@ -380,11 +392,23 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             input, gt = input.cuda(), gt.cuda()
 
             optim.zero_grad()
+            layer_output_dict = {}
             if args.use_isw:
-                outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature,
+                layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature,
                             apply_wtloss=False if curr_epoch<=args.cov_stat_epoch else True)
             else:
-                outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
+                layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
+
+            layer_neuron_activated_dict, total_act_nron, total_nron = cov_utils.update_coverage_v2(layer_output_dict, args.activate_threshold, layer_neuron_activated_dict)
+            neuron_cov_str = str(int(total_act_nron)) + '/' + str(int(total_nron))
+
+            neurons_2b_covered, all_not_covered  = cov_utils.neuron_to_cover(
+                layer_neuron_activated_dict, 1.0
+            )
+            neuron_coverage = cov_utils.cal_neurons_cov_loss(layer_output_dict, neurons_2b_covered)
+            
+            coverage_loss = args.cov_weight * neuron_coverage
+
             outputs_index = 0
             main_loss = outputs[outputs_index]
             outputs_index += 1
@@ -408,6 +432,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             log_total_loss = log_total_loss / args.world_size
             train_total_loss.update(log_total_loss.item(), batch_pixel_size)
 
+            total_loss = total_loss - coverage_loss
             total_loss.backward()
             optim.step()
 
@@ -416,7 +441,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             del total_loss, log_total_loss
 
             if args.local_rank == 0:
-                if i % 50 == 49:
+                if i % 50 == 49 or args.test_mode:
                     if args.visualize_feature:
                         visualize_matrix(writer, f_cor_arr, curr_iter, '/Covariance/Feature-')
 
@@ -425,6 +450,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
                         optim.param_groups[-1]['lr'], time_meter.avg / args.train_batch_size)
 
                     logging.info(msg)
+                    print("### Coverage Loss ### ", coverage_loss ,neuron_cov_str)
                     if args.use_wtloss:
                         print("Whitening Loss", wt_loss)
 
@@ -438,9 +464,9 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
         scheduler.step()
 
         if i > 5 and args.test_mode:
-            return curr_iter
+            return curr_iter, layer_neuron_activated_dict
 
-    return curr_iter
+    return curr_iter, layer_neuron_activated_dict
 
 def validate(val_loader, dataset, net, criterion, optim, scheduler, curr_epoch, writer, curr_iter, save_pth=True):
     """
@@ -553,8 +579,11 @@ def validate_for_cov_stat(val_loader, dataset, net, criterion, optim, scheduler,
         # Logging
         if val_idx % 20 == 0:
             if args.local_rank == 0:
-                logging.info("validating: %d / 100", val_idx + 1)
+                logging.info("cov_stat validating: %d / 100", val_idx + 1)
         del data
+
+        if val_idx > 10 and args.test_mode:
+            break
 
         if val_idx >= 499:
             return

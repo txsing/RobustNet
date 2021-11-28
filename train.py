@@ -463,6 +463,8 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
                                     curr_iter)
                     train_total_loss.reset()
                     time_meter.reset()
+                if i <= 4: # print coverage info at first 5 iterations in each epoch 0,1,2
+                    print("### Coverage Loss ### ", i, coverage_loss ,neuron_cov_str)
 
         curr_iter += 1
         scheduler.step()

@@ -1,0 +1,2483 @@
+Collected layers:  ['layer3', 'layer4']
+Logging : ./logs/1127/r50os16_gtav_base/11_27_17/log_2021_11_27_17_57_02_rank_0.log
+Total world size:  1
+My Rank: 0
+11-27 17:57:02.625 Added key: store_based_barrier_key:1 to store for rank: 0
+Using pytorch sync batch norm
+11-27 17:57:02.627 train fine cities: ['train/folder']
+11-27 17:57:02.653 GTAV-train: 12388 images
+###### centroids 0
+###### centroids 2
+###### centroids 3
+###### centroids 4
+###### centroids 5
+###### centroids 8
+###### centroids 9
+###### centroids 10
+###### centroids 11
+###### centroids 14
+###### centroids 1
+###### centroids 6
+###### centroids 7
+###### centroids 13
+###### centroids 17
+###### centroids 15
+###### centroids 12
+###### centroids 18
+###### centroids 16
+11-27 17:57:02.874 Class Uniform Percentage: 0.5
+11-27 17:57:02.874 Class Uniform items per Epoch:12388
+11-27 17:57:02.875 cls 0 len 12109
+11-27 17:57:02.875 cls 1 len 11833
+11-27 17:57:02.875 cls 2 len 12301
+11-27 17:57:02.875 cls 3 len 10854
+11-27 17:57:02.875 cls 4 len 8811
+11-27 17:57:02.875 cls 5 len 11928
+11-27 17:57:02.876 cls 6 len 7891
+11-27 17:57:02.876 cls 7 len 5921
+11-27 17:57:02.876 cls 8 len 12132
+11-27 17:57:02.876 cls 9 len 11549
+11-27 17:57:02.876 cls 10 len 12131
+11-27 17:57:02.876 cls 11 len 10691
+11-27 17:57:02.876 cls 12 len 986
+11-27 17:57:02.876 cls 13 len 10501
+11-27 17:57:02.876 cls 14 len 6711
+11-27 17:57:02.876 cls 15 len 1861
+11-27 17:57:02.876 cls 16 len 493
+11-27 17:57:02.876 cls 17 len 1211
+11-27 17:57:02.876 cls 18 len 168
+11-27 17:57:02.879 val fine cities: ['valid/folder']
+11-27 17:57:02.892 GTAV-val: 6382 images
+11-27 17:57:02.892 val fine cities: ['val/lindau', 'val/frankfurt', 'val/munster']
+11-27 17:57:02.893 Cityscapes-val: 500 images
+11-27 17:57:02.893 train fine cities: ['train/folder']
+11-27 17:57:02.918 GTAV-train: 12388 images
+standard cross entropy
+standard cross entropy
+Model : DeepLabv3+, Backbone : ResNet-50
+########### pretrained ##############
+Skipped loading parameter bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn1.num_batches_tracked
+Skipped loading parameter layer1.0.bn2.num_batches_tracked
+Skipped loading parameter layer1.0.bn3.num_batches_tracked
+Skipped loading parameter layer1.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer1.1.bn1.num_batches_tracked
+Skipped loading parameter layer1.1.bn2.num_batches_tracked
+Skipped loading parameter layer1.1.bn3.num_batches_tracked
+Skipped loading parameter layer1.2.bn1.num_batches_tracked
+Skipped loading parameter layer1.2.bn2.num_batches_tracked
+Skipped loading parameter layer1.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.bn1.num_batches_tracked
+Skipped loading parameter layer2.0.bn2.num_batches_tracked
+Skipped loading parameter layer2.0.bn3.num_batches_tracked
+Skipped loading parameter layer2.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer2.1.bn1.num_batches_tracked
+Skipped loading parameter layer2.1.bn2.num_batches_tracked
+Skipped loading parameter layer2.1.bn3.num_batches_tracked
+Skipped loading parameter layer2.2.bn1.num_batches_tracked
+Skipped loading parameter layer2.2.bn2.num_batches_tracked
+Skipped loading parameter layer2.2.bn3.num_batches_tracked
+Skipped loading parameter layer2.3.bn1.num_batches_tracked
+Skipped loading parameter layer2.3.bn2.num_batches_tracked
+Skipped loading parameter layer2.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.bn1.num_batches_tracked
+Skipped loading parameter layer3.0.bn2.num_batches_tracked
+Skipped loading parameter layer3.0.bn3.num_batches_tracked
+Skipped loading parameter layer3.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer3.1.bn1.num_batches_tracked
+Skipped loading parameter layer3.1.bn2.num_batches_tracked
+Skipped loading parameter layer3.1.bn3.num_batches_tracked
+Skipped loading parameter layer3.2.bn1.num_batches_tracked
+Skipped loading parameter layer3.2.bn2.num_batches_tracked
+Skipped loading parameter layer3.2.bn3.num_batches_tracked
+Skipped loading parameter layer3.3.bn1.num_batches_tracked
+Skipped loading parameter layer3.3.bn2.num_batches_tracked
+Skipped loading parameter layer3.3.bn3.num_batches_tracked
+Skipped loading parameter layer3.4.bn1.num_batches_tracked
+Skipped loading parameter layer3.4.bn2.num_batches_tracked
+Skipped loading parameter layer3.4.bn3.num_batches_tracked
+Skipped loading parameter layer3.5.bn1.num_batches_tracked
+Skipped loading parameter layer3.5.bn2.num_batches_tracked
+Skipped loading parameter layer3.5.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.bn1.num_batches_tracked
+Skipped loading parameter layer4.0.bn2.num_batches_tracked
+Skipped loading parameter layer4.0.bn3.num_batches_tracked
+Skipped loading parameter layer4.0.downsample.1.num_batches_tracked
+Skipped loading parameter layer4.1.bn1.num_batches_tracked
+Skipped loading parameter layer4.1.bn2.num_batches_tracked
+Skipped loading parameter layer4.1.bn3.num_batches_tracked
+Skipped loading parameter layer4.2.bn1.num_batches_tracked
+Skipped loading parameter layer4.2.bn2.num_batches_tracked
+Skipped loading parameter layer4.2.bn3.num_batches_tracked
+output_stride =  16
+11-27 17:57:03.470 Model params = 45.082M
+#### epoch: 0 #### iteration: 0
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+11-27 17:58:08.164 [epoch 0], [iter 50 / 3097 : 49], [loss 1.977623], [lr 0.009989], [time 0.2842]
+### Coverage Loss ###  tensor(1.7283e-05, device='cuda:0', grad_fn=<MulBackward0>) 3071/3072
+11-27 17:59:04.231 [epoch 0], [iter 100 / 3097 : 99], [loss 1.289669], [lr 0.009978], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:00:00.130 [epoch 0], [iter 150 / 3097 : 149], [loss 1.255802], [lr 0.009966], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:00:56.006 [epoch 0], [iter 200 / 3097 : 199], [loss 1.200756], [lr 0.009955], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:01:52.085 [epoch 0], [iter 250 / 3097 : 249], [loss 0.990046], [lr 0.009944], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:02:48.476 [epoch 0], [iter 300 / 3097 : 299], [loss 0.931704], [lr 0.009933], [time 0.2801]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:03:44.980 [epoch 0], [iter 350 / 3097 : 349], [loss 0.862164], [lr 0.009921], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:04:41.035 [epoch 0], [iter 400 / 3097 : 399], [loss 0.888575], [lr 0.009910], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:05:37.388 [epoch 0], [iter 450 / 3097 : 449], [loss 0.967967], [lr 0.009899], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:06:33.151 [epoch 0], [iter 500 / 3097 : 499], [loss 0.951818], [lr 0.009888], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:07:29.007 [epoch 0], [iter 550 / 3097 : 549], [loss 0.847609], [lr 0.009876], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:08:24.627 [epoch 0], [iter 600 / 3097 : 599], [loss 0.838721], [lr 0.009865], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:09:20.490 [epoch 0], [iter 650 / 3097 : 649], [loss 0.871418], [lr 0.009854], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:10:16.563 [epoch 0], [iter 700 / 3097 : 699], [loss 0.915749], [lr 0.009843], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:11:12.135 [epoch 0], [iter 750 / 3097 : 749], [loss 0.762446], [lr 0.009831], [time 0.2760]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:12:07.829 [epoch 0], [iter 800 / 3097 : 799], [loss 0.812421], [lr 0.009820], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:13:03.557 [epoch 0], [iter 850 / 3097 : 849], [loss 0.821733], [lr 0.009809], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:13:59.501 [epoch 0], [iter 900 / 3097 : 899], [loss 0.889916], [lr 0.009797], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:14:55.402 [epoch 0], [iter 950 / 3097 : 949], [loss 0.799372], [lr 0.009786], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:15:51.248 [epoch 0], [iter 1000 / 3097 : 999], [loss 0.859634], [lr 0.009775], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:16:47.187 [epoch 0], [iter 1050 / 3097 : 1049], [loss 0.868763], [lr 0.009764], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:17:43.370 [epoch 0], [iter 1100 / 3097 : 1099], [loss 0.719722], [lr 0.009752], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:18:39.391 [epoch 0], [iter 1150 / 3097 : 1149], [loss 0.749938], [lr 0.009741], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:19:35.248 [epoch 0], [iter 1200 / 3097 : 1199], [loss 0.773925], [lr 0.009730], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:20:30.882 [epoch 0], [iter 1250 / 3097 : 1249], [loss 0.645730], [lr 0.009719], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:21:26.574 [epoch 0], [iter 1300 / 3097 : 1299], [loss 0.683361], [lr 0.009707], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:22:22.587 [epoch 0], [iter 1350 / 3097 : 1349], [loss 0.759738], [lr 0.009696], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:23:18.884 [epoch 0], [iter 1400 / 3097 : 1399], [loss 0.862584], [lr 0.009685], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:24:14.741 [epoch 0], [iter 1450 / 3097 : 1449], [loss 0.714333], [lr 0.009673], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:25:10.510 [epoch 0], [iter 1500 / 3097 : 1499], [loss 0.709208], [lr 0.009662], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:26:06.435 [epoch 0], [iter 1550 / 3097 : 1549], [loss 0.752517], [lr 0.009651], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:27:02.290 [epoch 0], [iter 1600 / 3097 : 1599], [loss 0.795967], [lr 0.009639], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:27:57.998 [epoch 0], [iter 1650 / 3097 : 1649], [loss 0.761175], [lr 0.009628], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:28:53.541 [epoch 0], [iter 1700 / 3097 : 1699], [loss 0.743865], [lr 0.009617], [time 0.2759]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:29:49.374 [epoch 0], [iter 1750 / 3097 : 1749], [loss 0.699222], [lr 0.009606], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:30:45.383 [epoch 0], [iter 1800 / 3097 : 1799], [loss 0.715239], [lr 0.009594], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:31:40.915 [epoch 0], [iter 1850 / 3097 : 1849], [loss 0.790544], [lr 0.009583], [time 0.2758]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:32:36.677 [epoch 0], [iter 1900 / 3097 : 1899], [loss 0.687334], [lr 0.009572], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:33:32.512 [epoch 0], [iter 1950 / 3097 : 1949], [loss 0.664558], [lr 0.009560], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:34:28.506 [epoch 0], [iter 2000 / 3097 : 1999], [loss 0.600068], [lr 0.009549], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:35:24.609 [epoch 0], [iter 2050 / 3097 : 2049], [loss 0.722966], [lr 0.009538], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:36:20.597 [epoch 0], [iter 2100 / 3097 : 2099], [loss 0.636251], [lr 0.009526], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:37:16.451 [epoch 0], [iter 2150 / 3097 : 2149], [loss 0.615105], [lr 0.009515], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:38:12.290 [epoch 0], [iter 2200 / 3097 : 2199], [loss 0.616322], [lr 0.009504], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:39:07.905 [epoch 0], [iter 2250 / 3097 : 2249], [loss 0.596450], [lr 0.009493], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:40:03.732 [epoch 0], [iter 2300 / 3097 : 2299], [loss 0.615733], [lr 0.009481], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:40:59.587 [epoch 0], [iter 2350 / 3097 : 2349], [loss 0.588891], [lr 0.009470], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:41:55.388 [epoch 0], [iter 2400 / 3097 : 2399], [loss 0.692433], [lr 0.009459], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:42:51.506 [epoch 0], [iter 2450 / 3097 : 2449], [loss 0.665531], [lr 0.009447], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:43:47.356 [epoch 0], [iter 2500 / 3097 : 2499], [loss 0.598074], [lr 0.009436], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:44:43.452 [epoch 0], [iter 2550 / 3097 : 2549], [loss 0.610049], [lr 0.009425], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:45:39.394 [epoch 0], [iter 2600 / 3097 : 2599], [loss 0.579629], [lr 0.009413], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:46:34.969 [epoch 0], [iter 2650 / 3097 : 2649], [loss 0.581407], [lr 0.009402], [time 0.2760]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:47:30.608 [epoch 0], [iter 2700 / 3097 : 2699], [loss 0.624584], [lr 0.009391], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:48:26.177 [epoch 0], [iter 2750 / 3097 : 2749], [loss 0.623961], [lr 0.009379], [time 0.2760]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:49:22.405 [epoch 0], [iter 2800 / 3097 : 2799], [loss 0.690125], [lr 0.009368], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:50:17.918 [epoch 0], [iter 2850 / 3097 : 2849], [loss 0.807530], [lr 0.009357], [time 0.2757]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:51:13.473 [epoch 0], [iter 2900 / 3097 : 2899], [loss 0.676928], [lr 0.009345], [time 0.2759]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:52:09.750 [epoch 0], [iter 2950 / 3097 : 2949], [loss 0.710227], [lr 0.009334], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:53:05.715 [epoch 0], [iter 3000 / 3097 : 2999], [loss 0.612945], [lr 0.009323], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:54:01.741 [epoch 0], [iter 3050 / 3097 : 3049], [loss 0.575793], [lr 0.009311], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 18:54:52.972 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_0_mean-iu_0.00000.pth
+11-27 18:54:52.972 Class Uniform Percentage: 0.5
+11-27 18:54:52.972 Class Uniform items per Epoch:12388
+11-27 18:54:52.973 cls 0 len 12109
+11-27 18:54:52.973 cls 1 len 11833
+11-27 18:54:52.973 cls 2 len 12301
+11-27 18:54:52.973 cls 3 len 10854
+11-27 18:54:52.973 cls 4 len 8811
+11-27 18:54:52.974 cls 5 len 11928
+11-27 18:54:52.974 cls 6 len 7891
+11-27 18:54:52.974 cls 7 len 5921
+11-27 18:54:52.974 cls 8 len 12132
+11-27 18:54:52.974 cls 9 len 11549
+11-27 18:54:52.974 cls 10 len 12131
+11-27 18:54:52.974 cls 11 len 10691
+11-27 18:54:52.974 cls 12 len 986
+11-27 18:54:52.974 cls 13 len 10501
+11-27 18:54:52.974 cls 14 len 6711
+11-27 18:54:52.974 cls 15 len 1861
+11-27 18:54:52.974 cls 16 len 493
+11-27 18:54:52.974 cls 17 len 1211
+11-27 18:54:52.974 cls 18 len 168
+11-27 18:55:55.766 [epoch 1], [iter 50 / 3097 : 3146], [loss 0.556020], [lr 0.009289], [time 0.2822]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:56:51.635 [epoch 1], [iter 100 / 3097 : 3196], [loss 0.544648], [lr 0.009278], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:57:47.332 [epoch 1], [iter 150 / 3097 : 3246], [loss 0.592152], [lr 0.009267], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:58:43.296 [epoch 1], [iter 200 / 3097 : 3296], [loss 0.528749], [lr 0.009255], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 18:59:39.029 [epoch 1], [iter 250 / 3097 : 3346], [loss 0.573410], [lr 0.009244], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:00:34.926 [epoch 1], [iter 300 / 3097 : 3396], [loss 0.735015], [lr 0.009233], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:01:31.065 [epoch 1], [iter 350 / 3097 : 3446], [loss 0.663169], [lr 0.009221], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:02:26.787 [epoch 1], [iter 400 / 3097 : 3496], [loss 0.595551], [lr 0.009210], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:03:22.625 [epoch 1], [iter 450 / 3097 : 3546], [loss 0.622394], [lr 0.009198], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:04:18.451 [epoch 1], [iter 500 / 3097 : 3596], [loss 0.573571], [lr 0.009187], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:05:14.568 [epoch 1], [iter 550 / 3097 : 3646], [loss 0.554681], [lr 0.009176], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:06:10.639 [epoch 1], [iter 600 / 3097 : 3696], [loss 0.700733], [lr 0.009164], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:07:06.313 [epoch 1], [iter 650 / 3097 : 3746], [loss 0.606694], [lr 0.009153], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:08:02.169 [epoch 1], [iter 700 / 3097 : 3796], [loss 0.550005], [lr 0.009142], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:08:58.207 [epoch 1], [iter 750 / 3097 : 3846], [loss 0.671699], [lr 0.009130], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:09:54.362 [epoch 1], [iter 800 / 3097 : 3896], [loss 0.577184], [lr 0.009119], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:10:50.108 [epoch 1], [iter 850 / 3097 : 3946], [loss 0.555911], [lr 0.009108], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:11:46.409 [epoch 1], [iter 900 / 3097 : 3996], [loss 0.576309], [lr 0.009096], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:12:42.752 [epoch 1], [iter 950 / 3097 : 4046], [loss 0.542452], [lr 0.009085], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:13:38.868 [epoch 1], [iter 1000 / 3097 : 4096], [loss 0.647026], [lr 0.009073], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:14:34.686 [epoch 1], [iter 1050 / 3097 : 4146], [loss 0.569692], [lr 0.009062], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:15:30.695 [epoch 1], [iter 1100 / 3097 : 4196], [loss 0.575207], [lr 0.009051], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:16:26.355 [epoch 1], [iter 1150 / 3097 : 4246], [loss 0.572930], [lr 0.009039], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:17:22.524 [epoch 1], [iter 1200 / 3097 : 4296], [loss 0.536291], [lr 0.009028], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(4500)
+11-27 19:18:19.046 [epoch 1], [iter 1250 / 3097 : 4346], [loss 0.630019], [lr 0.009017], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:19:15.027 [epoch 1], [iter 1300 / 3097 : 4396], [loss 0.607114], [lr 0.009005], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:20:11.094 [epoch 1], [iter 1350 / 3097 : 4446], [loss 0.533933], [lr 0.008994], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:21:07.184 [epoch 1], [iter 1400 / 3097 : 4496], [loss 0.580060], [lr 0.008982], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:22:03.314 [epoch 1], [iter 1450 / 3097 : 4546], [loss 0.555582], [lr 0.008971], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:22:59.763 [epoch 1], [iter 1500 / 3097 : 4596], [loss 0.551188], [lr 0.008960], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:23:55.735 [epoch 1], [iter 1550 / 3097 : 4646], [loss 0.526706], [lr 0.008948], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:24:51.633 [epoch 1], [iter 1600 / 3097 : 4696], [loss 0.469586], [lr 0.008937], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:25:48.118 [epoch 1], [iter 1650 / 3097 : 4746], [loss 0.543749], [lr 0.008926], [time 0.2805]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:26:44.536 [epoch 1], [iter 1700 / 3097 : 4796], [loss 0.560071], [lr 0.008914], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:27:40.159 [epoch 1], [iter 1750 / 3097 : 4846], [loss 0.554373], [lr 0.008903], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:28:36.213 [epoch 1], [iter 1800 / 3097 : 4896], [loss 0.551907], [lr 0.008891], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:29:32.582 [epoch 1], [iter 1850 / 3097 : 4946], [loss 0.683416], [lr 0.008880], [time 0.2800]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:30:28.590 [epoch 1], [iter 1900 / 3097 : 4996], [loss 0.580859], [lr 0.008869], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:31:24.621 [epoch 1], [iter 1950 / 3097 : 5046], [loss 0.563848], [lr 0.008857], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:32:21.022 [epoch 1], [iter 2000 / 3097 : 5096], [loss 0.510092], [lr 0.008846], [time 0.2801]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:33:17.549 [epoch 1], [iter 2050 / 3097 : 5146], [loss 0.652444], [lr 0.008834], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:34:13.978 [epoch 1], [iter 2100 / 3097 : 5196], [loss 0.548574], [lr 0.008823], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:35:10.235 [epoch 1], [iter 2150 / 3097 : 5246], [loss 0.571971], [lr 0.008812], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:36:05.974 [epoch 1], [iter 2200 / 3097 : 5296], [loss 0.498839], [lr 0.008800], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:37:01.995 [epoch 1], [iter 2250 / 3097 : 5346], [loss 0.519451], [lr 0.008789], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:37:58.319 [epoch 1], [iter 2300 / 3097 : 5396], [loss 0.608650], [lr 0.008777], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:38:54.397 [epoch 1], [iter 2350 / 3097 : 5446], [loss 0.644644], [lr 0.008766], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:39:50.666 [epoch 1], [iter 2400 / 3097 : 5496], [loss 0.573500], [lr 0.008754], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:40:47.301 [epoch 1], [iter 2450 / 3097 : 5546], [loss 0.566377], [lr 0.008743], [time 0.2813]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:41:43.376 [epoch 1], [iter 2500 / 3097 : 5596], [loss 0.581998], [lr 0.008732], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:42:39.440 [epoch 1], [iter 2550 / 3097 : 5646], [loss 0.565970], [lr 0.008720], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:43:35.240 [epoch 1], [iter 2600 / 3097 : 5696], [loss 0.564642], [lr 0.008709], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:44:31.046 [epoch 1], [iter 2650 / 3097 : 5746], [loss 0.577952], [lr 0.008697], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:45:27.423 [epoch 1], [iter 2700 / 3097 : 5796], [loss 0.573341], [lr 0.008686], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:46:23.050 [epoch 1], [iter 2750 / 3097 : 5846], [loss 0.715321], [lr 0.008674], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:47:18.734 [epoch 1], [iter 2800 / 3097 : 5896], [loss 0.629520], [lr 0.008663], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:48:15.087 [epoch 1], [iter 2850 / 3097 : 5946], [loss 0.583920], [lr 0.008652], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:49:10.991 [epoch 1], [iter 2900 / 3097 : 5996], [loss 0.483649], [lr 0.008640], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:50:07.085 [epoch 1], [iter 2950 / 3097 : 6046], [loss 0.592449], [lr 0.008629], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:51:02.915 [epoch 1], [iter 3000 / 3097 : 6096], [loss 0.578221], [lr 0.008617], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:51:58.633 [epoch 1], [iter 3050 / 3097 : 6146], [loss 0.597283], [lr 0.008606], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 19:52:49.643 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_1_mean-iu_0.00000.pth
+11-27 19:52:49.643 Class Uniform Percentage: 0.5
+11-27 19:52:49.643 Class Uniform items per Epoch:12388
+11-27 19:52:49.644 cls 0 len 12109
+11-27 19:52:49.644 cls 1 len 11833
+11-27 19:52:49.644 cls 2 len 12301
+11-27 19:52:49.644 cls 3 len 10854
+11-27 19:52:49.644 cls 4 len 8811
+11-27 19:52:49.644 cls 5 len 11928
+11-27 19:52:49.644 cls 6 len 7891
+11-27 19:52:49.644 cls 7 len 5921
+11-27 19:52:49.644 cls 8 len 12132
+11-27 19:52:49.644 cls 9 len 11549
+11-27 19:52:49.644 cls 10 len 12131
+11-27 19:52:49.645 cls 11 len 10691
+11-27 19:52:49.645 cls 12 len 986
+11-27 19:52:49.645 cls 13 len 10501
+11-27 19:52:49.645 cls 14 len 6711
+11-27 19:52:49.645 cls 15 len 1861
+11-27 19:52:49.645 cls 16 len 493
+11-27 19:52:49.645 cls 17 len 1211
+11-27 19:52:49.645 cls 18 len 168
+11-27 19:53:52.432 [epoch 2], [iter 50 / 3097 : 6243], [loss 0.581587], [lr 0.008584], [time 0.2808]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:54:48.107 [epoch 2], [iter 100 / 3097 : 6293], [loss 0.520641], [lr 0.008572], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:55:44.204 [epoch 2], [iter 150 / 3097 : 6343], [loss 0.572144], [lr 0.008561], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:56:40.327 [epoch 2], [iter 200 / 3097 : 6393], [loss 0.554725], [lr 0.008549], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:57:36.076 [epoch 2], [iter 250 / 3097 : 6443], [loss 0.518364], [lr 0.008538], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:58:32.148 [epoch 2], [iter 300 / 3097 : 6493], [loss 0.511041], [lr 0.008526], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 19:59:28.291 [epoch 2], [iter 350 / 3097 : 6543], [loss 0.538928], [lr 0.008515], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:00:24.699 [epoch 2], [iter 400 / 3097 : 6593], [loss 0.546432], [lr 0.008504], [time 0.2801]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:01:20.394 [epoch 2], [iter 450 / 3097 : 6643], [loss 0.528148], [lr 0.008492], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:02:16.586 [epoch 2], [iter 500 / 3097 : 6693], [loss 0.560781], [lr 0.008481], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:03:12.833 [epoch 2], [iter 550 / 3097 : 6743], [loss 0.539499], [lr 0.008469], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:04:08.734 [epoch 2], [iter 600 / 3097 : 6793], [loss 0.474046], [lr 0.008458], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:05:04.551 [epoch 2], [iter 650 / 3097 : 6843], [loss 0.503090], [lr 0.008446], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:06:00.684 [epoch 2], [iter 700 / 3097 : 6893], [loss 0.563557], [lr 0.008435], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:06:56.717 [epoch 2], [iter 750 / 3097 : 6943], [loss 0.505981], [lr 0.008423], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:07:52.551 [epoch 2], [iter 800 / 3097 : 6993], [loss 0.615707], [lr 0.008412], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:08:48.418 [epoch 2], [iter 850 / 3097 : 7043], [loss 0.526117], [lr 0.008400], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:09:44.319 [epoch 2], [iter 900 / 3097 : 7093], [loss 0.553819], [lr 0.008389], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:10:40.618 [epoch 2], [iter 950 / 3097 : 7143], [loss 0.512039], [lr 0.008377], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:11:36.321 [epoch 2], [iter 1000 / 3097 : 7193], [loss 0.506853], [lr 0.008366], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:12:32.281 [epoch 2], [iter 1050 / 3097 : 7243], [loss 0.520582], [lr 0.008354], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:13:28.238 [epoch 2], [iter 1100 / 3097 : 7293], [loss 0.506333], [lr 0.008343], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:14:24.267 [epoch 2], [iter 1150 / 3097 : 7343], [loss 0.438358], [lr 0.008332], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:15:20.064 [epoch 2], [iter 1200 / 3097 : 7393], [loss 0.460023], [lr 0.008320], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:16:15.697 [epoch 2], [iter 1250 / 3097 : 7443], [loss 0.542490], [lr 0.008309], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:17:11.435 [epoch 2], [iter 1300 / 3097 : 7493], [loss 0.544545], [lr 0.008297], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:18:07.774 [epoch 2], [iter 1350 / 3097 : 7543], [loss 0.437775], [lr 0.008286], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:19:03.618 [epoch 2], [iter 1400 / 3097 : 7593], [loss 0.412841], [lr 0.008274], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:19:59.743 [epoch 2], [iter 1450 / 3097 : 7643], [loss 0.552553], [lr 0.008263], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:20:55.621 [epoch 2], [iter 1500 / 3097 : 7693], [loss 0.478124], [lr 0.008251], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:21:51.340 [epoch 2], [iter 1550 / 3097 : 7743], [loss 0.518499], [lr 0.008240], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:22:46.917 [epoch 2], [iter 1600 / 3097 : 7793], [loss 0.508700], [lr 0.008228], [time 0.2759]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:23:42.942 [epoch 2], [iter 1650 / 3097 : 7843], [loss 0.530658], [lr 0.008217], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:24:38.608 [epoch 2], [iter 1700 / 3097 : 7893], [loss 0.502805], [lr 0.008205], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:25:34.487 [epoch 2], [iter 1750 / 3097 : 7943], [loss 0.515321], [lr 0.008194], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:26:30.185 [epoch 2], [iter 1800 / 3097 : 7993], [loss 0.540613], [lr 0.008182], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:27:26.193 [epoch 2], [iter 1850 / 3097 : 8043], [loss 0.510554], [lr 0.008171], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:28:22.415 [epoch 2], [iter 1900 / 3097 : 8093], [loss 0.490504], [lr 0.008159], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:29:18.311 [epoch 2], [iter 1950 / 3097 : 8143], [loss 0.514199], [lr 0.008148], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:30:14.668 [epoch 2], [iter 2000 / 3097 : 8193], [loss 0.492844], [lr 0.008136], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:31:10.453 [epoch 2], [iter 2050 / 3097 : 8243], [loss 0.511234], [lr 0.008125], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:32:06.431 [epoch 2], [iter 2100 / 3097 : 8293], [loss 0.494271], [lr 0.008113], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:33:02.205 [epoch 2], [iter 2150 / 3097 : 8343], [loss 0.468001], [lr 0.008102], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:33:58.320 [epoch 2], [iter 2200 / 3097 : 8393], [loss 0.412202], [lr 0.008090], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:34:54.251 [epoch 2], [iter 2250 / 3097 : 8443], [loss 0.436900], [lr 0.008079], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:35:50.167 [epoch 2], [iter 2300 / 3097 : 8493], [loss 0.483427], [lr 0.008067], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:36:45.834 [epoch 2], [iter 2350 / 3097 : 8543], [loss 0.455275], [lr 0.008055], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:37:41.920 [epoch 2], [iter 2400 / 3097 : 8593], [loss 0.473207], [lr 0.008044], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:38:38.040 [epoch 2], [iter 2450 / 3097 : 8643], [loss 0.456321], [lr 0.008032], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(880)
+11-27 20:39:34.167 [epoch 2], [iter 2500 / 3097 : 8693], [loss 0.498876], [lr 0.008021], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:40:30.246 [epoch 2], [iter 2550 / 3097 : 8743], [loss 0.538971], [lr 0.008009], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:41:26.165 [epoch 2], [iter 2600 / 3097 : 8793], [loss 0.491830], [lr 0.007998], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:42:21.957 [epoch 2], [iter 2650 / 3097 : 8843], [loss 0.495847], [lr 0.007986], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:43:17.923 [epoch 2], [iter 2700 / 3097 : 8893], [loss 0.538994], [lr 0.007975], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:44:14.261 [epoch 2], [iter 2750 / 3097 : 8943], [loss 0.509622], [lr 0.007963], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:45:10.162 [epoch 2], [iter 2800 / 3097 : 8993], [loss 0.474699], [lr 0.007952], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:46:06.500 [epoch 2], [iter 2850 / 3097 : 9043], [loss 0.552779], [lr 0.007940], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:47:02.449 [epoch 2], [iter 2900 / 3097 : 9093], [loss 0.562377], [lr 0.007929], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:47:58.353 [epoch 2], [iter 2950 / 3097 : 9143], [loss 0.541892], [lr 0.007917], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:48:54.318 [epoch 2], [iter 3000 / 3097 : 9193], [loss 0.469545], [lr 0.007906], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:49:49.983 [epoch 2], [iter 3050 / 3097 : 9243], [loss 0.510640], [lr 0.007894], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 20:50:40.874 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_2_mean-iu_0.00000.pth
+11-27 20:50:40.874 Class Uniform Percentage: 0.5
+11-27 20:50:40.874 Class Uniform items per Epoch:12388
+11-27 20:50:40.876 cls 0 len 12109
+11-27 20:50:40.876 cls 1 len 11833
+11-27 20:50:40.876 cls 2 len 12301
+11-27 20:50:40.876 cls 3 len 10854
+11-27 20:50:40.876 cls 4 len 8811
+11-27 20:50:40.876 cls 5 len 11928
+11-27 20:50:40.876 cls 6 len 7891
+11-27 20:50:40.876 cls 7 len 5921
+11-27 20:50:40.876 cls 8 len 12132
+11-27 20:50:40.876 cls 9 len 11549
+11-27 20:50:40.876 cls 10 len 12131
+11-27 20:50:40.876 cls 11 len 10691
+11-27 20:50:40.876 cls 12 len 986
+11-27 20:50:40.876 cls 13 len 10501
+11-27 20:50:40.876 cls 14 len 6711
+11-27 20:50:40.876 cls 15 len 1861
+11-27 20:50:40.876 cls 16 len 493
+11-27 20:50:40.876 cls 17 len 1211
+11-27 20:50:40.876 cls 18 len 168
+11-27 20:51:43.596 [epoch 3], [iter 50 / 3097 : 9340], [loss 0.571983], [lr 0.007872], [time 0.2814]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:52:39.355 [epoch 3], [iter 100 / 3097 : 9390], [loss 0.507524], [lr 0.007860], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:53:35.674 [epoch 3], [iter 150 / 3097 : 9440], [loss 0.527376], [lr 0.007848], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:54:31.468 [epoch 3], [iter 200 / 3097 : 9490], [loss 0.522644], [lr 0.007837], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:55:27.992 [epoch 3], [iter 250 / 3097 : 9540], [loss 0.460439], [lr 0.007825], [time 0.2808]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:56:23.947 [epoch 3], [iter 300 / 3097 : 9590], [loss 0.484116], [lr 0.007814], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:57:19.894 [epoch 3], [iter 350 / 3097 : 9640], [loss 0.553700], [lr 0.007802], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:58:16.138 [epoch 3], [iter 400 / 3097 : 9690], [loss 0.528028], [lr 0.007791], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 20:59:12.388 [epoch 3], [iter 450 / 3097 : 9740], [loss 0.458546], [lr 0.007779], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:00:08.078 [epoch 3], [iter 500 / 3097 : 9790], [loss 0.553019], [lr 0.007768], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:01:04.227 [epoch 3], [iter 550 / 3097 : 9840], [loss 0.692979], [lr 0.007756], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:02:00.602 [epoch 3], [iter 600 / 3097 : 9890], [loss 0.591787], [lr 0.007744], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:02:56.958 [epoch 3], [iter 650 / 3097 : 9940], [loss 0.524922], [lr 0.007733], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:03:52.717 [epoch 3], [iter 700 / 3097 : 9990], [loss 0.490307], [lr 0.007721], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:04:49.215 [epoch 3], [iter 750 / 3097 : 10040], [loss 0.458307], [lr 0.007710], [time 0.2806]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:05:45.186 [epoch 3], [iter 800 / 3097 : 10090], [loss 0.502420], [lr 0.007698], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:06:41.020 [epoch 3], [iter 850 / 3097 : 10140], [loss 0.495803], [lr 0.007686], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:07:36.722 [epoch 3], [iter 900 / 3097 : 10190], [loss 0.474948], [lr 0.007675], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:08:32.735 [epoch 3], [iter 950 / 3097 : 10240], [loss 0.521150], [lr 0.007663], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:09:29.171 [epoch 3], [iter 1000 / 3097 : 10290], [loss 0.426543], [lr 0.007652], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:10:25.049 [epoch 3], [iter 1050 / 3097 : 10340], [loss 0.461227], [lr 0.007640], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:11:20.912 [epoch 3], [iter 1100 / 3097 : 10390], [loss 0.475270], [lr 0.007629], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:12:17.446 [epoch 3], [iter 1150 / 3097 : 10440], [loss 0.456112], [lr 0.007617], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:13:13.546 [epoch 3], [iter 1200 / 3097 : 10490], [loss 0.515099], [lr 0.007605], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:14:09.310 [epoch 3], [iter 1250 / 3097 : 10540], [loss 0.468113], [lr 0.007594], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:15:05.512 [epoch 3], [iter 1300 / 3097 : 10590], [loss 0.573391], [lr 0.007582], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:16:01.819 [epoch 3], [iter 1350 / 3097 : 10640], [loss 0.487053], [lr 0.007571], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:16:58.073 [epoch 3], [iter 1400 / 3097 : 10690], [loss 0.501688], [lr 0.007559], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:17:54.194 [epoch 3], [iter 1450 / 3097 : 10740], [loss 0.439812], [lr 0.007547], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:18:50.325 [epoch 3], [iter 1500 / 3097 : 10790], [loss 0.483320], [lr 0.007536], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:19:46.500 [epoch 3], [iter 1550 / 3097 : 10840], [loss 0.461840], [lr 0.007524], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:20:42.566 [epoch 3], [iter 1600 / 3097 : 10890], [loss 0.424771], [lr 0.007512], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:21:38.538 [epoch 3], [iter 1650 / 3097 : 10940], [loss 0.442956], [lr 0.007501], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:22:35.252 [epoch 3], [iter 1700 / 3097 : 10990], [loss 0.487666], [lr 0.007489], [time 0.2816]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:23:31.195 [epoch 3], [iter 1750 / 3097 : 11040], [loss 0.526448], [lr 0.007478], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:24:27.286 [epoch 3], [iter 1800 / 3097 : 11090], [loss 0.506361], [lr 0.007466], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:25:23.229 [epoch 3], [iter 1850 / 3097 : 11140], [loss 0.545183], [lr 0.007454], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:26:19.213 [epoch 3], [iter 1900 / 3097 : 11190], [loss 0.534138], [lr 0.007443], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:27:15.190 [epoch 3], [iter 1950 / 3097 : 11240], [loss 0.532201], [lr 0.007431], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:28:10.876 [epoch 3], [iter 2000 / 3097 : 11290], [loss 0.539985], [lr 0.007420], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:29:06.821 [epoch 3], [iter 2050 / 3097 : 11340], [loss 0.497561], [lr 0.007408], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:30:03.353 [epoch 3], [iter 2100 / 3097 : 11390], [loss 0.472932], [lr 0.007396], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:30:59.637 [epoch 3], [iter 2150 / 3097 : 11440], [loss 0.447961], [lr 0.007385], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:31:55.650 [epoch 3], [iter 2200 / 3097 : 11490], [loss 0.445623], [lr 0.007373], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:32:52.106 [epoch 3], [iter 2250 / 3097 : 11540], [loss 0.447490], [lr 0.007361], [time 0.2803]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:33:48.590 [epoch 3], [iter 2300 / 3097 : 11590], [loss 0.555790], [lr 0.007350], [time 0.2805]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:34:44.417 [epoch 3], [iter 2350 / 3097 : 11640], [loss 0.502598], [lr 0.007338], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:35:40.223 [epoch 3], [iter 2400 / 3097 : 11690], [loss 0.402342], [lr 0.007326], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:36:36.184 [epoch 3], [iter 2450 / 3097 : 11740], [loss 0.468238], [lr 0.007315], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:37:31.994 [epoch 3], [iter 2500 / 3097 : 11790], [loss 0.465764], [lr 0.007303], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:38:27.672 [epoch 3], [iter 2550 / 3097 : 11840], [loss 0.453823], [lr 0.007291], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:39:24.200 [epoch 3], [iter 2600 / 3097 : 11890], [loss 0.476211], [lr 0.007280], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:40:19.903 [epoch 3], [iter 2650 / 3097 : 11940], [loss 0.367199], [lr 0.007268], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:41:16.235 [epoch 3], [iter 2700 / 3097 : 11990], [loss 0.415130], [lr 0.007257], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:42:12.706 [epoch 3], [iter 2750 / 3097 : 12040], [loss 0.489957], [lr 0.007245], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:43:08.814 [epoch 3], [iter 2800 / 3097 : 12090], [loss 0.468328], [lr 0.007233], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:44:04.523 [epoch 3], [iter 2850 / 3097 : 12140], [loss 0.493837], [lr 0.007222], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:45:00.309 [epoch 3], [iter 2900 / 3097 : 12190], [loss 0.509095], [lr 0.007210], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(4367)
+11-27 21:45:56.785 [epoch 3], [iter 2950 / 3097 : 12240], [loss 0.456705], [lr 0.007198], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:46:53.419 [epoch 3], [iter 3000 / 3097 : 12290], [loss 0.517265], [lr 0.007187], [time 0.2812]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:47:49.295 [epoch 3], [iter 3050 / 3097 : 12340], [loss 0.452354], [lr 0.007175], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 21:48:40.283 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_3_mean-iu_0.00000.pth
+11-27 21:48:40.284 Class Uniform Percentage: 0.5
+11-27 21:48:40.284 Class Uniform items per Epoch:12388
+11-27 21:48:40.285 cls 0 len 12109
+11-27 21:48:40.285 cls 1 len 11833
+11-27 21:48:40.285 cls 2 len 12301
+11-27 21:48:40.285 cls 3 len 10854
+11-27 21:48:40.285 cls 4 len 8811
+11-27 21:48:40.285 cls 5 len 11928
+11-27 21:48:40.285 cls 6 len 7891
+11-27 21:48:40.285 cls 7 len 5921
+11-27 21:48:40.285 cls 8 len 12132
+11-27 21:48:40.285 cls 9 len 11549
+11-27 21:48:40.285 cls 10 len 12131
+11-27 21:48:40.285 cls 11 len 10691
+11-27 21:48:40.285 cls 12 len 986
+11-27 21:48:40.285 cls 13 len 10501
+11-27 21:48:40.285 cls 14 len 6711
+11-27 21:48:40.285 cls 15 len 1861
+11-27 21:48:40.285 cls 16 len 493
+11-27 21:48:40.285 cls 17 len 1211
+11-27 21:48:40.285 cls 18 len 168
+11-27 21:49:42.868 [epoch 4], [iter 50 / 3097 : 12437], [loss 0.576814], [lr 0.007152], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(10746)
+11-27 21:50:38.453 [epoch 4], [iter 100 / 3097 : 12487], [loss 0.505366], [lr 0.007141], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:51:34.010 [epoch 4], [iter 150 / 3097 : 12537], [loss 0.502804], [lr 0.007129], [time 0.2759]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:52:29.657 [epoch 4], [iter 200 / 3097 : 12587], [loss 0.457424], [lr 0.007117], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:53:25.593 [epoch 4], [iter 250 / 3097 : 12637], [loss 0.439901], [lr 0.007105], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:54:22.177 [epoch 4], [iter 300 / 3097 : 12687], [loss 0.513521], [lr 0.007094], [time 0.2810]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:55:17.980 [epoch 4], [iter 350 / 3097 : 12737], [loss 0.526777], [lr 0.007082], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:56:14.045 [epoch 4], [iter 400 / 3097 : 12787], [loss 0.478381], [lr 0.007070], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:57:09.805 [epoch 4], [iter 450 / 3097 : 12837], [loss 0.494395], [lr 0.007059], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:58:05.866 [epoch 4], [iter 500 / 3097 : 12887], [loss 0.457653], [lr 0.007047], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:59:01.465 [epoch 4], [iter 550 / 3097 : 12937], [loss 0.451042], [lr 0.007035], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-27 21:59:57.402 [epoch 4], [iter 600 / 3097 : 12987], [loss 0.579850], [lr 0.007024], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:00:53.021 [epoch 4], [iter 650 / 3097 : 13037], [loss 0.501693], [lr 0.007012], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:01:49.219 [epoch 4], [iter 700 / 3097 : 13087], [loss 0.471809], [lr 0.007000], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:02:44.912 [epoch 4], [iter 750 / 3097 : 13137], [loss 0.453625], [lr 0.006989], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:03:40.836 [epoch 4], [iter 800 / 3097 : 13187], [loss 0.459490], [lr 0.006977], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:04:37.083 [epoch 4], [iter 850 / 3097 : 13237], [loss 0.525188], [lr 0.006965], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:05:32.729 [epoch 4], [iter 900 / 3097 : 13287], [loss 0.503780], [lr 0.006953], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:06:28.502 [epoch 4], [iter 950 / 3097 : 13337], [loss 0.395914], [lr 0.006942], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:07:24.135 [epoch 4], [iter 1000 / 3097 : 13387], [loss 0.476067], [lr 0.006930], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:08:20.125 [epoch 4], [iter 1050 / 3097 : 13437], [loss 0.472295], [lr 0.006918], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:09:16.178 [epoch 4], [iter 1100 / 3097 : 13487], [loss 0.427909], [lr 0.006907], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:10:11.785 [epoch 4], [iter 1150 / 3097 : 13537], [loss 0.467733], [lr 0.006895], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:11:07.391 [epoch 4], [iter 1200 / 3097 : 13587], [loss 0.566581], [lr 0.006883], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:12:03.009 [epoch 4], [iter 1250 / 3097 : 13637], [loss 0.416431], [lr 0.006871], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:12:58.671 [epoch 4], [iter 1300 / 3097 : 13687], [loss 0.434846], [lr 0.006860], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:13:54.640 [epoch 4], [iter 1350 / 3097 : 13737], [loss 0.475943], [lr 0.006848], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:14:50.507 [epoch 4], [iter 1400 / 3097 : 13787], [loss 0.531354], [lr 0.006836], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:15:46.105 [epoch 4], [iter 1450 / 3097 : 13837], [loss 0.497776], [lr 0.006824], [time 0.2760]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:16:41.862 [epoch 4], [iter 1500 / 3097 : 13887], [loss 0.493536], [lr 0.006813], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:17:37.644 [epoch 4], [iter 1550 / 3097 : 13937], [loss 0.545955], [lr 0.006801], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:18:33.868 [epoch 4], [iter 1600 / 3097 : 13987], [loss 0.531221], [lr 0.006789], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:19:29.919 [epoch 4], [iter 1650 / 3097 : 14037], [loss 0.515041], [lr 0.006777], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:20:25.562 [epoch 4], [iter 1700 / 3097 : 14087], [loss 0.500374], [lr 0.006766], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:21:21.719 [epoch 4], [iter 1750 / 3097 : 14137], [loss 0.458705], [lr 0.006754], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:22:17.590 [epoch 4], [iter 1800 / 3097 : 14187], [loss 0.533668], [lr 0.006742], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:23:13.238 [epoch 4], [iter 1850 / 3097 : 14237], [loss 0.606099], [lr 0.006730], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:24:09.058 [epoch 4], [iter 1900 / 3097 : 14287], [loss 0.515549], [lr 0.006719], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:25:04.944 [epoch 4], [iter 1950 / 3097 : 14337], [loss 0.408407], [lr 0.006707], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:26:00.784 [epoch 4], [iter 2000 / 3097 : 14387], [loss 0.438169], [lr 0.006695], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:26:56.549 [epoch 4], [iter 2050 / 3097 : 14437], [loss 0.495011], [lr 0.006683], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:27:52.571 [epoch 4], [iter 2100 / 3097 : 14487], [loss 0.520993], [lr 0.006672], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:28:48.489 [epoch 4], [iter 2150 / 3097 : 14537], [loss 0.477382], [lr 0.006660], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:29:44.467 [epoch 4], [iter 2200 / 3097 : 14587], [loss 0.451340], [lr 0.006648], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:30:40.092 [epoch 4], [iter 2250 / 3097 : 14637], [loss 0.429429], [lr 0.006636], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:31:36.186 [epoch 4], [iter 2300 / 3097 : 14687], [loss 0.382221], [lr 0.006625], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:32:31.812 [epoch 4], [iter 2350 / 3097 : 14737], [loss 0.457085], [lr 0.006613], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:33:27.433 [epoch 4], [iter 2400 / 3097 : 14787], [loss 0.425386], [lr 0.006601], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:34:23.317 [epoch 4], [iter 2450 / 3097 : 14837], [loss 0.432346], [lr 0.006589], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:35:19.598 [epoch 4], [iter 2500 / 3097 : 14887], [loss 0.479352], [lr 0.006577], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:36:15.663 [epoch 4], [iter 2550 / 3097 : 14937], [loss 0.435505], [lr 0.006566], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:37:11.792 [epoch 4], [iter 2600 / 3097 : 14987], [loss 0.426407], [lr 0.006554], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:38:07.928 [epoch 4], [iter 2650 / 3097 : 15037], [loss 0.465501], [lr 0.006542], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:39:03.781 [epoch 4], [iter 2700 / 3097 : 15087], [loss 0.429664], [lr 0.006530], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:39:59.527 [epoch 4], [iter 2750 / 3097 : 15137], [loss 0.414733], [lr 0.006518], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:40:55.180 [epoch 4], [iter 2800 / 3097 : 15187], [loss 0.477615], [lr 0.006507], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:41:50.911 [epoch 4], [iter 2850 / 3097 : 15237], [loss 0.445586], [lr 0.006495], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:42:46.706 [epoch 4], [iter 2900 / 3097 : 15287], [loss 0.444979], [lr 0.006483], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:43:42.737 [epoch 4], [iter 2950 / 3097 : 15337], [loss 0.560437], [lr 0.006471], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:44:38.558 [epoch 4], [iter 3000 / 3097 : 15387], [loss 0.425030], [lr 0.006459], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:45:34.393 [epoch 4], [iter 3050 / 3097 : 15437], [loss 0.484215], [lr 0.006448], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 22:46:25.984 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_4_mean-iu_0.00000.pth
+11-27 22:46:25.985 Class Uniform Percentage: 0.5
+11-27 22:46:25.985 Class Uniform items per Epoch:12388
+11-27 22:46:25.986 cls 0 len 12109
+11-27 22:46:25.986 cls 1 len 11833
+11-27 22:46:25.986 cls 2 len 12301
+11-27 22:46:25.986 cls 3 len 10854
+11-27 22:46:25.986 cls 4 len 8811
+11-27 22:46:25.986 cls 5 len 11928
+11-27 22:46:25.986 cls 6 len 7891
+11-27 22:46:25.986 cls 7 len 5921
+11-27 22:46:25.986 cls 8 len 12132
+11-27 22:46:25.986 cls 9 len 11549
+11-27 22:46:25.986 cls 10 len 12131
+11-27 22:46:25.986 cls 11 len 10691
+11-27 22:46:25.986 cls 12 len 986
+11-27 22:46:25.986 cls 13 len 10501
+11-27 22:46:25.986 cls 14 len 6711
+11-27 22:46:25.986 cls 15 len 1861
+11-27 22:46:25.986 cls 16 len 493
+11-27 22:46:25.986 cls 17 len 1211
+11-27 22:46:25.986 cls 18 len 168
+11-27 22:47:29.169 [epoch 5], [iter 50 / 3097 : 15534], [loss 0.430582], [lr 0.006425], [time 0.2838]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:48:25.232 [epoch 5], [iter 100 / 3097 : 15584], [loss 0.385739], [lr 0.006413], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:49:21.219 [epoch 5], [iter 150 / 3097 : 15634], [loss 0.498461], [lr 0.006401], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:50:17.018 [epoch 5], [iter 200 / 3097 : 15684], [loss 0.534759], [lr 0.006389], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:51:13.308 [epoch 5], [iter 250 / 3097 : 15734], [loss 0.404925], [lr 0.006377], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:52:09.703 [epoch 5], [iter 300 / 3097 : 15784], [loss 0.387088], [lr 0.006366], [time 0.2801]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:53:05.664 [epoch 5], [iter 350 / 3097 : 15834], [loss 0.407454], [lr 0.006354], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:54:01.937 [epoch 5], [iter 400 / 3097 : 15884], [loss 0.452781], [lr 0.006342], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:54:57.981 [epoch 5], [iter 450 / 3097 : 15934], [loss 0.448364], [lr 0.006330], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:55:53.901 [epoch 5], [iter 500 / 3097 : 15984], [loss 0.447420], [lr 0.006318], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:56:50.035 [epoch 5], [iter 550 / 3097 : 16034], [loss 0.466265], [lr 0.006306], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:57:45.943 [epoch 5], [iter 600 / 3097 : 16084], [loss 0.428936], [lr 0.006295], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:58:42.275 [epoch 5], [iter 650 / 3097 : 16134], [loss 0.476791], [lr 0.006283], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-27 22:59:38.782 [epoch 5], [iter 700 / 3097 : 16184], [loss 0.508517], [lr 0.006271], [time 0.2806]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:00:34.756 [epoch 5], [iter 750 / 3097 : 16234], [loss 0.483932], [lr 0.006259], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:01:30.660 [epoch 5], [iter 800 / 3097 : 16284], [loss 0.505275], [lr 0.006247], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:02:26.696 [epoch 5], [iter 850 / 3097 : 16334], [loss 0.481229], [lr 0.006235], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:03:22.640 [epoch 5], [iter 900 / 3097 : 16384], [loss 0.445888], [lr 0.006223], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:04:18.599 [epoch 5], [iter 950 / 3097 : 16434], [loss 0.467756], [lr 0.006212], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:05:14.844 [epoch 5], [iter 1000 / 3097 : 16484], [loss 0.445602], [lr 0.006200], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:06:10.749 [epoch 5], [iter 1050 / 3097 : 16534], [loss 0.462836], [lr 0.006188], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:07:06.965 [epoch 5], [iter 1100 / 3097 : 16584], [loss 0.429475], [lr 0.006176], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:08:03.085 [epoch 5], [iter 1150 / 3097 : 16634], [loss 0.432052], [lr 0.006164], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:08:59.103 [epoch 5], [iter 1200 / 3097 : 16684], [loss 0.457047], [lr 0.006152], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:09:55.168 [epoch 5], [iter 1250 / 3097 : 16734], [loss 0.507904], [lr 0.006140], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:10:51.474 [epoch 5], [iter 1300 / 3097 : 16784], [loss 0.491227], [lr 0.006129], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:11:47.471 [epoch 5], [iter 1350 / 3097 : 16834], [loss 0.426702], [lr 0.006117], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:12:43.366 [epoch 5], [iter 1400 / 3097 : 16884], [loss 0.495944], [lr 0.006105], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:13:39.105 [epoch 5], [iter 1450 / 3097 : 16934], [loss 0.490185], [lr 0.006093], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:14:35.663 [epoch 5], [iter 1500 / 3097 : 16984], [loss 0.414298], [lr 0.006081], [time 0.2808]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:15:31.876 [epoch 5], [iter 1550 / 3097 : 17034], [loss 0.473960], [lr 0.006069], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:16:27.670 [epoch 5], [iter 1600 / 3097 : 17084], [loss 0.448495], [lr 0.006057], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:17:24.076 [epoch 5], [iter 1650 / 3097 : 17134], [loss 0.482565], [lr 0.006045], [time 0.2800]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:18:19.831 [epoch 5], [iter 1700 / 3097 : 17184], [loss 0.413798], [lr 0.006033], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:19:16.150 [epoch 5], [iter 1750 / 3097 : 17234], [loss 0.431883], [lr 0.006021], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:20:12.336 [epoch 5], [iter 1800 / 3097 : 17284], [loss 0.466806], [lr 0.006010], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:21:08.066 [epoch 5], [iter 1850 / 3097 : 17334], [loss 0.503958], [lr 0.005998], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:22:03.715 [epoch 5], [iter 1900 / 3097 : 17384], [loss 0.437131], [lr 0.005986], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:22:59.981 [epoch 5], [iter 1950 / 3097 : 17434], [loss 0.452096], [lr 0.005974], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:23:56.373 [epoch 5], [iter 2000 / 3097 : 17484], [loss 0.487628], [lr 0.005962], [time 0.2800]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:24:52.241 [epoch 5], [iter 2050 / 3097 : 17534], [loss 0.406018], [lr 0.005950], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:25:48.539 [epoch 5], [iter 2100 / 3097 : 17584], [loss 0.387481], [lr 0.005938], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:26:45.009 [epoch 5], [iter 2150 / 3097 : 17634], [loss 0.437460], [lr 0.005926], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:27:41.194 [epoch 5], [iter 2200 / 3097 : 17684], [loss 0.432461], [lr 0.005914], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:28:37.379 [epoch 5], [iter 2250 / 3097 : 17734], [loss 0.383585], [lr 0.005902], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:29:33.600 [epoch 5], [iter 2300 / 3097 : 17784], [loss 0.385908], [lr 0.005890], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:30:29.513 [epoch 5], [iter 2350 / 3097 : 17834], [loss 0.418046], [lr 0.005878], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:31:25.285 [epoch 5], [iter 2400 / 3097 : 17884], [loss 0.402203], [lr 0.005867], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:32:21.648 [epoch 5], [iter 2450 / 3097 : 17934], [loss 0.416008], [lr 0.005855], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:33:17.527 [epoch 5], [iter 2500 / 3097 : 17984], [loss 0.408404], [lr 0.005843], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:34:13.830 [epoch 5], [iter 2550 / 3097 : 18034], [loss 0.373035], [lr 0.005831], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:35:09.866 [epoch 5], [iter 2600 / 3097 : 18084], [loss 0.485179], [lr 0.005819], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:36:05.588 [epoch 5], [iter 2650 / 3097 : 18134], [loss 0.433838], [lr 0.005807], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:37:01.335 [epoch 5], [iter 2700 / 3097 : 18184], [loss 0.379994], [lr 0.005795], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:37:57.383 [epoch 5], [iter 2750 / 3097 : 18234], [loss 0.392081], [lr 0.005783], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:38:53.562 [epoch 5], [iter 2800 / 3097 : 18284], [loss 0.421268], [lr 0.005771], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:39:49.702 [epoch 5], [iter 2850 / 3097 : 18334], [loss 0.419684], [lr 0.005759], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:40:45.671 [epoch 5], [iter 2900 / 3097 : 18384], [loss 0.362030], [lr 0.005747], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:41:41.431 [epoch 5], [iter 2950 / 3097 : 18434], [loss 0.478963], [lr 0.005735], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:42:37.464 [epoch 5], [iter 3000 / 3097 : 18484], [loss 0.446254], [lr 0.005723], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:43:33.424 [epoch 5], [iter 3050 / 3097 : 18534], [loss 0.426873], [lr 0.005711], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-27 23:44:24.390 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_5_mean-iu_0.00000.pth
+11-27 23:44:24.390 Class Uniform Percentage: 0.5
+11-27 23:44:24.390 Class Uniform items per Epoch:12388
+11-27 23:44:24.392 cls 0 len 12109
+11-27 23:44:24.392 cls 1 len 11833
+11-27 23:44:24.392 cls 2 len 12301
+11-27 23:44:24.392 cls 3 len 10854
+11-27 23:44:24.392 cls 4 len 8811
+11-27 23:44:24.392 cls 5 len 11928
+11-27 23:44:24.392 cls 6 len 7891
+11-27 23:44:24.392 cls 7 len 5921
+11-27 23:44:24.392 cls 8 len 12132
+11-27 23:44:24.392 cls 9 len 11549
+11-27 23:44:24.392 cls 10 len 12131
+11-27 23:44:24.392 cls 11 len 10691
+11-27 23:44:24.392 cls 12 len 986
+11-27 23:44:24.392 cls 13 len 10501
+11-27 23:44:24.392 cls 14 len 6711
+11-27 23:44:24.392 cls 15 len 1861
+11-27 23:44:24.392 cls 16 len 493
+11-27 23:44:24.392 cls 17 len 1211
+11-27 23:44:24.392 cls 18 len 168
+11-27 23:45:27.221 [epoch 6], [iter 50 / 3097 : 18631], [loss 0.419059], [lr 0.005688], [time 0.2820]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:46:23.409 [epoch 6], [iter 100 / 3097 : 18681], [loss 0.463351], [lr 0.005676], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:47:19.489 [epoch 6], [iter 150 / 3097 : 18731], [loss 0.482819], [lr 0.005664], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:48:15.456 [epoch 6], [iter 200 / 3097 : 18781], [loss 0.492705], [lr 0.005652], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:49:11.197 [epoch 6], [iter 250 / 3097 : 18831], [loss 0.440905], [lr 0.005640], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:50:06.985 [epoch 6], [iter 300 / 3097 : 18881], [loss 0.393105], [lr 0.005628], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:51:03.155 [epoch 6], [iter 350 / 3097 : 18931], [loss 0.414234], [lr 0.005616], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:51:59.280 [epoch 6], [iter 400 / 3097 : 18981], [loss 0.435765], [lr 0.005604], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:52:55.643 [epoch 6], [iter 450 / 3097 : 19031], [loss 0.489595], [lr 0.005592], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:53:51.954 [epoch 6], [iter 500 / 3097 : 19081], [loss 0.470960], [lr 0.005580], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:54:47.874 [epoch 6], [iter 550 / 3097 : 19131], [loss 0.455004], [lr 0.005568], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:55:44.264 [epoch 6], [iter 600 / 3097 : 19181], [loss 0.518093], [lr 0.005556], [time 0.2800]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:56:40.497 [epoch 6], [iter 650 / 3097 : 19231], [loss 0.444167], [lr 0.005544], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:57:36.730 [epoch 6], [iter 700 / 3097 : 19281], [loss 0.501998], [lr 0.005532], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:58:32.453 [epoch 6], [iter 750 / 3097 : 19331], [loss 0.425059], [lr 0.005520], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-27 23:59:28.344 [epoch 6], [iter 800 / 3097 : 19381], [loss 0.410769], [lr 0.005508], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:00:24.486 [epoch 6], [iter 850 / 3097 : 19431], [loss 0.421047], [lr 0.005496], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:01:20.633 [epoch 6], [iter 900 / 3097 : 19481], [loss 0.464917], [lr 0.005484], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:02:16.765 [epoch 6], [iter 950 / 3097 : 19531], [loss 0.485361], [lr 0.005472], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:03:12.773 [epoch 6], [iter 1000 / 3097 : 19581], [loss 0.481299], [lr 0.005460], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:04:09.023 [epoch 6], [iter 1050 / 3097 : 19631], [loss 0.388067], [lr 0.005448], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:05:04.879 [epoch 6], [iter 1100 / 3097 : 19681], [loss 0.377125], [lr 0.005436], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:06:00.604 [epoch 6], [iter 1150 / 3097 : 19731], [loss 0.394518], [lr 0.005424], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:06:57.141 [epoch 6], [iter 1200 / 3097 : 19781], [loss 0.432655], [lr 0.005412], [time 0.2807]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:07:53.420 [epoch 6], [iter 1250 / 3097 : 19831], [loss 0.375692], [lr 0.005400], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:08:49.180 [epoch 6], [iter 1300 / 3097 : 19881], [loss 0.437461], [lr 0.005388], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:09:45.438 [epoch 6], [iter 1350 / 3097 : 19931], [loss 0.418220], [lr 0.005376], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:10:41.646 [epoch 6], [iter 1400 / 3097 : 19981], [loss 0.423404], [lr 0.005363], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:11:38.134 [epoch 6], [iter 1450 / 3097 : 20031], [loss 0.457405], [lr 0.005351], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:12:33.815 [epoch 6], [iter 1500 / 3097 : 20081], [loss 0.431030], [lr 0.005339], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:13:29.832 [epoch 6], [iter 1550 / 3097 : 20131], [loss 0.411075], [lr 0.005327], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:14:26.252 [epoch 6], [iter 1600 / 3097 : 20181], [loss 0.442726], [lr 0.005315], [time 0.2801]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:15:22.170 [epoch 6], [iter 1650 / 3097 : 20231], [loss 0.370577], [lr 0.005303], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:16:17.840 [epoch 6], [iter 1700 / 3097 : 20281], [loss 0.458125], [lr 0.005291], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:17:13.946 [epoch 6], [iter 1750 / 3097 : 20331], [loss 0.372478], [lr 0.005279], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:18:09.616 [epoch 6], [iter 1800 / 3097 : 20381], [loss 0.416192], [lr 0.005267], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:19:05.365 [epoch 6], [iter 1850 / 3097 : 20431], [loss 0.446779], [lr 0.005255], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:20:01.382 [epoch 6], [iter 1900 / 3097 : 20481], [loss 0.384168], [lr 0.005243], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:20:57.040 [epoch 6], [iter 1950 / 3097 : 20531], [loss 0.395895], [lr 0.005231], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:21:52.856 [epoch 6], [iter 2000 / 3097 : 20581], [loss 0.438335], [lr 0.005219], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:22:48.575 [epoch 6], [iter 2050 / 3097 : 20631], [loss 0.456863], [lr 0.005206], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:23:44.893 [epoch 6], [iter 2100 / 3097 : 20681], [loss 0.431402], [lr 0.005194], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:24:40.692 [epoch 6], [iter 2150 / 3097 : 20731], [loss 0.434410], [lr 0.005182], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:25:36.649 [epoch 6], [iter 2200 / 3097 : 20781], [loss 0.337703], [lr 0.005170], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:26:33.037 [epoch 6], [iter 2250 / 3097 : 20831], [loss 0.406444], [lr 0.005158], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:27:29.643 [epoch 6], [iter 2300 / 3097 : 20881], [loss 0.381485], [lr 0.005146], [time 0.2810]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:28:25.459 [epoch 6], [iter 2350 / 3097 : 20931], [loss 0.411978], [lr 0.005134], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:29:21.726 [epoch 6], [iter 2400 / 3097 : 20981], [loss 0.463208], [lr 0.005122], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:30:18.009 [epoch 6], [iter 2450 / 3097 : 21031], [loss 0.415321], [lr 0.005110], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:31:14.082 [epoch 6], [iter 2500 / 3097 : 21081], [loss 0.480022], [lr 0.005097], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:32:10.158 [epoch 6], [iter 2550 / 3097 : 21131], [loss 0.445183], [lr 0.005085], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:33:05.812 [epoch 6], [iter 2600 / 3097 : 21181], [loss 0.351374], [lr 0.005073], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:34:01.491 [epoch 6], [iter 2650 / 3097 : 21231], [loss 0.373390], [lr 0.005061], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:34:57.340 [epoch 6], [iter 2700 / 3097 : 21281], [loss 0.357778], [lr 0.005049], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:35:53.387 [epoch 6], [iter 2750 / 3097 : 21331], [loss 0.370446], [lr 0.005037], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:36:49.525 [epoch 6], [iter 2800 / 3097 : 21381], [loss 0.452346], [lr 0.005025], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:37:45.416 [epoch 6], [iter 2850 / 3097 : 21431], [loss 0.458534], [lr 0.005013], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:38:41.154 [epoch 6], [iter 2900 / 3097 : 21481], [loss 0.397997], [lr 0.005000], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:39:36.938 [epoch 6], [iter 2950 / 3097 : 21531], [loss 0.424711], [lr 0.004988], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:40:32.781 [epoch 6], [iter 3000 / 3097 : 21581], [loss 0.392422], [lr 0.004976], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:41:29.051 [epoch 6], [iter 3050 / 3097 : 21631], [loss 0.416013], [lr 0.004964], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 00:42:20.412 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_6_mean-iu_0.00000.pth
+11-28 00:42:20.412 Class Uniform Percentage: 0.5
+11-28 00:42:20.412 Class Uniform items per Epoch:12388
+11-28 00:42:20.413 cls 0 len 12109
+11-28 00:42:20.413 cls 1 len 11833
+11-28 00:42:20.413 cls 2 len 12301
+11-28 00:42:20.413 cls 3 len 10854
+11-28 00:42:20.413 cls 4 len 8811
+11-28 00:42:20.413 cls 5 len 11928
+11-28 00:42:20.413 cls 6 len 7891
+11-28 00:42:20.414 cls 7 len 5921
+11-28 00:42:20.414 cls 8 len 12132
+11-28 00:42:20.414 cls 9 len 11549
+11-28 00:42:20.414 cls 10 len 12131
+11-28 00:42:20.414 cls 11 len 10691
+11-28 00:42:20.414 cls 12 len 986
+11-28 00:42:20.414 cls 13 len 10501
+11-28 00:42:20.414 cls 14 len 6711
+11-28 00:42:20.414 cls 15 len 1861
+11-28 00:42:20.414 cls 16 len 493
+11-28 00:42:20.414 cls 17 len 1211
+11-28 00:42:20.414 cls 18 len 168
+11-28 00:43:22.906 [epoch 7], [iter 50 / 3097 : 21728], [loss 0.418209], [lr 0.004940], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:44:19.006 [epoch 7], [iter 100 / 3097 : 21778], [loss 0.450421], [lr 0.004928], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:45:15.269 [epoch 7], [iter 150 / 3097 : 21828], [loss 0.531062], [lr 0.004916], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:46:11.350 [epoch 7], [iter 200 / 3097 : 21878], [loss 0.497039], [lr 0.004904], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:47:07.775 [epoch 7], [iter 250 / 3097 : 21928], [loss 0.390449], [lr 0.004892], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:48:03.827 [epoch 7], [iter 300 / 3097 : 21978], [loss 0.382560], [lr 0.004879], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:49:00.018 [epoch 7], [iter 350 / 3097 : 22028], [loss 0.372783], [lr 0.004867], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:49:56.442 [epoch 7], [iter 400 / 3097 : 22078], [loss 0.435392], [lr 0.004855], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:50:52.130 [epoch 7], [iter 450 / 3097 : 22128], [loss 0.409653], [lr 0.004843], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:51:48.203 [epoch 7], [iter 500 / 3097 : 22178], [loss 0.388638], [lr 0.004831], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:52:44.329 [epoch 7], [iter 550 / 3097 : 22228], [loss 0.492171], [lr 0.004818], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:53:40.108 [epoch 7], [iter 600 / 3097 : 22278], [loss 0.468005], [lr 0.004806], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:54:36.230 [epoch 7], [iter 650 / 3097 : 22328], [loss 0.394652], [lr 0.004794], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:55:32.382 [epoch 7], [iter 700 / 3097 : 22378], [loss 0.475289], [lr 0.004782], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:56:28.298 [epoch 7], [iter 750 / 3097 : 22428], [loss 0.413547], [lr 0.004770], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:57:24.047 [epoch 7], [iter 800 / 3097 : 22478], [loss 0.428704], [lr 0.004757], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:58:20.292 [epoch 7], [iter 850 / 3097 : 22528], [loss 0.368282], [lr 0.004745], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 00:59:16.866 [epoch 7], [iter 900 / 3097 : 22578], [loss 0.379379], [lr 0.004733], [time 0.2809]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:00:12.548 [epoch 7], [iter 950 / 3097 : 22628], [loss 0.432166], [lr 0.004721], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:01:08.484 [epoch 7], [iter 1000 / 3097 : 22678], [loss 0.438169], [lr 0.004709], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:02:04.559 [epoch 7], [iter 1050 / 3097 : 22728], [loss 0.334956], [lr 0.004696], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:03:00.435 [epoch 7], [iter 1100 / 3097 : 22778], [loss 0.386906], [lr 0.004684], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:03:56.326 [epoch 7], [iter 1150 / 3097 : 22828], [loss 0.425211], [lr 0.004672], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:04:52.195 [epoch 7], [iter 1200 / 3097 : 22878], [loss 0.448336], [lr 0.004660], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:05:48.428 [epoch 7], [iter 1250 / 3097 : 22928], [loss 0.406941], [lr 0.004647], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:06:44.661 [epoch 7], [iter 1300 / 3097 : 22978], [loss 0.453095], [lr 0.004635], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:07:40.311 [epoch 7], [iter 1350 / 3097 : 23028], [loss 0.427957], [lr 0.004623], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:08:36.600 [epoch 7], [iter 1400 / 3097 : 23078], [loss 0.452599], [lr 0.004611], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:09:32.352 [epoch 7], [iter 1450 / 3097 : 23128], [loss 0.364676], [lr 0.004598], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:10:28.649 [epoch 7], [iter 1500 / 3097 : 23178], [loss 0.375013], [lr 0.004586], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:11:24.827 [epoch 7], [iter 1550 / 3097 : 23228], [loss 0.417874], [lr 0.004574], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:12:21.038 [epoch 7], [iter 1600 / 3097 : 23278], [loss 0.458060], [lr 0.004561], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:13:17.399 [epoch 7], [iter 1650 / 3097 : 23328], [loss 0.352796], [lr 0.004549], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:14:13.077 [epoch 7], [iter 1700 / 3097 : 23378], [loss 0.339272], [lr 0.004537], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:15:08.882 [epoch 7], [iter 1750 / 3097 : 23428], [loss 0.440282], [lr 0.004525], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:16:04.673 [epoch 7], [iter 1800 / 3097 : 23478], [loss 0.464466], [lr 0.004512], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:17:00.397 [epoch 7], [iter 1850 / 3097 : 23528], [loss 0.426896], [lr 0.004500], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:17:56.181 [epoch 7], [iter 1900 / 3097 : 23578], [loss 0.423659], [lr 0.004488], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:18:52.360 [epoch 7], [iter 1950 / 3097 : 23628], [loss 0.429170], [lr 0.004475], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:19:48.656 [epoch 7], [iter 2000 / 3097 : 23678], [loss 0.450172], [lr 0.004463], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:20:44.920 [epoch 7], [iter 2050 / 3097 : 23728], [loss 0.407215], [lr 0.004451], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:21:40.776 [epoch 7], [iter 2100 / 3097 : 23778], [loss 0.564015], [lr 0.004439], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:22:37.279 [epoch 7], [iter 2150 / 3097 : 23828], [loss 0.496094], [lr 0.004426], [time 0.2805]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:23:32.950 [epoch 7], [iter 2200 / 3097 : 23878], [loss 0.426149], [lr 0.004414], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:24:29.178 [epoch 7], [iter 2250 / 3097 : 23928], [loss 0.460277], [lr 0.004402], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:25:25.179 [epoch 7], [iter 2300 / 3097 : 23978], [loss 0.398425], [lr 0.004389], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:26:21.386 [epoch 7], [iter 2350 / 3097 : 24028], [loss 0.391331], [lr 0.004377], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:27:17.220 [epoch 7], [iter 2400 / 3097 : 24078], [loss 0.471905], [lr 0.004365], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:28:13.321 [epoch 7], [iter 2450 / 3097 : 24128], [loss 0.434834], [lr 0.004352], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(6860)
+11-28 01:29:08.997 [epoch 7], [iter 2500 / 3097 : 24178], [loss 0.486316], [lr 0.004340], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:30:05.372 [epoch 7], [iter 2550 / 3097 : 24228], [loss 0.396097], [lr 0.004328], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:31:01.086 [epoch 7], [iter 2600 / 3097 : 24278], [loss 0.413251], [lr 0.004315], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:31:56.743 [epoch 7], [iter 2650 / 3097 : 24328], [loss 0.443946], [lr 0.004303], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:32:52.440 [epoch 7], [iter 2700 / 3097 : 24378], [loss 0.411236], [lr 0.004291], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:33:48.185 [epoch 7], [iter 2750 / 3097 : 24428], [loss 0.371661], [lr 0.004278], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:34:44.173 [epoch 7], [iter 2800 / 3097 : 24478], [loss 0.353610], [lr 0.004266], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:35:39.893 [epoch 7], [iter 2850 / 3097 : 24528], [loss 0.384575], [lr 0.004253], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:36:36.192 [epoch 7], [iter 2900 / 3097 : 24578], [loss 0.416806], [lr 0.004241], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:37:32.232 [epoch 7], [iter 2950 / 3097 : 24628], [loss 0.469998], [lr 0.004229], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:38:28.040 [epoch 7], [iter 3000 / 3097 : 24678], [loss 0.373426], [lr 0.004216], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:39:24.112 [epoch 7], [iter 3050 / 3097 : 24728], [loss 0.402758], [lr 0.004204], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 01:40:15.636 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_7_mean-iu_0.00000.pth
+11-28 01:40:15.637 Class Uniform Percentage: 0.5
+11-28 01:40:15.637 Class Uniform items per Epoch:12388
+11-28 01:40:15.638 cls 0 len 12109
+11-28 01:40:15.638 cls 1 len 11833
+11-28 01:40:15.638 cls 2 len 12301
+11-28 01:40:15.638 cls 3 len 10854
+11-28 01:40:15.638 cls 4 len 8811
+11-28 01:40:15.638 cls 5 len 11928
+11-28 01:40:15.638 cls 6 len 7891
+11-28 01:40:15.638 cls 7 len 5921
+11-28 01:40:15.638 cls 8 len 12132
+11-28 01:40:15.638 cls 9 len 11549
+11-28 01:40:15.638 cls 10 len 12131
+11-28 01:40:15.638 cls 11 len 10691
+11-28 01:40:15.638 cls 12 len 986
+11-28 01:40:15.638 cls 13 len 10501
+11-28 01:40:15.638 cls 14 len 6711
+11-28 01:40:15.638 cls 15 len 1861
+11-28 01:40:15.638 cls 16 len 493
+11-28 01:40:15.638 cls 17 len 1211
+11-28 01:40:15.638 cls 18 len 168
+11-28 01:41:18.210 [epoch 8], [iter 50 / 3097 : 24825], [loss 0.371612], [lr 0.004180], [time 0.2808]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:42:13.975 [epoch 8], [iter 100 / 3097 : 24875], [loss 0.424313], [lr 0.004167], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:43:10.151 [epoch 8], [iter 150 / 3097 : 24925], [loss 0.384003], [lr 0.004155], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:44:05.887 [epoch 8], [iter 200 / 3097 : 24975], [loss 0.352230], [lr 0.004143], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:45:02.144 [epoch 8], [iter 250 / 3097 : 25025], [loss 0.376149], [lr 0.004130], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:45:58.135 [epoch 8], [iter 300 / 3097 : 25075], [loss 0.413568], [lr 0.004118], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:46:53.939 [epoch 8], [iter 350 / 3097 : 25125], [loss 0.354630], [lr 0.004105], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:47:49.725 [epoch 8], [iter 400 / 3097 : 25175], [loss 0.381571], [lr 0.004093], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:48:45.388 [epoch 8], [iter 450 / 3097 : 25225], [loss 0.340168], [lr 0.004081], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:49:41.471 [epoch 8], [iter 500 / 3097 : 25275], [loss 0.375819], [lr 0.004068], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:50:37.469 [epoch 8], [iter 550 / 3097 : 25325], [loss 0.363086], [lr 0.004056], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:51:33.137 [epoch 8], [iter 600 / 3097 : 25375], [loss 0.369499], [lr 0.004043], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:52:29.443 [epoch 8], [iter 650 / 3097 : 25425], [loss 0.395859], [lr 0.004031], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:53:25.228 [epoch 8], [iter 700 / 3097 : 25475], [loss 0.365701], [lr 0.004018], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:54:21.431 [epoch 8], [iter 750 / 3097 : 25525], [loss 0.371362], [lr 0.004006], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:55:17.406 [epoch 8], [iter 800 / 3097 : 25575], [loss 0.352269], [lr 0.003993], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:56:13.508 [epoch 8], [iter 850 / 3097 : 25625], [loss 0.336771], [lr 0.003981], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:57:09.742 [epoch 8], [iter 900 / 3097 : 25675], [loss 0.356369], [lr 0.003969], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:58:05.414 [epoch 8], [iter 950 / 3097 : 25725], [loss 0.364493], [lr 0.003956], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:59:01.273 [epoch 8], [iter 1000 / 3097 : 25775], [loss 0.308982], [lr 0.003944], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 01:59:57.149 [epoch 8], [iter 1050 / 3097 : 25825], [loss 0.407371], [lr 0.003931], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:00:52.944 [epoch 8], [iter 1100 / 3097 : 25875], [loss 0.368143], [lr 0.003919], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:01:48.701 [epoch 8], [iter 1150 / 3097 : 25925], [loss 0.419724], [lr 0.003906], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:02:44.959 [epoch 8], [iter 1200 / 3097 : 25975], [loss 0.364871], [lr 0.003894], [time 0.2793]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:03:40.978 [epoch 8], [iter 1250 / 3097 : 26025], [loss 0.380156], [lr 0.003881], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:04:37.191 [epoch 8], [iter 1300 / 3097 : 26075], [loss 0.363234], [lr 0.003869], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(1245)
+11-28 02:05:32.983 [epoch 8], [iter 1350 / 3097 : 26125], [loss 0.373349], [lr 0.003856], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:06:28.688 [epoch 8], [iter 1400 / 3097 : 26175], [loss 0.330476], [lr 0.003844], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:07:24.817 [epoch 8], [iter 1450 / 3097 : 26225], [loss 0.424616], [lr 0.003831], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:08:20.601 [epoch 8], [iter 1500 / 3097 : 26275], [loss 0.380918], [lr 0.003819], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:09:16.554 [epoch 8], [iter 1550 / 3097 : 26325], [loss 0.407124], [lr 0.003806], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:10:13.023 [epoch 8], [iter 1600 / 3097 : 26375], [loss 0.329466], [lr 0.003794], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:11:09.153 [epoch 8], [iter 1650 / 3097 : 26425], [loss 0.343302], [lr 0.003781], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:12:05.109 [epoch 8], [iter 1700 / 3097 : 26475], [loss 0.399366], [lr 0.003769], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:13:01.133 [epoch 8], [iter 1750 / 3097 : 26525], [loss 0.400948], [lr 0.003756], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:13:57.281 [epoch 8], [iter 1800 / 3097 : 26575], [loss 0.375432], [lr 0.003743], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:14:52.974 [epoch 8], [iter 1850 / 3097 : 26625], [loss 0.362332], [lr 0.003731], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:15:48.873 [epoch 8], [iter 1900 / 3097 : 26675], [loss 0.408739], [lr 0.003718], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:16:45.256 [epoch 8], [iter 1950 / 3097 : 26725], [loss 0.437385], [lr 0.003706], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:17:41.890 [epoch 8], [iter 2000 / 3097 : 26775], [loss 0.348716], [lr 0.003693], [time 0.2812]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:18:37.923 [epoch 8], [iter 2050 / 3097 : 26825], [loss 0.411679], [lr 0.003681], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:19:33.855 [epoch 8], [iter 2100 / 3097 : 26875], [loss 0.418918], [lr 0.003668], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:20:29.957 [epoch 8], [iter 2150 / 3097 : 26925], [loss 0.404853], [lr 0.003655], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:21:26.031 [epoch 8], [iter 2200 / 3097 : 26975], [loss 0.457934], [lr 0.003643], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:22:21.801 [epoch 8], [iter 2250 / 3097 : 27025], [loss 0.432884], [lr 0.003630], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:23:17.544 [epoch 8], [iter 2300 / 3097 : 27075], [loss 0.474710], [lr 0.003618], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:24:13.271 [epoch 8], [iter 2350 / 3097 : 27125], [loss 0.425789], [lr 0.003605], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:25:09.355 [epoch 8], [iter 2400 / 3097 : 27175], [loss 0.437482], [lr 0.003593], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:26:05.128 [epoch 8], [iter 2450 / 3097 : 27225], [loss 0.359513], [lr 0.003580], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:27:01.097 [epoch 8], [iter 2500 / 3097 : 27275], [loss 0.430637], [lr 0.003567], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:27:56.746 [epoch 8], [iter 2550 / 3097 : 27325], [loss 0.397820], [lr 0.003555], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:28:52.702 [epoch 8], [iter 2600 / 3097 : 27375], [loss 0.384220], [lr 0.003542], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:29:48.529 [epoch 8], [iter 2650 / 3097 : 27425], [loss 0.383490], [lr 0.003529], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:30:44.350 [epoch 8], [iter 2700 / 3097 : 27475], [loss 0.411763], [lr 0.003517], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:31:40.296 [epoch 8], [iter 2750 / 3097 : 27525], [loss 0.371022], [lr 0.003504], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:32:35.965 [epoch 8], [iter 2800 / 3097 : 27575], [loss 0.347619], [lr 0.003492], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:33:31.781 [epoch 8], [iter 2850 / 3097 : 27625], [loss 0.329314], [lr 0.003479], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:34:28.102 [epoch 8], [iter 2900 / 3097 : 27675], [loss 0.346463], [lr 0.003466], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:35:23.914 [epoch 8], [iter 2950 / 3097 : 27725], [loss 0.415041], [lr 0.003454], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:36:19.599 [epoch 8], [iter 3000 / 3097 : 27775], [loss 0.319170], [lr 0.003441], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:37:15.700 [epoch 8], [iter 3050 / 3097 : 27825], [loss 0.358304], [lr 0.003428], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 02:38:06.913 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_8_mean-iu_0.00000.pth
+11-28 02:38:06.913 Class Uniform Percentage: 0.5
+11-28 02:38:06.913 Class Uniform items per Epoch:12388
+11-28 02:38:06.914 cls 0 len 12109
+11-28 02:38:06.915 cls 1 len 11833
+11-28 02:38:06.915 cls 2 len 12301
+11-28 02:38:06.915 cls 3 len 10854
+11-28 02:38:06.915 cls 4 len 8811
+11-28 02:38:06.915 cls 5 len 11928
+11-28 02:38:06.915 cls 6 len 7891
+11-28 02:38:06.915 cls 7 len 5921
+11-28 02:38:06.915 cls 8 len 12132
+11-28 02:38:06.915 cls 9 len 11549
+11-28 02:38:06.915 cls 10 len 12131
+11-28 02:38:06.915 cls 11 len 10691
+11-28 02:38:06.915 cls 12 len 986
+11-28 02:38:06.915 cls 13 len 10501
+11-28 02:38:06.915 cls 14 len 6711
+11-28 02:38:06.915 cls 15 len 1861
+11-28 02:38:06.915 cls 16 len 493
+11-28 02:38:06.915 cls 17 len 1211
+11-28 02:38:06.915 cls 18 len 168
+11-28 02:39:09.670 [epoch 9], [iter 50 / 3097 : 27922], [loss 0.341527], [lr 0.003404], [time 0.2812]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:40:05.957 [epoch 9], [iter 100 / 3097 : 27972], [loss 0.311543], [lr 0.003391], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:41:02.122 [epoch 9], [iter 150 / 3097 : 28022], [loss 0.328535], [lr 0.003378], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:41:58.466 [epoch 9], [iter 200 / 3097 : 28072], [loss 0.406607], [lr 0.003366], [time 0.2798]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:42:54.754 [epoch 9], [iter 250 / 3097 : 28122], [loss 0.338980], [lr 0.003353], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:43:50.606 [epoch 9], [iter 300 / 3097 : 28172], [loss 0.348699], [lr 0.003340], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:44:47.050 [epoch 9], [iter 350 / 3097 : 28222], [loss 0.343629], [lr 0.003327], [time 0.2803]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:45:43.043 [epoch 9], [iter 400 / 3097 : 28272], [loss 0.365673], [lr 0.003315], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:46:38.758 [epoch 9], [iter 450 / 3097 : 28322], [loss 0.359244], [lr 0.003302], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:47:35.087 [epoch 9], [iter 500 / 3097 : 28372], [loss 0.346065], [lr 0.003289], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:48:30.787 [epoch 9], [iter 550 / 3097 : 28422], [loss 0.376610], [lr 0.003277], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:49:26.878 [epoch 9], [iter 600 / 3097 : 28472], [loss 0.363523], [lr 0.003264], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:50:22.872 [epoch 9], [iter 650 / 3097 : 28522], [loss 0.340897], [lr 0.003251], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:51:19.062 [epoch 9], [iter 700 / 3097 : 28572], [loss 0.328964], [lr 0.003238], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:52:14.909 [epoch 9], [iter 750 / 3097 : 28622], [loss 0.382413], [lr 0.003226], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:53:10.791 [epoch 9], [iter 800 / 3097 : 28672], [loss 0.343424], [lr 0.003213], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:54:06.927 [epoch 9], [iter 850 / 3097 : 28722], [loss 0.351673], [lr 0.003200], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:55:03.154 [epoch 9], [iter 900 / 3097 : 28772], [loss 0.314371], [lr 0.003187], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:55:58.979 [epoch 9], [iter 950 / 3097 : 28822], [loss 0.333605], [lr 0.003174], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:56:54.970 [epoch 9], [iter 1000 / 3097 : 28872], [loss 0.377361], [lr 0.003162], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:57:50.935 [epoch 9], [iter 1050 / 3097 : 28922], [loss 0.415374], [lr 0.003149], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:58:47.208 [epoch 9], [iter 1100 / 3097 : 28972], [loss 0.327578], [lr 0.003136], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 02:59:43.418 [epoch 9], [iter 1150 / 3097 : 29022], [loss 0.354474], [lr 0.003123], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:00:39.296 [epoch 9], [iter 1200 / 3097 : 29072], [loss 0.329540], [lr 0.003111], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:01:35.285 [epoch 9], [iter 1250 / 3097 : 29122], [loss 0.334818], [lr 0.003098], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:02:31.580 [epoch 9], [iter 1300 / 3097 : 29172], [loss 0.323195], [lr 0.003085], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:03:27.457 [epoch 9], [iter 1350 / 3097 : 29222], [loss 0.369438], [lr 0.003072], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:04:23.118 [epoch 9], [iter 1400 / 3097 : 29272], [loss 0.342135], [lr 0.003059], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:05:18.999 [epoch 9], [iter 1450 / 3097 : 29322], [loss 0.376521], [lr 0.003046], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:06:15.341 [epoch 9], [iter 1500 / 3097 : 29372], [loss 0.326019], [lr 0.003034], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:07:11.349 [epoch 9], [iter 1550 / 3097 : 29422], [loss 0.321854], [lr 0.003021], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:08:07.128 [epoch 9], [iter 1600 / 3097 : 29472], [loss 0.386189], [lr 0.003008], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:09:03.054 [epoch 9], [iter 1650 / 3097 : 29522], [loss 0.299740], [lr 0.002995], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:09:59.543 [epoch 9], [iter 1700 / 3097 : 29572], [loss 0.338869], [lr 0.002982], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:10:55.687 [epoch 9], [iter 1750 / 3097 : 29622], [loss 0.390449], [lr 0.002969], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:11:51.786 [epoch 9], [iter 1800 / 3097 : 29672], [loss 0.343881], [lr 0.002956], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:12:47.778 [epoch 9], [iter 1850 / 3097 : 29722], [loss 0.324023], [lr 0.002943], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:13:43.500 [epoch 9], [iter 1900 / 3097 : 29772], [loss 0.315487], [lr 0.002931], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:14:39.304 [epoch 9], [iter 1950 / 3097 : 29822], [loss 0.325704], [lr 0.002918], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:15:35.249 [epoch 9], [iter 2000 / 3097 : 29872], [loss 0.311513], [lr 0.002905], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:16:30.914 [epoch 9], [iter 2050 / 3097 : 29922], [loss 0.300737], [lr 0.002892], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:17:27.003 [epoch 9], [iter 2100 / 3097 : 29972], [loss 0.382957], [lr 0.002879], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:18:22.810 [epoch 9], [iter 2150 / 3097 : 30022], [loss 0.363516], [lr 0.002866], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:19:18.797 [epoch 9], [iter 2200 / 3097 : 30072], [loss 0.326105], [lr 0.002853], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:20:14.932 [epoch 9], [iter 2250 / 3097 : 30122], [loss 0.342668], [lr 0.002840], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:21:10.836 [epoch 9], [iter 2300 / 3097 : 30172], [loss 0.347601], [lr 0.002827], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:22:06.515 [epoch 9], [iter 2350 / 3097 : 30222], [loss 0.355543], [lr 0.002814], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:23:02.451 [epoch 9], [iter 2400 / 3097 : 30272], [loss 0.305685], [lr 0.002801], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:23:58.460 [epoch 9], [iter 2450 / 3097 : 30322], [loss 0.377994], [lr 0.002788], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:24:54.524 [epoch 9], [iter 2500 / 3097 : 30372], [loss 0.497366], [lr 0.002775], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:25:50.361 [epoch 9], [iter 2550 / 3097 : 30422], [loss 0.405971], [lr 0.002762], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:26:46.283 [epoch 9], [iter 2600 / 3097 : 30472], [loss 0.329074], [lr 0.002749], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:27:42.558 [epoch 9], [iter 2650 / 3097 : 30522], [loss 0.312409], [lr 0.002736], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:28:38.362 [epoch 9], [iter 2700 / 3097 : 30572], [loss 0.414453], [lr 0.002723], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:29:34.101 [epoch 9], [iter 2750 / 3097 : 30622], [loss 0.375748], [lr 0.002710], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:30:29.872 [epoch 9], [iter 2800 / 3097 : 30672], [loss 0.379759], [lr 0.002697], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:31:26.168 [epoch 9], [iter 2850 / 3097 : 30722], [loss 0.344166], [lr 0.002684], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:32:22.342 [epoch 9], [iter 2900 / 3097 : 30772], [loss 0.351806], [lr 0.002671], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:33:18.502 [epoch 9], [iter 2950 / 3097 : 30822], [loss 0.344149], [lr 0.002658], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:34:14.808 [epoch 9], [iter 3000 / 3097 : 30872], [loss 0.309781], [lr 0.002645], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:35:11.252 [epoch 9], [iter 3050 / 3097 : 30922], [loss 0.382100], [lr 0.002632], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 03:36:02.259 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_9_mean-iu_0.00000.pth
+11-28 03:36:02.259 Class Uniform Percentage: 0.5
+11-28 03:36:02.259 Class Uniform items per Epoch:12388
+11-28 03:36:02.260 cls 0 len 12109
+11-28 03:36:02.260 cls 1 len 11833
+11-28 03:36:02.260 cls 2 len 12301
+11-28 03:36:02.260 cls 3 len 10854
+11-28 03:36:02.261 cls 4 len 8811
+11-28 03:36:02.261 cls 5 len 11928
+11-28 03:36:02.261 cls 6 len 7891
+11-28 03:36:02.261 cls 7 len 5921
+11-28 03:36:02.261 cls 8 len 12132
+11-28 03:36:02.261 cls 9 len 11549
+11-28 03:36:02.261 cls 10 len 12131
+11-28 03:36:02.261 cls 11 len 10691
+11-28 03:36:02.261 cls 12 len 986
+11-28 03:36:02.261 cls 13 len 10501
+11-28 03:36:02.261 cls 14 len 6711
+11-28 03:36:02.261 cls 15 len 1861
+11-28 03:36:02.261 cls 16 len 493
+11-28 03:36:02.261 cls 17 len 1211
+11-28 03:36:02.261 cls 18 len 168
+11-28 03:37:05.016 [epoch 10], [iter 50 / 3097 : 31019], [loss 0.351938], [lr 0.002607], [time 0.2822]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:38:00.856 [epoch 10], [iter 100 / 3097 : 31069], [loss 0.307831], [lr 0.002594], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:38:56.597 [epoch 10], [iter 150 / 3097 : 31119], [loss 0.336223], [lr 0.002581], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:39:52.192 [epoch 10], [iter 200 / 3097 : 31169], [loss 0.311017], [lr 0.002568], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:40:48.182 [epoch 10], [iter 250 / 3097 : 31219], [loss 0.333152], [lr 0.002555], [time 0.2780]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:41:44.024 [epoch 10], [iter 300 / 3097 : 31269], [loss 0.337832], [lr 0.002542], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:42:39.878 [epoch 10], [iter 350 / 3097 : 31319], [loss 0.306312], [lr 0.002528], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:43:36.048 [epoch 10], [iter 400 / 3097 : 31369], [loss 0.310226], [lr 0.002515], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:44:31.649 [epoch 10], [iter 450 / 3097 : 31419], [loss 0.317124], [lr 0.002502], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:45:27.748 [epoch 10], [iter 500 / 3097 : 31469], [loss 0.326479], [lr 0.002489], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:46:23.489 [epoch 10], [iter 550 / 3097 : 31519], [loss 0.358606], [lr 0.002476], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:47:19.471 [epoch 10], [iter 600 / 3097 : 31569], [loss 0.315011], [lr 0.002463], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:48:15.113 [epoch 10], [iter 650 / 3097 : 31619], [loss 0.317936], [lr 0.002450], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:49:11.090 [epoch 10], [iter 700 / 3097 : 31669], [loss 0.348478], [lr 0.002437], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:50:07.305 [epoch 10], [iter 750 / 3097 : 31719], [loss 0.441176], [lr 0.002423], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:51:03.134 [epoch 10], [iter 800 / 3097 : 31769], [loss 0.300261], [lr 0.002410], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:51:59.346 [epoch 10], [iter 850 / 3097 : 31819], [loss 0.323820], [lr 0.002397], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:52:55.439 [epoch 10], [iter 900 / 3097 : 31869], [loss 0.298818], [lr 0.002384], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:53:51.169 [epoch 10], [iter 950 / 3097 : 31919], [loss 0.305917], [lr 0.002371], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:54:46.761 [epoch 10], [iter 1000 / 3097 : 31969], [loss 0.307379], [lr 0.002357], [time 0.2759]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(188)
+11-28 03:55:42.860 [epoch 10], [iter 1050 / 3097 : 32019], [loss 0.315925], [lr 0.002344], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:56:38.788 [epoch 10], [iter 1100 / 3097 : 32069], [loss 0.329570], [lr 0.002331], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:57:34.728 [epoch 10], [iter 1150 / 3097 : 32119], [loss 0.338216], [lr 0.002318], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:58:30.380 [epoch 10], [iter 1200 / 3097 : 32169], [loss 0.332537], [lr 0.002305], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 03:59:26.417 [epoch 10], [iter 1250 / 3097 : 32219], [loss 0.328815], [lr 0.002291], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:00:22.661 [epoch 10], [iter 1300 / 3097 : 32269], [loss 0.303398], [lr 0.002278], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:01:18.561 [epoch 10], [iter 1350 / 3097 : 32319], [loss 0.309995], [lr 0.002265], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:02:14.258 [epoch 10], [iter 1400 / 3097 : 32369], [loss 0.286099], [lr 0.002251], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:03:10.458 [epoch 10], [iter 1450 / 3097 : 32419], [loss 0.287861], [lr 0.002238], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:04:06.605 [epoch 10], [iter 1500 / 3097 : 32469], [loss 0.344087], [lr 0.002225], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:05:02.379 [epoch 10], [iter 1550 / 3097 : 32519], [loss 0.307309], [lr 0.002212], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:05:58.433 [epoch 10], [iter 1600 / 3097 : 32569], [loss 0.324393], [lr 0.002198], [time 0.2783]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:06:54.467 [epoch 10], [iter 1650 / 3097 : 32619], [loss 0.333952], [lr 0.002185], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:07:50.322 [epoch 10], [iter 1700 / 3097 : 32669], [loss 0.315880], [lr 0.002172], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:08:46.054 [epoch 10], [iter 1750 / 3097 : 32719], [loss 0.299511], [lr 0.002158], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:09:42.041 [epoch 10], [iter 1800 / 3097 : 32769], [loss 0.308430], [lr 0.002145], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:10:37.756 [epoch 10], [iter 1850 / 3097 : 32819], [loss 0.360449], [lr 0.002132], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:11:33.397 [epoch 10], [iter 1900 / 3097 : 32869], [loss 0.333156], [lr 0.002118], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:12:29.185 [epoch 10], [iter 1950 / 3097 : 32919], [loss 0.350058], [lr 0.002105], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:13:25.083 [epoch 10], [iter 2000 / 3097 : 32969], [loss 0.291465], [lr 0.002092], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:14:20.730 [epoch 10], [iter 2050 / 3097 : 33019], [loss 0.323134], [lr 0.002078], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:15:16.405 [epoch 10], [iter 2100 / 3097 : 33069], [loss 0.304630], [lr 0.002065], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:16:12.846 [epoch 10], [iter 2150 / 3097 : 33119], [loss 0.316560], [lr 0.002051], [time 0.2802]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:17:08.461 [epoch 10], [iter 2200 / 3097 : 33169], [loss 0.355666], [lr 0.002038], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:18:04.663 [epoch 10], [iter 2250 / 3097 : 33219], [loss 0.381127], [lr 0.002024], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:19:00.374 [epoch 10], [iter 2300 / 3097 : 33269], [loss 0.314233], [lr 0.002011], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:19:56.568 [epoch 10], [iter 2350 / 3097 : 33319], [loss 0.304941], [lr 0.001998], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:20:52.190 [epoch 10], [iter 2400 / 3097 : 33369], [loss 0.309726], [lr 0.001984], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:21:48.358 [epoch 10], [iter 2450 / 3097 : 33419], [loss 0.350892], [lr 0.001971], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:22:44.702 [epoch 10], [iter 2500 / 3097 : 33469], [loss 0.372691], [lr 0.001957], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:23:40.919 [epoch 10], [iter 2550 / 3097 : 33519], [loss 0.354592], [lr 0.001944], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:24:36.938 [epoch 10], [iter 2600 / 3097 : 33569], [loss 0.362794], [lr 0.001930], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:25:32.691 [epoch 10], [iter 2650 / 3097 : 33619], [loss 0.319520], [lr 0.001917], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:26:28.509 [epoch 10], [iter 2700 / 3097 : 33669], [loss 0.353400], [lr 0.001903], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:27:25.002 [epoch 10], [iter 2750 / 3097 : 33719], [loss 0.306926], [lr 0.001890], [time 0.2804]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:28:21.221 [epoch 10], [iter 2800 / 3097 : 33769], [loss 0.368428], [lr 0.001876], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:29:16.926 [epoch 10], [iter 2850 / 3097 : 33819], [loss 0.336658], [lr 0.001863], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:30:13.503 [epoch 10], [iter 2900 / 3097 : 33869], [loss 0.320708], [lr 0.001849], [time 0.2809]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:31:09.107 [epoch 10], [iter 2950 / 3097 : 33919], [loss 0.302399], [lr 0.001835], [time 0.2760]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:32:05.145 [epoch 10], [iter 3000 / 3097 : 33969], [loss 0.325311], [lr 0.001822], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:33:01.383 [epoch 10], [iter 3050 / 3097 : 34019], [loss 0.295223], [lr 0.001808], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 04:33:52.838 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_10_mean-iu_0.00000.pth
+11-28 04:33:52.838 Class Uniform Percentage: 0.5
+11-28 04:33:52.838 Class Uniform items per Epoch:12388
+11-28 04:33:52.839 cls 0 len 12109
+11-28 04:33:52.839 cls 1 len 11833
+11-28 04:33:52.839 cls 2 len 12301
+11-28 04:33:52.839 cls 3 len 10854
+11-28 04:33:52.839 cls 4 len 8811
+11-28 04:33:52.839 cls 5 len 11928
+11-28 04:33:52.839 cls 6 len 7891
+11-28 04:33:52.839 cls 7 len 5921
+11-28 04:33:52.839 cls 8 len 12132
+11-28 04:33:52.839 cls 9 len 11549
+11-28 04:33:52.840 cls 10 len 12131
+11-28 04:33:52.840 cls 11 len 10691
+11-28 04:33:52.840 cls 12 len 986
+11-28 04:33:52.840 cls 13 len 10501
+11-28 04:33:52.840 cls 14 len 6711
+11-28 04:33:52.840 cls 15 len 1861
+11-28 04:33:52.840 cls 16 len 493
+11-28 04:33:52.840 cls 17 len 1211
+11-28 04:33:52.840 cls 18 len 168
+11-28 04:34:55.221 [epoch 11], [iter 50 / 3097 : 34116], [loss 0.332396], [lr 0.001782], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:35:50.856 [epoch 11], [iter 100 / 3097 : 34166], [loss 0.339523], [lr 0.001768], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:36:46.741 [epoch 11], [iter 150 / 3097 : 34216], [loss 0.364888], [lr 0.001754], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:37:42.847 [epoch 11], [iter 200 / 3097 : 34266], [loss 0.313932], [lr 0.001741], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:38:38.554 [epoch 11], [iter 250 / 3097 : 34316], [loss 0.323937], [lr 0.001727], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:39:34.372 [epoch 11], [iter 300 / 3097 : 34366], [loss 0.329003], [lr 0.001713], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:40:30.309 [epoch 11], [iter 350 / 3097 : 34416], [loss 0.314511], [lr 0.001700], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:41:26.638 [epoch 11], [iter 400 / 3097 : 34466], [loss 0.311200], [lr 0.001686], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(5961)
+11-28 04:42:22.318 [epoch 11], [iter 450 / 3097 : 34516], [loss 0.294071], [lr 0.001672], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:43:18.076 [epoch 11], [iter 500 / 3097 : 34566], [loss 0.282096], [lr 0.001659], [time 0.2768]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:44:13.853 [epoch 11], [iter 550 / 3097 : 34616], [loss 0.321210], [lr 0.001645], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:45:10.172 [epoch 11], [iter 600 / 3097 : 34666], [loss 0.337355], [lr 0.001631], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:46:06.355 [epoch 11], [iter 650 / 3097 : 34716], [loss 0.302966], [lr 0.001617], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:47:02.496 [epoch 11], [iter 700 / 3097 : 34766], [loss 0.277727], [lr 0.001604], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:47:58.395 [epoch 11], [iter 750 / 3097 : 34816], [loss 0.319422], [lr 0.001590], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:48:54.719 [epoch 11], [iter 800 / 3097 : 34866], [loss 0.296708], [lr 0.001576], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:49:51.038 [epoch 11], [iter 850 / 3097 : 34916], [loss 0.291267], [lr 0.001562], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:50:46.999 [epoch 11], [iter 900 / 3097 : 34966], [loss 0.358204], [lr 0.001548], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:51:43.073 [epoch 11], [iter 950 / 3097 : 35016], [loss 0.298664], [lr 0.001534], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:52:38.911 [epoch 11], [iter 1000 / 3097 : 35066], [loss 0.302949], [lr 0.001521], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:53:34.585 [epoch 11], [iter 1050 / 3097 : 35116], [loss 0.332009], [lr 0.001507], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:54:30.358 [epoch 11], [iter 1100 / 3097 : 35166], [loss 0.298615], [lr 0.001493], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:55:26.281 [epoch 11], [iter 1150 / 3097 : 35216], [loss 0.313010], [lr 0.001479], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:56:22.074 [epoch 11], [iter 1200 / 3097 : 35266], [loss 0.291127], [lr 0.001465], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:57:17.938 [epoch 11], [iter 1250 / 3097 : 35316], [loss 0.285919], [lr 0.001451], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:58:13.596 [epoch 11], [iter 1300 / 3097 : 35366], [loss 0.298387], [lr 0.001437], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 04:59:10.259 [epoch 11], [iter 1350 / 3097 : 35416], [loss 0.295453], [lr 0.001423], [time 0.2813]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:00:06.633 [epoch 11], [iter 1400 / 3097 : 35466], [loss 0.266803], [lr 0.001409], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:01:02.734 [epoch 11], [iter 1450 / 3097 : 35516], [loss 0.325221], [lr 0.001395], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:01:58.877 [epoch 11], [iter 1500 / 3097 : 35566], [loss 0.321650], [lr 0.001381], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:02:54.685 [epoch 11], [iter 1550 / 3097 : 35616], [loss 0.302426], [lr 0.001367], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:03:50.808 [epoch 11], [iter 1600 / 3097 : 35666], [loss 0.285055], [lr 0.001353], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:04:46.929 [epoch 11], [iter 1650 / 3097 : 35716], [loss 0.279026], [lr 0.001339], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:05:42.812 [epoch 11], [iter 1700 / 3097 : 35766], [loss 0.309822], [lr 0.001325], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:06:38.992 [epoch 11], [iter 1750 / 3097 : 35816], [loss 0.290661], [lr 0.001311], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:07:34.674 [epoch 11], [iter 1800 / 3097 : 35866], [loss 0.269089], [lr 0.001297], [time 0.2764]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:08:30.408 [epoch 11], [iter 1850 / 3097 : 35916], [loss 0.271580], [lr 0.001283], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:09:26.355 [epoch 11], [iter 1900 / 3097 : 35966], [loss 0.264724], [lr 0.001269], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:10:22.458 [epoch 11], [iter 1950 / 3097 : 36016], [loss 0.322487], [lr 0.001254], [time 0.2785]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:11:18.305 [epoch 11], [iter 2000 / 3097 : 36066], [loss 0.305304], [lr 0.001240], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:12:14.591 [epoch 11], [iter 2050 / 3097 : 36116], [loss 0.333166], [lr 0.001226], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:13:10.552 [epoch 11], [iter 2100 / 3097 : 36166], [loss 0.316461], [lr 0.001212], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:14:06.926 [epoch 11], [iter 2150 / 3097 : 36216], [loss 0.320031], [lr 0.001198], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:15:02.720 [epoch 11], [iter 2200 / 3097 : 36266], [loss 0.340700], [lr 0.001183], [time 0.2770]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:15:58.871 [epoch 11], [iter 2250 / 3097 : 36316], [loss 0.275873], [lr 0.001169], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:16:55.074 [epoch 11], [iter 2300 / 3097 : 36366], [loss 0.311583], [lr 0.001155], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:17:51.354 [epoch 11], [iter 2350 / 3097 : 36416], [loss 0.315337], [lr 0.001140], [time 0.2794]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:18:47.706 [epoch 11], [iter 2400 / 3097 : 36466], [loss 0.256949], [lr 0.001126], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:19:43.624 [epoch 11], [iter 2450 / 3097 : 36516], [loss 0.317425], [lr 0.001112], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:20:39.701 [epoch 11], [iter 2500 / 3097 : 36566], [loss 0.295257], [lr 0.001097], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:21:35.945 [epoch 11], [iter 2550 / 3097 : 36616], [loss 0.323266], [lr 0.001083], [time 0.2791]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:22:31.918 [epoch 11], [iter 2600 / 3097 : 36666], [loss 0.272261], [lr 0.001069], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:23:28.513 [epoch 11], [iter 2650 / 3097 : 36716], [loss 0.322752], [lr 0.001054], [time 0.2810]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:24:24.334 [epoch 11], [iter 2700 / 3097 : 36766], [loss 0.284464], [lr 0.001040], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:25:20.073 [epoch 11], [iter 2750 / 3097 : 36816], [loss 0.322533], [lr 0.001025], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:26:16.255 [epoch 11], [iter 2800 / 3097 : 36866], [loss 0.283891], [lr 0.001011], [time 0.2789]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:27:12.195 [epoch 11], [iter 2850 / 3097 : 36916], [loss 0.288904], [lr 0.000996], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:28:08.140 [epoch 11], [iter 2900 / 3097 : 36966], [loss 0.272505], [lr 0.000982], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:29:04.293 [epoch 11], [iter 2950 / 3097 : 37016], [loss 0.319034], [lr 0.000967], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:30:00.334 [epoch 11], [iter 3000 / 3097 : 37066], [loss 0.330839], [lr 0.000952], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:30:56.375 [epoch 11], [iter 3050 / 3097 : 37116], [loss 0.284206], [lr 0.000938], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 05:31:47.721 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_11_mean-iu_0.00000.pth
+11-28 05:31:47.722 Class Uniform Percentage: 0.5
+11-28 05:31:47.722 Class Uniform items per Epoch:12388
+11-28 05:31:47.723 cls 0 len 12109
+11-28 05:31:47.723 cls 1 len 11833
+11-28 05:31:47.723 cls 2 len 12301
+11-28 05:31:47.723 cls 3 len 10854
+11-28 05:31:47.723 cls 4 len 8811
+11-28 05:31:47.723 cls 5 len 11928
+11-28 05:31:47.723 cls 6 len 7891
+11-28 05:31:47.723 cls 7 len 5921
+11-28 05:31:47.723 cls 8 len 12132
+11-28 05:31:47.723 cls 9 len 11549
+11-28 05:31:47.723 cls 10 len 12131
+11-28 05:31:47.723 cls 11 len 10691
+11-28 05:31:47.723 cls 12 len 986
+11-28 05:31:47.723 cls 13 len 10501
+11-28 05:31:47.723 cls 14 len 6711
+11-28 05:31:47.723 cls 15 len 1861
+11-28 05:31:47.723 cls 16 len 493
+11-28 05:31:47.723 cls 17 len 1211
+11-28 05:31:47.723 cls 18 len 168
+11-28 05:32:50.535 [epoch 12], [iter 50 / 3097 : 37213], [loss 0.268807], [lr 0.000909], [time 0.2824]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:33:46.384 [epoch 12], [iter 100 / 3097 : 37263], [loss 0.279758], [lr 0.000895], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:34:42.029 [epoch 12], [iter 150 / 3097 : 37313], [loss 0.319163], [lr 0.000880], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:35:37.910 [epoch 12], [iter 200 / 3097 : 37363], [loss 0.299049], [lr 0.000865], [time 0.2775]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:36:34.233 [epoch 12], [iter 250 / 3097 : 37413], [loss 0.274307], [lr 0.000850], [time 0.2797]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:37:30.451 [epoch 12], [iter 300 / 3097 : 37463], [loss 0.280056], [lr 0.000836], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:38:26.130 [epoch 12], [iter 350 / 3097 : 37513], [loss 0.286031], [lr 0.000821], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:39:22.059 [epoch 12], [iter 400 / 3097 : 37563], [loss 0.275692], [lr 0.000806], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:40:18.012 [epoch 12], [iter 450 / 3097 : 37613], [loss 0.310653], [lr 0.000791], [time 0.2778]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:41:13.725 [epoch 12], [iter 500 / 3097 : 37663], [loss 0.325447], [lr 0.000776], [time 0.2766]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:42:09.926 [epoch 12], [iter 550 / 3097 : 37713], [loss 0.286487], [lr 0.000761], [time 0.2790]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:43:06.178 [epoch 12], [iter 600 / 3097 : 37763], [loss 0.256093], [lr 0.000746], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:44:02.739 [epoch 12], [iter 650 / 3097 : 37813], [loss 0.263810], [lr 0.000731], [time 0.2808]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:44:58.441 [epoch 12], [iter 700 / 3097 : 37863], [loss 0.267649], [lr 0.000716], [time 0.2765]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:45:55.062 [epoch 12], [iter 750 / 3097 : 37913], [loss 0.288656], [lr 0.000701], [time 0.2811]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:46:51.232 [epoch 12], [iter 800 / 3097 : 37963], [loss 0.275554], [lr 0.000686], [time 0.2788]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:47:47.316 [epoch 12], [iter 850 / 3097 : 38013], [loss 0.290332], [lr 0.000671], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:48:43.454 [epoch 12], [iter 900 / 3097 : 38063], [loss 0.330917], [lr 0.000655], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:49:39.347 [epoch 12], [iter 950 / 3097 : 38113], [loss 0.314882], [lr 0.000640], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:50:35.465 [epoch 12], [iter 1000 / 3097 : 38163], [loss 0.280372], [lr 0.000625], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:51:31.840 [epoch 12], [iter 1050 / 3097 : 38213], [loss 0.303509], [lr 0.000610], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:52:27.781 [epoch 12], [iter 1100 / 3097 : 38263], [loss 0.283109], [lr 0.000594], [time 0.2777]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:53:23.633 [epoch 12], [iter 1150 / 3097 : 38313], [loss 0.298929], [lr 0.000579], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:54:19.444 [epoch 12], [iter 1200 / 3097 : 38363], [loss 0.304752], [lr 0.000563], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:55:15.584 [epoch 12], [iter 1250 / 3097 : 38413], [loss 0.284872], [lr 0.000548], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:56:11.973 [epoch 12], [iter 1300 / 3097 : 38463], [loss 0.302503], [lr 0.000532], [time 0.2799]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:57:08.219 [epoch 12], [iter 1350 / 3097 : 38513], [loss 0.328556], [lr 0.000517], [time 0.2792]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:58:03.999 [epoch 12], [iter 1400 / 3097 : 38563], [loss 0.320077], [lr 0.000501], [time 0.2769]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:59:00.113 [epoch 12], [iter 1450 / 3097 : 38613], [loss 0.255432], [lr 0.000485], [time 0.2786]
+### Coverage Loss ###  0.0 3072/3072
+11-28 05:59:55.957 [epoch 12], [iter 1500 / 3097 : 38663], [loss 0.263251], [lr 0.000470], [time 0.2772]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:00:51.816 [epoch 12], [iter 1550 / 3097 : 38713], [loss 0.265499], [lr 0.000454], [time 0.2773]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:01:47.566 [epoch 12], [iter 1600 / 3097 : 38763], [loss 0.272223], [lr 0.000438], [time 0.2767]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:02:43.553 [epoch 12], [iter 1650 / 3097 : 38813], [loss 0.284242], [lr 0.000422], [time 0.2779]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:03:39.590 [epoch 12], [iter 1700 / 3097 : 38863], [loss 0.263590], [lr 0.000406], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:04:35.925 [epoch 12], [iter 1750 / 3097 : 38913], [loss 0.300294], [lr 0.000390], [time 0.2796]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:05:31.960 [epoch 12], [iter 1800 / 3097 : 38963], [loss 0.264946], [lr 0.000374], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:06:28.103 [epoch 12], [iter 1850 / 3097 : 39013], [loss 0.248216], [lr 0.000357], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:07:23.758 [epoch 12], [iter 1900 / 3097 : 39063], [loss 0.263289], [lr 0.000341], [time 0.2763]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:08:19.796 [epoch 12], [iter 1950 / 3097 : 39113], [loss 0.281910], [lr 0.000325], [time 0.2781]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:09:15.439 [epoch 12], [iter 2000 / 3097 : 39163], [loss 0.299824], [lr 0.000308], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:10:11.598 [epoch 12], [iter 2050 / 3097 : 39213], [loss 0.299772], [lr 0.000291], [time 0.2787]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:11:08.115 [epoch 12], [iter 2100 / 3097 : 39263], [loss 0.308932], [lr 0.000275], [time 0.2806]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:12:03.725 [epoch 12], [iter 2150 / 3097 : 39313], [loss 0.311829], [lr 0.000258], [time 0.2761]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:12:59.550 [epoch 12], [iter 2200 / 3097 : 39363], [loss 0.275144], [lr 0.000241], [time 0.2771]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:13:55.865 [epoch 12], [iter 2250 / 3097 : 39413], [loss 0.269128], [lr 0.000224], [time 0.2795]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:14:51.755 [epoch 12], [iter 2300 / 3097 : 39463], [loss 0.290900], [lr 0.000207], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:15:47.832 [epoch 12], [iter 2350 / 3097 : 39513], [loss 0.300441], [lr 0.000189], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:16:43.881 [epoch 12], [iter 2400 / 3097 : 39563], [loss 0.271499], [lr 0.000172], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:17:39.761 [epoch 12], [iter 2450 / 3097 : 39613], [loss 0.257420], [lr 0.000154], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+Error!! (957, 526) (1052, 1914) 15188
+Dropping  tensor(1660)
+11-28 06:18:35.806 [epoch 12], [iter 2500 / 3097 : 39663], [loss 0.254987], [lr 0.000136], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:19:31.901 [epoch 12], [iter 2550 / 3097 : 39713], [loss 0.274472], [lr 0.000118], [time 0.2784]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:20:27.831 [epoch 12], [iter 2600 / 3097 : 39763], [loss 0.286061], [lr 0.000099], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:21:23.757 [epoch 12], [iter 2650 / 3097 : 39813], [loss 0.232474], [lr 0.000080], [time 0.2776]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:22:19.401 [epoch 12], [iter 2700 / 3097 : 39863], [loss 0.319123], [lr 0.000060], [time 0.2762]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:23:15.451 [epoch 12], [iter 2750 / 3097 : 39913], [loss 0.275103], [lr 0.000040], [time 0.2782]
+### Coverage Loss ###  0.0 3072/3072
+11-28 06:24:11.333 [epoch 12], [iter 2800 / 3097 : 39963], [loss 0.275107], [lr 0.000019], [time 0.2774]
+### Coverage Loss ###  0.0 3072/3072
+Saving pth file...
+11-28 06:24:55.596 Saved file to ./logs/1127/r50os16_gtav_base/11_27_17/last_None_epoch_12_mean-iu_0.00000.pth
+11-28 06:24:55.597 Class Uniform Percentage: 0.5
+11-28 06:24:55.597 Class Uniform items per Epoch:12388
+11-28 06:24:55.598 cls 0 len 12109
+11-28 06:24:55.598 cls 1 len 11833
+11-28 06:24:55.598 cls 2 len 12301
+11-28 06:24:55.598 cls 3 len 10854
+11-28 06:24:55.598 cls 4 len 8811
+11-28 06:24:55.598 cls 5 len 11928
+11-28 06:24:55.598 cls 6 len 7891
+11-28 06:24:55.598 cls 7 len 5921
+11-28 06:24:55.598 cls 8 len 12132
+11-28 06:24:55.598 cls 9 len 11549
+11-28 06:24:55.598 cls 10 len 12131
+11-28 06:24:55.598 cls 11 len 10691
+11-28 06:24:55.598 cls 12 len 986
+11-28 06:24:55.598 cls 13 len 10501
+11-28 06:24:55.598 cls 14 len 6711
+11-28 06:24:55.598 cls 15 len 1861
+11-28 06:24:55.598 cls 16 len 493
+11-28 06:24:55.598 cls 17 len 1211
+11-28 06:24:55.598 cls 18 len 168
+Training Ends!
+Source domain evaluation starts!
+Error!! (1914, 1046) (697, 1276) 20826
+Dropping  6
+11-28 06:24:58.028 validating: 1 / 6382
+11-28 06:25:04.688 validating: 21 / 6382
+11-28 06:25:11.958 validating: 41 / 6382
+11-28 06:25:19.116 validating: 61 / 6382
+11-28 06:25:26.052 validating: 81 / 6382
+11-28 06:25:34.608 validating: 101 / 6382
+Error!! (1914, 1046) (697, 1276) 20860
+Dropping  108
+11-28 06:25:41.747 validating: 121 / 6382
+11-28 06:25:48.617 validating: 141 / 6382
+11-28 06:25:55.603 validating: 161 / 6382
+11-28 06:26:02.682 validating: 181 / 6382
+11-28 06:26:09.693 validating: 201 / 6382
+11-28 06:26:16.546 validating: 221 / 6382
+11-28 06:26:23.546 validating: 241 / 6382
+11-28 06:26:30.502 validating: 261 / 6382
+11-28 06:26:37.368 validating: 281 / 6382
+11-28 06:26:44.233 validating: 301 / 6382
+11-28 06:26:51.140 validating: 321 / 6382
+11-28 06:26:58.083 validating: 341 / 6382
+11-28 06:27:04.943 validating: 361 / 6382
+11-28 06:27:11.786 validating: 381 / 6382
+11-28 06:27:18.706 validating: 401 / 6382
+11-28 06:27:25.642 validating: 421 / 6382
+11-28 06:27:32.573 validating: 441 / 6382
+Error!! (1914, 1046) (697, 1276) 20829
+Dropping  457
+11-28 06:27:39.423 validating: 461 / 6382
+11-28 06:27:46.283 validating: 481 / 6382
+11-28 06:27:53.196 validating: 501 / 6382
+Error!! (1914, 1046) (697, 1276) 20818
+Dropping  521
+11-28 06:28:00.037 validating: 521 / 6382
+11-28 06:28:06.915 validating: 541 / 6382
+Error!! (1914, 1046) (697, 1276) 20831
+Dropping  556
+11-28 06:28:13.835 validating: 561 / 6382
+11-28 06:28:20.723 validating: 581 / 6382
+11-28 06:28:27.666 validating: 601 / 6382
+Error!! (1914, 1046) (697, 1276) 20859
+Dropping  612
+11-28 06:28:34.650 validating: 621 / 6382
+11-28 06:28:41.567 validating: 641 / 6382
+Error!! (1914, 1046) (697, 1276) 20805
+Dropping  657
+11-28 06:28:48.500 validating: 661 / 6382
+11-28 06:28:55.446 validating: 681 / 6382
+11-28 06:29:02.358 validating: 701 / 6382
+11-28 06:29:09.226 validating: 721 / 6382
+11-28 06:29:16.039 validating: 741 / 6382
+11-28 06:29:22.904 validating: 761 / 6382
+11-28 06:29:29.764 validating: 781 / 6382
+11-28 06:29:36.629 validating: 801 / 6382
+11-28 06:29:43.558 validating: 821 / 6382
+11-28 06:29:50.718 validating: 841 / 6382
+11-28 06:29:57.646 validating: 861 / 6382
+11-28 06:30:04.853 validating: 881 / 6382
+11-28 06:30:12.055 validating: 901 / 6382
+11-28 06:30:18.915 validating: 921 / 6382
+Error!! (1914, 1046) (697, 1276) 20832
+Dropping  934
+11-28 06:30:25.901 validating: 941 / 6382
+11-28 06:30:32.739 validating: 961 / 6382
+11-28 06:30:39.543 validating: 981 / 6382
+11-28 06:30:46.346 validating: 1001 / 6382
+11-28 06:30:53.182 validating: 1021 / 6382
+11-28 06:31:00.012 validating: 1041 / 6382
+Error!! (1914, 1046) (697, 1276) 20817
+Dropping  1051
+11-28 06:31:06.837 validating: 1061 / 6382
+Error!! (1914, 1046) (697, 1276) 20827
+Dropping  1083
+11-28 06:31:13.863 validating: 1081 / 6382
+11-28 06:31:20.754 validating: 1101 / 6382
+11-28 06:31:27.668 validating: 1121 / 6382
+11-28 06:31:34.552 validating: 1141 / 6382
+Error!! (1914, 1046) (697, 1276) 20858
+Dropping  1167
+11-28 06:31:41.474 validating: 1161 / 6382
+11-28 06:31:48.548 validating: 1181 / 6382
+11-28 06:31:55.562 validating: 1201 / 6382
+11-28 06:32:02.514 validating: 1221 / 6382
+Error!! (1914, 1046) (697, 1276) 20825
+Dropping  1232
+11-28 06:32:09.278 validating: 1241 / 6382
+11-28 06:32:16.119 validating: 1261 / 6382
+11-28 06:32:22.941 validating: 1281 / 6382
+11-28 06:32:29.744 validating: 1301 / 6382
+11-28 06:32:36.600 validating: 1321 / 6382
+11-28 06:32:43.453 validating: 1341 / 6382
+Error!! (1914, 1046) (697, 1276) 20813
+Dropping  1351
+11-28 06:32:50.310 validating: 1361 / 6382
+Error!! (1914, 1046) (697, 1276) 20834
+Dropping  1384
+11-28 06:32:57.296 validating: 1381 / 6382
+11-28 06:33:04.412 validating: 1401 / 6382
+11-28 06:33:11.456 validating: 1421 / 6382
+11-28 06:33:18.398 validating: 1441 / 6382
+11-28 06:33:25.355 validating: 1461 / 6382
+11-28 06:33:32.179 validating: 1481 / 6382
+11-28 06:33:38.994 validating: 1501 / 6382
+11-28 06:33:45.784 validating: 1521 / 6382
+Error!! (1914, 1046) (697, 1276) 20809
+Dropping  1537
+11-28 06:33:52.648 validating: 1541 / 6382
+11-28 06:33:59.755 validating: 1561 / 6382
+11-28 06:34:06.994 validating: 1581 / 6382
+11-28 06:34:14.192 validating: 1601 / 6382
+11-28 06:34:21.116 validating: 1621 / 6382
+11-28 06:34:28.033 validating: 1641 / 6382
+11-28 06:34:34.917 validating: 1661 / 6382
+11-28 06:34:41.805 validating: 1681 / 6382
+11-28 06:34:48.636 validating: 1701 / 6382
+11-28 06:34:55.532 validating: 1721 / 6382
+11-28 06:35:02.610 validating: 1741 / 6382
+11-28 06:35:09.438 validating: 1761 / 6382
+11-28 06:35:16.304 validating: 1781 / 6382
+11-28 06:35:23.242 validating: 1801 / 6382
+11-28 06:35:30.166 validating: 1821 / 6382
+11-28 06:35:37.088 validating: 1841 / 6382
+11-28 06:35:43.970 validating: 1861 / 6382
+11-28 06:35:50.929 validating: 1881 / 6382
+11-28 06:35:57.804 validating: 1901 / 6382
+11-28 06:36:04.830 validating: 1921 / 6382
+11-28 06:36:11.676 validating: 1941 / 6382
+11-28 06:36:18.506 validating: 1961 / 6382
+11-28 06:36:25.340 validating: 1981 / 6382
+11-28 06:36:32.178 validating: 2001 / 6382
+11-28 06:36:39.206 validating: 2021 / 6382
+11-28 06:36:46.047 validating: 2041 / 6382
+11-28 06:36:52.940 validating: 2061 / 6382
+11-28 06:36:59.843 validating: 2081 / 6382
+11-28 06:37:06.811 validating: 2101 / 6382
+11-28 06:37:13.858 validating: 2121 / 6382
+11-28 06:37:20.808 validating: 2141 / 6382
+11-28 06:37:27.824 validating: 2161 / 6382
+11-28 06:37:34.781 validating: 2181 / 6382
+11-28 06:37:41.749 validating: 2201 / 6382
+11-28 06:37:48.721 validating: 2221 / 6382
+11-28 06:37:55.541 validating: 2241 / 6382
+11-28 06:38:02.357 validating: 2261 / 6382
+11-28 06:38:09.287 validating: 2281 / 6382
+11-28 06:38:16.147 validating: 2301 / 6382
+Error!! (1914, 1046) (697, 1276) 20830
+Dropping  2320
+11-28 06:38:23.116 validating: 2321 / 6382
+11-28 06:38:30.011 validating: 2341 / 6382
+Error!! (1914, 1046) (697, 1276) 20803
+Dropping  2362
+11-28 06:38:37.042 validating: 2361 / 6382
+11-28 06:38:43.994 validating: 2381 / 6382
+11-28 06:38:50.900 validating: 2401 / 6382
+11-28 06:38:57.795 validating: 2421 / 6382
+11-28 06:39:04.779 validating: 2441 / 6382
+11-28 06:39:11.658 validating: 2461 / 6382
+11-28 06:39:18.459 validating: 2481 / 6382
+11-28 06:39:25.279 validating: 2501 / 6382
+11-28 06:39:32.454 validating: 2521 / 6382
+11-28 06:39:39.300 validating: 2541 / 6382
+Error!! (1914, 1046) (697, 1276) 20820
+Dropping  2551
+11-28 06:39:46.277 validating: 2561 / 6382
+11-28 06:39:53.223 validating: 2581 / 6382
+11-28 06:40:00.183 validating: 2601 / 6382
+11-28 06:40:07.659 validating: 2621 / 6382
+11-28 06:40:14.605 validating: 2641 / 6382
+11-28 06:40:21.520 validating: 2661 / 6382
+Error!! (1914, 1046) (697, 1276) 20822
+Dropping  2672
+11-28 06:40:28.366 validating: 2681 / 6382
+11-28 06:40:35.198 validating: 2701 / 6382
+11-28 06:40:41.994 validating: 2721 / 6382
+11-28 06:40:48.837 validating: 2741 / 6382
+11-28 06:40:55.689 validating: 2761 / 6382
+11-28 06:41:02.574 validating: 2781 / 6382
+11-28 06:41:09.443 validating: 2801 / 6382
+11-28 06:41:16.461 validating: 2821 / 6382
+11-28 06:41:23.509 validating: 2841 / 6382
+11-28 06:41:30.412 validating: 2861 / 6382
+11-28 06:41:37.359 validating: 2881 / 6382
+11-28 06:41:44.279 validating: 2901 / 6382
+11-28 06:41:51.229 validating: 2921 / 6382
+11-28 06:41:58.301 validating: 2941 / 6382
+11-28 06:42:05.158 validating: 2961 / 6382
+11-28 06:42:12.143 validating: 2981 / 6382
+11-28 06:42:19.023 validating: 3001 / 6382
+11-28 06:42:25.999 validating: 3021 / 6382
+11-28 06:42:33.003 validating: 3041 / 6382
+Error!! (1914, 1046) (697, 1276) 20824
+Dropping  3055
+11-28 06:42:40.120 validating: 3061 / 6382
+11-28 06:42:47.014 validating: 3081 / 6382
+11-28 06:42:54.200 validating: 3101 / 6382
+11-28 06:43:01.110 validating: 3121 / 6382
+11-28 06:43:08.022 validating: 3141 / 6382
+11-28 06:43:14.977 validating: 3161 / 6382
+11-28 06:43:21.852 validating: 3181 / 6382
+Error!! (1914, 1046) (697, 1276) 20823
+Dropping  3197
+11-28 06:43:28.693 validating: 3201 / 6382
+11-28 06:43:35.478 validating: 3221 / 6382
+11-28 06:43:42.328 validating: 3241 / 6382
+11-28 06:43:49.157 validating: 3261 / 6382
+11-28 06:43:56.033 validating: 3281 / 6382
+11-28 06:44:02.916 validating: 3301 / 6382
+11-28 06:44:09.779 validating: 3321 / 6382
+11-28 06:44:16.647 validating: 3341 / 6382
+11-28 06:44:23.552 validating: 3361 / 6382
+11-28 06:44:30.466 validating: 3381 / 6382
+11-28 06:44:37.368 validating: 3401 / 6382
+11-28 06:44:44.329 validating: 3421 / 6382
+11-28 06:44:51.258 validating: 3441 / 6382
+11-28 06:44:58.267 validating: 3461 / 6382
+Error!! (1914, 1046) (697, 1276) 20828
+Dropping  3481
+Error!! (1914, 1046) (697, 1276) 20833
+Dropping  3487
+11-28 06:45:05.120 validating: 3481 / 6382
+11-28 06:45:11.967 validating: 3501 / 6382
+11-28 06:45:19.029 validating: 3521 / 6382
+11-28 06:45:25.939 validating: 3541 / 6382
+11-28 06:45:32.809 validating: 3561 / 6382
+Error!! (1914, 1046) (697, 1276) 20810
+Dropping  3584
+11-28 06:45:39.710 validating: 3581 / 6382
+11-28 06:45:46.796 validating: 3601 / 6382
+11-28 06:45:53.719 validating: 3621 / 6382
+11-28 06:46:00.612 validating: 3641 / 6382
+11-28 06:46:07.521 validating: 3661 / 6382
+11-28 06:46:14.384 validating: 3681 / 6382
+11-28 06:46:21.289 validating: 3701 / 6382
+11-28 06:46:28.345 validating: 3721 / 6382
+11-28 06:46:35.195 validating: 3741 / 6382
+Error!! (1914, 1046) (697, 1276) 20811
+Dropping  3755
+11-28 06:46:42.054 validating: 3761 / 6382
+11-28 06:46:48.979 validating: 3781 / 6382
+11-28 06:46:55.970 validating: 3801 / 6382
+11-28 06:47:02.873 validating: 3821 / 6382
+11-28 06:47:09.775 validating: 3841 / 6382
+11-28 06:47:16.724 validating: 3861 / 6382
+Error!! (1914, 1046) (697, 1276) 20807
+Dropping  3882
+11-28 06:47:23.631 validating: 3881 / 6382
+11-28 06:47:30.631 validating: 3901 / 6382
+11-28 06:47:37.482 validating: 3921 / 6382
+11-28 06:47:44.363 validating: 3941 / 6382
+11-28 06:47:51.237 validating: 3961 / 6382
+Error!! (1914, 1046) (697, 1276) 20806
+Dropping  3983
+11-28 06:47:58.078 validating: 3981 / 6382
+11-28 06:48:04.957 validating: 4001 / 6382
+11-28 06:48:11.855 validating: 4021 / 6382
+11-28 06:48:18.732 validating: 4041 / 6382
+11-28 06:48:25.735 validating: 4061 / 6382
+11-28 06:48:32.643 validating: 4081 / 6382
+11-28 06:48:39.610 validating: 4101 / 6382
+11-28 06:48:46.580 validating: 4121 / 6382
+11-28 06:48:53.506 validating: 4141 / 6382
+11-28 06:49:00.492 validating: 4161 / 6382
+11-28 06:49:07.394 validating: 4181 / 6382
+11-28 06:49:14.300 validating: 4201 / 6382
+11-28 06:49:21.185 validating: 4221 / 6382
+11-28 06:49:28.081 validating: 4241 / 6382
+11-28 06:49:35.058 validating: 4261 / 6382
+11-28 06:49:41.939 validating: 4281 / 6382
+11-28 06:49:48.871 validating: 4301 / 6382
+11-28 06:49:55.786 validating: 4321 / 6382
+11-28 06:50:02.862 validating: 4341 / 6382
+11-28 06:50:09.875 validating: 4361 / 6382
+11-28 06:50:17.017 validating: 4381 / 6382
+11-28 06:50:23.951 validating: 4401 / 6382
+11-28 06:50:30.950 validating: 4421 / 6382
+11-28 06:50:37.833 validating: 4441 / 6382
+11-28 06:50:44.802 validating: 4461 / 6382
+11-28 06:50:51.706 validating: 4481 / 6382
+11-28 06:50:58.618 validating: 4501 / 6382
+11-28 06:51:05.516 validating: 4521 / 6382
+11-28 06:51:12.431 validating: 4541 / 6382
+11-28 06:51:19.377 validating: 4561 / 6382
+11-28 06:51:26.293 validating: 4581 / 6382
+11-28 06:51:33.190 validating: 4601 / 6382
+11-28 06:51:40.120 validating: 4621 / 6382
+11-28 06:51:47.020 validating: 4641 / 6382
+11-28 06:51:54.002 validating: 4661 / 6382
+11-28 06:52:00.931 validating: 4681 / 6382
+Error!! (1914, 1046) (697, 1276) 20816
+Dropping  4695
+11-28 06:52:07.801 validating: 4701 / 6382
+11-28 06:52:14.649 validating: 4721 / 6382
+11-28 06:52:21.525 validating: 4741 / 6382
+11-28 06:52:28.416 validating: 4761 / 6382
+11-28 06:52:35.305 validating: 4781 / 6382
+11-28 06:52:42.166 validating: 4801 / 6382
+11-28 06:52:49.081 validating: 4821 / 6382
+11-28 06:52:55.936 validating: 4841 / 6382
+11-28 06:53:02.847 validating: 4861 / 6382
+11-28 06:53:09.745 validating: 4881 / 6382
+11-28 06:53:16.682 validating: 4901 / 6382
+Error!! (1914, 1046) (697, 1276) 20814
+Dropping  4925
+11-28 06:53:23.641 validating: 4921 / 6382
+11-28 06:53:30.475 validating: 4941 / 6382
+11-28 06:53:37.383 validating: 4961 / 6382
+11-28 06:53:44.294 validating: 4981 / 6382
+11-28 06:53:51.157 validating: 5001 / 6382
+11-28 06:53:58.026 validating: 5021 / 6382
+11-28 06:54:04.917 validating: 5041 / 6382
+11-28 06:54:11.986 validating: 5061 / 6382
+11-28 06:54:18.952 validating: 5081 / 6382
+11-28 06:54:26.061 validating: 5101 / 6382
+11-28 06:54:32.958 validating: 5121 / 6382
+11-28 06:54:39.822 validating: 5141 / 6382
+11-28 06:54:46.724 validating: 5161 / 6382
+11-28 06:54:53.619 validating: 5181 / 6382
+11-28 06:55:00.429 validating: 5201 / 6382
+11-28 06:55:07.282 validating: 5221 / 6382
+11-28 06:55:14.135 validating: 5241 / 6382
+11-28 06:55:21.006 validating: 5261 / 6382
+11-28 06:55:27.910 validating: 5281 / 6382
+11-28 06:55:34.811 validating: 5301 / 6382
+11-28 06:55:41.710 validating: 5321 / 6382
+11-28 06:55:48.722 validating: 5341 / 6382
+11-28 06:55:55.722 validating: 5361 / 6382
+11-28 06:56:02.752 validating: 5381 / 6382
+11-28 06:56:09.748 validating: 5401 / 6382
+11-28 06:56:16.632 validating: 5421 / 6382
+11-28 06:56:23.564 validating: 5441 / 6382
+11-28 06:56:30.484 validating: 5461 / 6382
+11-28 06:56:37.375 validating: 5481 / 6382
+11-28 06:56:44.297 validating: 5501 / 6382
+11-28 06:56:51.247 validating: 5521 / 6382
+11-28 06:56:58.145 validating: 5541 / 6382
+11-28 06:57:05.055 validating: 5561 / 6382
+Error!! (1914, 1046) (697, 1276) 20804
+Dropping  5573
+11-28 06:57:11.948 validating: 5581 / 6382
+11-28 06:57:18.947 validating: 5601 / 6382
+11-28 06:57:25.895 validating: 5621 / 6382
+11-28 06:57:32.836 validating: 5641 / 6382
+11-28 06:57:39.724 validating: 5661 / 6382
+11-28 06:57:46.590 validating: 5681 / 6382
+11-28 06:57:53.485 validating: 5701 / 6382
+Error!! (1914, 1046) (697, 1276) 20821
+Dropping  5715
+11-28 06:58:00.333 validating: 5721 / 6382
+11-28 06:58:07.222 validating: 5741 / 6382
+11-28 06:58:14.120 validating: 5761 / 6382
+11-28 06:58:21.001 validating: 5781 / 6382
+11-28 06:58:27.911 validating: 5801 / 6382
+11-28 06:58:34.796 validating: 5821 / 6382
+Error!! (1914, 1046) (697, 1276) 20812
+Dropping  5837
+11-28 06:58:41.746 validating: 5841 / 6382
+11-28 06:58:48.657 validating: 5861 / 6382
+11-28 06:58:55.503 validating: 5881 / 6382
+11-28 06:59:02.462 validating: 5901 / 6382
+11-28 06:59:09.348 validating: 5921 / 6382
+11-28 06:59:16.243 validating: 5941 / 6382
+11-28 06:59:23.140 validating: 5961 / 6382
+11-28 06:59:30.038 validating: 5981 / 6382
+11-28 06:59:36.729 validating: 6001 / 6382
+11-28 06:59:43.519 validating: 6021 / 6382
+11-28 06:59:50.369 validating: 6041 / 6382
+11-28 06:59:57.168 validating: 6061 / 6382
+Error!! (1914, 1046) (697, 1276) 20808
+Dropping  6068
+11-28 07:00:04.120 validating: 6081 / 6382
+11-28 07:00:10.979 validating: 6101 / 6382
+11-28 07:00:18.204 validating: 6121 / 6382
+11-28 07:00:25.294 validating: 6141 / 6382
+11-28 07:00:32.143 validating: 6161 / 6382
+11-28 07:00:38.967 validating: 6181 / 6382
+11-28 07:00:45.809 validating: 6201 / 6382
+11-28 07:00:52.626 validating: 6221 / 6382
+11-28 07:00:59.773 validating: 6241 / 6382
+11-28 07:01:06.639 validating: 6261 / 6382
+Error!! (1914, 1046) (697, 1276) 20815
+Dropping  6277
+11-28 07:01:13.462 validating: 6281 / 6382
+11-28 07:01:20.331 validating: 6301 / 6382
+11-28 07:01:27.210 validating: 6321 / 6382
+Error!! (1914, 1046) (697, 1276) 20819
+Dropping  6342
+11-28 07:01:34.078 validating: 6341 / 6382
+11-28 07:01:41.023 validating: 6361 / 6382
+11-28 07:01:47.668 validating: 6381 / 6382
+11-28 07:01:48.171 Dataset name: gtav
+11-28 07:01:48.171 IoU:
+11-28 07:01:48.171 label_id      label    iU    Precision Recall TP     FP    FN
+11-28 07:01:48.171  0                0    95.8    1.0       1.0   31.7     0.0     0.0
+11-28 07:01:48.171  1                1    86.3    0.9       0.9   10.4     0.1     0.1
+11-28 07:01:48.171  2                2    89.8    0.9       1.0   20.3     0.1     0.1
+11-28 07:01:48.171  3                3    55.1    0.7       0.7    1.4     0.3     0.5
+11-28 07:01:48.172  4                4    31.3    0.4       0.5    0.2     1.3     0.9
+11-28 07:01:48.172  5                5    65.5    0.7       0.8    0.9     0.3     0.2
+11-28 07:01:48.172  6                6    63.4    0.7       0.8    0.1     0.4     0.2
+11-28 07:01:48.172  7                7    57.9    0.7       0.7    0.0     0.3     0.4
+11-28 07:01:48.172  8                8    86.0    0.9       0.9    9.2     0.1     0.1
+11-28 07:01:48.172  9                9    73.7    0.8       0.9    2.2     0.2     0.2
+11-28 07:01:48.172 10               10    96.8    1.0       1.0   13.9     0.0     0.0
+11-28 07:01:48.172 11               11    74.1    0.8       0.9    0.4     0.2     0.1
+11-28 07:01:48.172 12               12    63.2    0.7       0.8    0.0     0.4     0.2
+11-28 07:01:48.172 13               13    90.1    1.0       0.9    2.5     0.0     0.1
+11-28 07:01:48.172 14               14    87.8    0.9       0.9    1.2     0.1     0.1
+11-28 07:01:48.172 15               15    86.9    1.0       0.9    0.2     0.0     0.1
+/home/txsing/Workspace/RobustNet/utils/misc.py:278: RuntimeWarning: divide by zero encountered in float_scalars
+  iu_false_positive[idx] / iu_true_positive[idx])
+/home/txsing/Workspace/RobustNet/utils/misc.py:279: RuntimeWarning: divide by zero encountered in float_scalars
+  fn = '{:5.1f}'.format(iu_false_negative[idx] / iu_true_positive[idx])
+11-28 07:01:48.209 16               16     0.0    0.0       0.0    0.0     inf     inf
+11-28 07:01:48.209 17               17    70.9    0.8       0.8    0.0     0.2     0.2
+11-28 07:01:48.209 18               18    44.2    0.8       0.5    0.0     0.3     1.0
+11-28 07:01:48.209 mean 0.6940777897834778
+11-28 07:01:48.681 -----------------------------------------------------------------------------------------------------------
+11-28 07:01:48.682 [epoch 13], [dataset name gtav], [val loss 0.16586], [acc 0.94608], [acc_cls 0.79014], [mean_iu 0.69408], [fwavacc 0.90204]
+11-28 07:01:48.682 best record: [dataset name gtav], [val loss 0.16586], [acc 0.94608], [acc_cls 0.79014], [mean_iu 0.69408], [fwavacc 0.90204], [epoch 13], 
+11-28 07:01:48.682 -----------------------------------------------------------------------------------------------------------
+Unseen domain evaluation starts!
+Extra validating... This won't save pth file
+11-28 07:01:49.734 validating: 1 / 500
+11-28 07:01:52.688 validating: 21 / 500
+11-28 07:01:55.608 validating: 41 / 500
+11-28 07:01:58.525 validating: 61 / 500
+11-28 07:02:01.464 validating: 81 / 500
+11-28 07:02:04.391 validating: 101 / 500
+11-28 07:02:07.316 validating: 121 / 500
+11-28 07:02:10.244 validating: 141 / 500
+11-28 07:02:13.185 validating: 161 / 500
+11-28 07:02:16.145 validating: 181 / 500
+11-28 07:02:19.052 validating: 201 / 500
+11-28 07:02:23.378 validating: 221 / 500
+11-28 07:02:28.305 validating: 241 / 500
+11-28 07:02:31.250 validating: 261 / 500
+11-28 07:02:34.185 validating: 281 / 500
+11-28 07:02:37.133 validating: 301 / 500
+11-28 07:02:40.059 validating: 321 / 500
+11-28 07:02:43.010 validating: 341 / 500
+11-28 07:02:45.968 validating: 361 / 500
+11-28 07:02:48.935 validating: 381 / 500
+11-28 07:02:51.923 validating: 401 / 500
+11-28 07:02:54.925 validating: 421 / 500
+11-28 07:02:57.911 validating: 441 / 500
+11-28 07:03:00.860 validating: 461 / 500
+11-28 07:03:03.849 validating: 481 / 500
+11-28 07:03:06.726 Dataset name: cityscapes
+11-28 07:03:06.726 IoU:
+11-28 07:03:06.726 label_id      label    iU    Precision Recall TP     FP    FN
+11-28 07:03:06.726  0                0    40.8    0.4       1.0   15.6     1.4     0.0
+11-28 07:03:06.726  1                1    22.9    0.7       0.3    3.5     0.5     2.8
+11-28 07:03:06.726  2                2    54.2    0.9       0.6   20.6     0.1     0.8
+11-28 07:03:06.726  3                3    12.9    0.3       0.2    0.3     1.9     4.9
+11-28 07:03:06.726  4                4    21.6    0.5       0.3    0.4     1.1     2.5
+11-28 07:03:06.726  5                5    23.9    0.3       0.8    0.4     2.9     0.3
+11-28 07:03:06.726  6                6    29.2    0.3       0.9    0.1     2.3     0.1
+11-28 07:03:06.726  7                7    17.6    0.2       0.9    0.1     4.6     0.1
+11-28 07:03:06.726  8                8    81.3    0.9       0.9   15.8     0.1     0.1
+11-28 07:03:06.726  9                9    21.9    0.7       0.2    0.6     0.5     3.1
+11-28 07:03:06.726 10               10    44.2    0.5       0.8    1.6     1.1     0.2
+11-28 07:03:06.726 11               11    60.5    0.7       0.8    0.9     0.4     0.3
+11-28 07:03:06.726 12               12    19.2    0.2       0.7    0.0     3.8     0.4
+11-28 07:03:06.726 13               13    82.3    0.9       0.9    5.7     0.1     0.1
+11-28 07:03:06.726 14               14    21.1    0.3       0.4    0.1     1.9     1.8
+11-28 07:03:06.726 15               15    32.0    0.4       0.7    0.1     1.6     0.5
+11-28 07:03:06.726 16               16    11.8    0.1       0.6    0.0     6.9     0.6
+11-28 07:03:06.727 17               17    15.1    0.2       0.5    0.0     4.6     1.0
+11-28 07:03:06.727 18               18     7.9    0.1       0.8    0.1    11.4     0.2
+11-28 07:03:06.727 mean 0.3265324532985687
+11-28 07:03:06.727 -----------------------------------------------------------------------------------------------------------
+11-28 07:03:06.727 [epoch 13], [dataset name cityscapes], [val loss 1.14059], [acc 0.65885], [acc_cls 0.45005], [mean_iu 0.32653], [fwavacc 0.51474]

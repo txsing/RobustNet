@@ -169,7 +169,7 @@ parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 parser.add_argument('--activate_threshold', type=float, default=0.01,
                     help='activation threshold')
-parser.add_argument('--cov_weight', type=float, default=0.01,
+parser.add_argument('--cov_weight', type=float, default=0.0,
                     help='coverage loss weight')
 parser.add_argument("--layers", help="layers", nargs='+')
 
@@ -398,16 +398,20 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
                             apply_wtloss=False if curr_epoch<=args.cov_stat_epoch else True)
             else:
                 layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
-
-            layer_neuron_activated_dict, total_act_nron, total_nron = cov_utils.update_coverage_v2(layer_output_dict, args.activate_threshold, layer_neuron_activated_dict)
-            neuron_cov_str = str(int(total_act_nron)) + '/' + str(int(total_nron))
-
-            neurons_2b_covered, all_not_covered  = cov_utils.neuron_to_cover(
-                layer_neuron_activated_dict, 1.0
-            )
-            neuron_coverage = cov_utils.cal_neurons_cov_loss(layer_output_dict, neurons_2b_covered)
             
-            coverage_loss = args.cov_weight * neuron_coverage
+            coverage_loss = 0.0
+            neuron_cov_str = "N/A"
+            if args.cov_weight > 0.0:
+                layer_neuron_activated_dict, total_act_nron, total_nron = cov_utils.update_coverage_v2(layer_output_dict, args.activate_threshold, layer_neuron_activated_dict)
+                neuron_cov_str = str(int(total_act_nron)) + '/' + str(int(total_nron))
+
+                neurons_2b_covered, all_not_covered  = cov_utils.neuron_to_cover(
+                    layer_neuron_activated_dict, 1.0
+                )
+                neuron_coverage = cov_utils.cal_neurons_cov_loss(layer_output_dict, neurons_2b_covered)
+                coverage_loss = args.cov_weight * neuron_coverage
+            else:
+                del layer_output_dict
 
             outputs_index = 0
             main_loss = outputs[outputs_index]

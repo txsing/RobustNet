@@ -5,6 +5,7 @@ from __future__ import absolute_import
 from __future__ import division
 from datetime import datetime
 from utils import cov_utils
+import pdb
 
 import argparse
 import logging
@@ -171,6 +172,8 @@ parser.add_argument('--activate_threshold', type=float, default=0.01,
                     help='activation threshold')
 parser.add_argument('--cov_weight', type=float, default=0.0,
                     help='coverage loss weight')
+parser.add_argument('--beta', type=float, default=0.01,
+                    help='similarity')
 parser.add_argument("--layers", help="layers", nargs='+')
 
 args = parser.parse_args()
@@ -362,7 +365,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
             break
 
         # img, mask, img_name, mask_aux
-        inputs, gts, _, aux_gts = data
+        inputs, gts, _, aux_gts, inputs_photometric = data
 
         # Multi source and AGG case
         if len(inputs.shape) == 5:
@@ -379,17 +382,18 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
             B, C, H, W = inputs.shape
             num_domains = 1
             inputs = [inputs]
+            inputs_photometric = [inputs_photometric]
             gts = [gts]
             aux_gts = [aux_gts]
         batch_pixel_size = C * H * W
 
-        for di, ingredients in enumerate(zip(inputs, gts, aux_gts)):
-            input, gt, aux_gt = ingredients
+        for di, ingredients in enumerate(zip(inputs, gts, aux_gts, inputs_photometric)):
+            input, gt, aux_gt, input_photo = ingredients
 
             start_ts = time.time()
 
             img_gt = None
-            input, gt = input.cuda(), gt.cuda()
+            input, gt, input_mt = input.cuda(), gt.cuda(), input_photo.cuda()
 
             optim.zero_grad()
             layer_output_dict = {}
@@ -398,9 +402,11 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
                             apply_wtloss=False if curr_epoch<=args.cov_stat_epoch else True)
             else:
                 layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
-            
+
             coverage_loss = 0.0
             neuron_cov_str = "N/A"
+
+            ### Coverage ###
             if args.cov_weight > 0.0:
                 layer_neuron_activated_dict, total_act_nron, total_nron = cov_utils.update_coverage_v2(layer_output_dict, args.activate_threshold, layer_neuron_activated_dict)
                 neuron_cov_str = str(int(total_act_nron)) + '/' + str(int(total_nron))
@@ -412,6 +418,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
                 coverage_loss = args.cov_weight * neuron_coverage
             else:
                 del layer_output_dict
+            ### Coverage ###
 
             outputs_index = 0
             main_loss = outputs[outputs_index]
@@ -419,6 +426,30 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
             aux_loss = outputs[outputs_index]
             outputs_index += 1
             total_loss = main_loss + (0.4 * aux_loss)
+
+            ### Similarity ###
+            if args.beta > 0.0:
+                layer_output_dict_mt = {}
+                if args.use_isw:
+                    _, outputs_mt = net(input_mt, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature,
+                            apply_wtloss=False if curr_epoch<=args.cov_stat_epoch else True)
+                else:
+                    _, outputs_mt = net(input_mt, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
+
+                main_loss_mt = outputs_mt[0]
+
+                model_params = list(net.parameters())
+                grad_train = torch.autograd.grad(main_loss, model_params, create_graph=True)
+                grad_mt = torch.autograd.grad(main_loss_mt, model_params, create_graph=True)
+    
+                sim_term = torch.tensor(0.0).float().cuda()
+                for j in range(len(grad_train)):
+                    g_tr = 0 if grad_train[j] is None else grad_train[j]
+                    g_mt = 0 if grad_mt[j] is None else grad_mt[j]
+                    sim_term = sim_term + torch.norm(g_tr - g_mt)
+                
+                total_loss = total_loss + args.beta * sim_term
+            ### Similarity ###
 
             if args.use_wtloss and (not args.use_isw or (args.use_isw and curr_epoch > args.cov_stat_epoch)):
                 wt_loss = outputs[outputs_index]
@@ -437,6 +468,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
             train_total_loss.update(log_total_loss.item(), batch_pixel_size)
 
             total_loss = total_loss - coverage_loss
+
             total_loss.backward()
             optim.step()
 
@@ -463,6 +495,8 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, lay
                                     curr_iter)
                     train_total_loss.reset()
                     time_meter.reset()
+                if i <= 4: # print coverage info at first 5 iterations in each epoch 0,1,2
+                    print("### Coverage Loss ### ", i, coverage_loss ,neuron_cov_str)
 
         curr_iter += 1
         scheduler.step()

@@ -16,6 +16,8 @@ import datasets.cityscapes_labels as cityscapes_labels
 # import scipy.misc as m
 import imageio as m
 from config import cfg
+import torchvision.transforms as standard_transforms
+import transforms.transforms as extended_transforms
 
 trainid_to_name = cityscapes_labels.trainId2name
 id_to_trainid = cityscapes_labels.label2trainid
@@ -35,6 +37,37 @@ zero_pad = 256 * 3 - len(palette)
 for i in range(zero_pad):
     palette.append(0)
 
+def get_color_geometric_transforms():
+    """
+    Get input transforms
+    Args:
+        args: input config arguments
+        dataset: dataset class object
+
+    return: train_input_transform, val_input_transform
+    """
+
+    # Image appearance transformations
+    color_input_transform = []
+    geometric_input_transform = []
+
+    color_input_transform += [standard_transforms.ColorJitter(0.8, 0.8, 0.8, 0.3)]
+    color_input_transform += [extended_transforms.RandomGaussianBlur()]
+
+    geometric_input_transform += [standard_transforms.RandomHorizontalFlip(p=1.0)]
+
+    color_input_transform += [
+                              standard_transforms.ToTensor()
+    ]
+    geometric_input_transform += [
+                            standard_transforms.ToTensor()
+    ]
+    color_input_transform = standard_transforms.Compose(color_input_transform)
+    geometric_input_transform = standard_transforms.Compose(geometric_input_transform)
+
+    return color_input_transform, geometric_input_transform
+
+ncdg_color_transform, ncdg_geometric_transform = get_color_geometric_transforms()
 
 def colorize_mask(mask):
     """
@@ -471,6 +504,7 @@ class GTAVUniform(data.Dataset):
             img.save(out_img_fn)
             mask_img.save(out_msk_fn)
 
+        img_color_ncdg = ncdg_color_transform(img)
         if self.transform is not None:
             img = self.transform(img)
 
@@ -478,11 +512,15 @@ class GTAVUniform(data.Dataset):
         img_gt = transforms.Normalize(*rgb_mean_std_gt)(img)
 
         rgb_mean_std = ([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        rgb_mean_std_color = ([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         if self.image_in:
             eps = 1e-5
             rgb_mean_std = ([torch.mean(img[0]), torch.mean(img[1]), torch.mean(img[2])],
                     [torch.std(img[0])+eps, torch.std(img[1])+eps, torch.std(img[2])+eps])
+            rgb_mean_std_color = ([torch.mean(img_color_ncdg[0]), torch.mean(img_color_ncdg[1]), torch.mean(img_color_ncdg[2])],
+                    [torch.std(img_color_ncdg[0])+eps, torch.std(img_color_ncdg[1])+eps, torch.std(img_color_ncdg[2])+eps])
         img = transforms.Normalize(*rgb_mean_std)(img)
+        img_color_ncdg = transforms.Normalize(*rgb_mean_std_color)(img)
 
         if self.target_aux_transform is not None:
             mask_aux = self.target_aux_transform(mask)
@@ -491,7 +529,7 @@ class GTAVUniform(data.Dataset):
         if self.target_transform is not None:
             mask = self.target_transform(mask)
 
-        return img, mask, img_name, mask_aux
+        return img, mask, img_name, mask_aux, img_color_ncdg
 
     def __len__(self):
         return len(self.imgs_uniform)

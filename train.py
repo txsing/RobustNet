@@ -169,7 +169,6 @@ parser.add_argument('--use_isw', action='store_true', default=False,
 
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES']=args.devices
-
 args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
 args.tb_exp_path = os.path.join(args.tb_path, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
 

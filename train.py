@@ -202,6 +202,7 @@ args.world_size = 1
 
 # Test Mode run two epochs with a few iterations of training and val
 if args.test_mode:
+    print("Enter test mode !")
     args.max_epoch = 2
 
 if 'WORLD_SIZE' in os.environ:
@@ -262,7 +263,7 @@ def main():
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):
 
-    while i < args.max_iter:
+    while (i < args.max_iter) or (args.test_mode and epoch < args.max_epoch) :
         # Update EPOCH CTR
         cfg.immutable(False)
         cfg.ITER = i
@@ -398,7 +399,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             del total_loss, log_total_loss
 
             if args.local_rank == 0:
-                if i % 50 == 49:
+                if i % 50 == 49 or args.test_mode:
                     if args.visualize_feature:
                         visualize_matrix(writer, f_cor_arr, curr_iter, '/Covariance/Feature-')
 
@@ -537,6 +538,9 @@ def validate_for_cov_stat(val_loader, dataset, net, criterion, optim, scheduler,
             if args.local_rank == 0:
                 logging.info("validating: %d / 100", val_idx + 1)
         del data
+
+        if args.test_mode and val_idx > 10:
+            break
 
         if val_idx >= 499:
             return

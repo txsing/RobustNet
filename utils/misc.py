@@ -107,9 +107,6 @@ def prep_experiment(args, parser):
     #                    'acc_cls': 0, 'mean_iu': 0, 'fwavacc': 0}
     args.last_record = {}
     if args.local_rank == 0:
-        os.makedirs(args.exp_path, exist_ok=True)
-        os.makedirs(args.tb_exp_path, exist_ok=True)
-        save_log('log', args.exp_path, args.date_str, rank=args.local_rank)
         open(os.path.join(args.exp_path, args.date_str + '.txt'), 'w').write(
             str(args) + '\n\n')
         writer = SummaryWriter(log_dir=args.tb_exp_path, comment=args.tb_tag)

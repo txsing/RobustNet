@@ -3,6 +3,7 @@ training code
 """
 from __future__ import absolute_import
 from __future__ import division
+from datetime import datetime
 import argparse
 import logging
 import os
@@ -161,6 +162,28 @@ parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 
 args = parser.parse_args()
+
+# Setup logger
+args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
+args.tb_exp_path = os.path.join(args.tb_path, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
+os.makedirs(args.exp_path, exist_ok=True)
+os.makedirs(args.tb_exp_path, exist_ok=True)
+fmt = '%(asctime)s.%(msecs)03d %(message)s'
+date_fmt = '%m-%d %H:%M:%S'
+args.date_str = str(datetime.now().strftime('%Y_%m_%d_%H_%M_%S'))
+filename = os.path.join(args.exp_path, 'log' + '_' + args.date_str +'_rank_' + str(args.local_rank) +'.log')
+print("Logging :", filename)
+logging.basicConfig(level=logging.INFO, format=fmt, datefmt=date_fmt,
+                    filename=filename, filemode='w')
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter(fmt=fmt, datefmt=date_fmt)
+console.setFormatter(formatter)
+if args.local_rank == 0:
+    logging.getLogger('').addHandler(console)
+else:
+    fh = logging.FileHandler(filename)
+    logging.getLogger('').addHandler(fh)
 
 # Enable CUDNN Benchmarking optimization
 #torch.backends.cudnn.benchmark = True

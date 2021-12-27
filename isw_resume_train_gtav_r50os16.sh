@@ -29,8 +29,11 @@ source /opt/anaconda3/bin/activate robustnet
         --trials 10 \
         --wt_layer 0 0 2 2 2 0 0 \
         --date $3 \
+        --cov_weight $4 \
+        --activate_threshold $5 \
+        --layers $6 \
         --exp r50os16_gtav_isw \
         --ckpt ./logs/ \
         --tb_path ./logs/ \
-        --snapshot $4 \
+        --snapshot $7 \
         --restore_optimizer

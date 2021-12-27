@@ -30,6 +30,9 @@ source /opt/anaconda3/bin/activate robustnet
         --trials 2 \
         --wt_layer 0 0 2 2 2 0 0 \
         --date 0000 \
+        --cov_weight 0.1 \
+        --activate_threshold 0.005 \
+        --layers 'aspp' \
         --exp r50os16_gtav_isw \
         --ckpt ./logs/ \
         --test_mode \

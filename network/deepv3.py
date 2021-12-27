@@ -35,6 +35,9 @@ from network.mynn import initialize_weights, Norm2d, Upsample, freeze_weights, u
 
 import torchvision.models as models
 
+from collections import OrderedDict
+resnet_layers = ['layer0', 'layer1', 'layer2', 'layer3', 'layer4', 'aspp']
+
 
 class _AtrousSpatialPyramidPoolingModule(nn.Module):
     """
@@ -116,6 +119,7 @@ class DeepV3Plus(nn.Module):
         self.variant = variant
         self.args = args
         self.trunk = trunk
+        self.collected_layers = args.layers
 
         if trunk == 'shufflenetv2':
             channel_1st = 3
@@ -520,13 +524,20 @@ class DeepV3Plus(nn.Module):
                 x = self.layer0[2](x)
                 x = self.layer0[3](x)
 
+        layers_output_dict = OrderedDict()
+        layers_output_dict['layer0']=x
+
         x_tuple = self.layer1([x, w_arr])  # 400
         low_level = x_tuple[0]
+        layers_output_dict['layer1']=x_tuple[0]
 
         x_tuple = self.layer2(x_tuple)  # 100
+        layers_output_dict['layer2']=x_tuple[0]
         x_tuple = self.layer3(x_tuple)  # 100
+        layers_output_dict['layer3']=x_tuple[0]
         aux_out = x_tuple[0]
         x_tuple = self.layer4(x_tuple)  # 100
+        layers_output_dict['layer4']=x_tuple[0]
         x = x_tuple[0]
         w_arr = x_tuple[1]
 
@@ -544,6 +555,13 @@ class DeepV3Plus(nn.Module):
             return 0
 
         x = self.aspp(x)
+        layers_output_dict['aspp']=x
+
+        if self.collected_layers:
+            for key in resnet_layers :
+                if key not in self.collected_layers:
+                    del layers_output_dict[key]
+
         dec0_up = self.bot_aspp(x)
 
         dec0_fine = self.bot_fine(low_level)
@@ -584,7 +602,7 @@ class DeepV3Plus(nn.Module):
                     f_cor, _ = get_covariance_matrix(f_map)
                     f_cor_arr.append(f_cor)
                 return_loss.append(f_cor_arr)
-            return return_loss
+            return layers_output_dict, return_loss
         else:
             if visualize:
                 f_cor_arr = []

@@ -27,6 +27,9 @@ source /opt/anaconda3/bin/activate robustnet
         --cov_stat_epoch 0 \
         --wt_layer 0 0 4 4 4 0 0 \
         --date $3 \
+        --cov_weight $4 \
+        --activate_threshold $5 \
+        --layers $6 \
         --exp r50os16_gtav_ibn \
         --ckpt ./logs/ \
         --tb_path ./logs/

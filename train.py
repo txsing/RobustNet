@@ -4,8 +4,11 @@ training code
 from __future__ import absolute_import
 from __future__ import division
 from datetime import datetime
+from utils import cov_utils
+
 import argparse
 import logging
+
 import os
 import torch
 
@@ -161,9 +164,18 @@ parser.add_argument('--use_wtloss', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
+parser.add_argument('--activate_threshold', type=float, default=0.01,
+                    help='activation threshold')
+parser.add_argument('--cov_weight', type=float, default=0.0,
+                    help='coverage loss weight')
+parser.add_argument("--layers", help="layers", nargs='+')
 
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES']=args.devices
+
+print("Collected layers: ", args.layers)
+if args.layers[0] == 'ALL': # ['layer0', 'layer1', 'layer2', 'layer3', 'layer4', 'aspp']
+    args.layers = None # All layers collected
 
 # Setup logger
 args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))
@@ -186,6 +198,7 @@ if args.local_rank == 0:
 else:
     fh = logging.FileHandler(filename)
     logging.getLogger('').addHandler(fh)
+
 
 # Enable CUDNN Benchmarking optimization
 #torch.backends.cudnn.benchmark = True
@@ -263,13 +276,15 @@ def main():
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):
 
+    layer_neuron_activated_dict = {}
     while (i < args.max_iter) or (args.test_mode and epoch < args.max_epoch) :
         # Update EPOCH CTR
         cfg.immutable(False)
         cfg.ITER = i
         cfg.immutable(True)
 
-        i = train(train_loader, net, optim, epoch, writer, scheduler, args.max_iter)
+        i = train(train_loader, net, optim, epoch, writer, scheduler,args.max_iter,
+                  layer_neuron_activated_dict)
         train_loader.sampler.set_epoch(epoch + 1)
 
         if (args.dynamic and args.use_isw and epoch % (args.cov_stat_epoch + 1) == args.cov_stat_epoch) \
@@ -295,6 +310,8 @@ def main():
 
         epoch += 1
 
+    print("Training Ends!")
+    print("Source domain evaluation starts!")
     # Validation after epochs
     if len(val_loaders) == 1:
         # Run validation only one time - To save models
@@ -306,12 +323,13 @@ def main():
             evaluate_eval(args, net, optim, scheduler, None, None, [],
                         writer, epoch, "None", None, i, save_pth=True)
 
+    print("Target(Unseen) domain evaluation starts!")
     for dataset, val_loader in extra_val_loaders.items():
         print("Extra validating... This won't save pth file")
         validate(val_loader, dataset, net, criterion_val, optim, scheduler, epoch, writer, i, save_pth=False)
 
 
-def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
+def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter, layer_neuron_activated_dict):
     """
     Runs the training loop per epoch
     train_loader: Data loader for train
@@ -363,11 +381,26 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             input, gt = input.cuda(), gt.cuda()
 
             optim.zero_grad()
+            layer_output_dict = {}
             if args.use_isw:
-                outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature,
+                layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature,
                             apply_wtloss=False if curr_epoch<=args.cov_stat_epoch else True)
             else:
-                outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
+                layer_output_dict, outputs = net(input, gts=gt, aux_gts=aux_gt, img_gt=img_gt, visualize=args.visualize_feature)
+
+            coverage_loss, neuron_cov_str = 0.0, 'N/A'
+            if args.cov_weight > 0.0:
+                total_act_nron, total_nron = cov_utils.update_coverage_v2(layer_output_dict, args.activate_threshold, layer_neuron_activated_dict)
+                neuron_cov_str = str(int(total_act_nron)) + '/' + str(int(total_nron))
+
+                neurons_2b_covered, all_not_covered  = cov_utils.neuron_to_cover(
+                    layer_neuron_activated_dict, 1.0
+                )
+                neuron_coverage = cov_utils.cal_neurons_cov_loss(layer_output_dict, neurons_2b_covered)
+                coverage_loss = args.cov_weight * neuron_coverage
+            else:
+                del layer_output_dict
+
             outputs_index = 0
             main_loss = outputs[outputs_index]
             outputs_index += 1
@@ -391,6 +424,8 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
             log_total_loss = log_total_loss / args.world_size
             train_total_loss.update(log_total_loss.item(), batch_pixel_size)
 
+            if args.cov_weight > 0.0:
+                total_loss = total_loss - coverage_loss
             total_loss.backward()
             optim.step()
 
@@ -408,6 +443,7 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
                         optim.param_groups[-1]['lr'], time_meter.avg / args.train_batch_size)
 
                     logging.info(msg)
+                    print("### Coverage Loss ### ", coverage_loss ,neuron_cov_str)
                     if args.use_wtloss:
                         print("Whitening Loss", wt_loss)
 
@@ -416,6 +452,8 @@ def train(train_loader, net, optim, curr_epoch, writer, scheduler, max_iter):
                                     curr_iter)
                     train_total_loss.reset()
                     time_meter.reset()
+                if i <= 4: # print coverage info at first 5 iterations in each epoch 0,1,2
+                    print("### Coverage Loss ### ", i, coverage_loss ,neuron_cov_str)
 
         curr_iter += 1
         scheduler.step()
@@ -536,7 +574,7 @@ def validate_for_cov_stat(val_loader, dataset, net, criterion, optim, scheduler,
         # Logging
         if val_idx % 20 == 0:
             if args.local_rank == 0:
-                logging.info("validating: %d / 100", val_idx + 1)
+                logging.info("cov_stat validating: %d / 100", val_idx + 1)
         del data
 
         if args.test_mode and val_idx > 10:

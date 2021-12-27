@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
+# bash base_train_gtav_r50os16.sh '0' 1 0000 0.0 0.01 'aspp'
+
 source /opt/anaconda3/bin/activate robustnet
     # Example on Cityscapes
      python -m torch.distributed.launch --nproc_per_node=$2 train.py \
-        --dataset gtav \
         --devices $1 \
+        --dataset gtav \
         --covstat_val_dataset gtav \
         --val_dataset cityscapes \
         --arch network.deepv3.DeepR50V3PlusD \
@@ -27,6 +29,9 @@ source /opt/anaconda3/bin/activate robustnet
         --cov_stat_epoch 0 \
         --wt_layer 0 0 0 0 0 0 0 \
         --date $3 \
+        --cov_weight $4 \
+        --activate_threshold $5 \
+        --layers $6 \
         --exp r50os16_gtav_base \
         --ckpt ./logs/ \
         --tb_path ./logs/ 

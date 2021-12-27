@@ -24,6 +24,7 @@ import random
 
 # Argument Parser
 parser = argparse.ArgumentParser(description='Semantic Segmentation')
+parser.add_argument('--devices', type=str, default='0')
 parser.add_argument('--lr', type=float, default=0.01)
 parser.add_argument('--arch', type=str, default='network.deepv3.DeepWV3Plus',
                     help='Network architecture. We have DeepSRNX50V3PlusD (backbone: ResNeXt50) \
@@ -162,6 +163,7 @@ parser.add_argument('--use_isw', action='store_true', default=False,
                     help='Automatic setting from wt_layer')
 
 args = parser.parse_args()
+os.environ['CUDA_VISIBLE_DEVICES']=args.devices
 
 # Setup logger
 args.exp_path = os.path.join(args.ckpt, args.date, args.exp, str(datetime.now().strftime('%m_%d_%H')))

@@ -250,11 +250,12 @@ def main():
                             args.snapshot, args.restore_optimizer)
         if args.restore_optimizer is True:
             iter_per_epoch = len(train_loader)
+            epoch = epoch + 1 # Fix the resume bug in the origin repo
             i = iter_per_epoch * epoch
         else:
             epoch = 0
 
-    print("#### iteration", i)
+    print("#### epoch:", epoch, "#### iteration:", i)
     torch.cuda.empty_cache()
     # Main Loop
     # for epoch in range(args.start_epoch, args.max_epoch):
